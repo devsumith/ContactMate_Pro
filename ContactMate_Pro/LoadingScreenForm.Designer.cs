@@ -86,7 +86,7 @@
             this.progressBar.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.progressBar.Location = new System.Drawing.Point(0, 312);
             this.progressBar.Name = "progressBar";
-            this.progressBar.ProgressColor = System.Drawing.Color.LimeGreen;
+            this.progressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.progressBar.ProgressColor2 = System.Drawing.Color.SteelBlue;
             this.progressBar.ShadowDecoration.BorderRadius = 1;
             this.progressBar.Size = new System.Drawing.Size(540, 10);
