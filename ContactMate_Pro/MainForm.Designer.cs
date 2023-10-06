@@ -42,6 +42,8 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -158,10 +160,12 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2Panel1.Controls.Add(this.guna2ComboBox1);
             this.guna2Panel1.Controls.Add(this.guna2TextBox1);
             this.guna2Panel1.Location = new System.Drawing.Point(0, 40);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(236, 665);
+            this.guna2Panel1.Size = new System.Drawing.Size(251, 665);
             this.guna2Panel1.TabIndex = 17;
             // 
             // guna2TextBox1
@@ -176,13 +180,13 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
             this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(5, 0);
             this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(15, 15);
-            this.guna2TextBox1.Location = new System.Drawing.Point(7, 67);
+            this.guna2TextBox1.Location = new System.Drawing.Point(14, 52);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -191,6 +195,41 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(223, 41);
             this.guna2TextBox1.TabIndex = 0;
             this.guna2TextBox1.TextOffset = new System.Drawing.Point(5, 0);
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Silver;
+            this.guna2ComboBox1.BorderRadius = 15;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Contact Number",
+            "Last Name",
+            "First Name",
+            "Middle Name"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(86, 9);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(151, 36);
+            this.guna2ComboBox1.TabIndex = 1;
+            this.guna2ComboBox1.TextOffset = new System.Drawing.Point(10, 0);
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 13);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(66, 25);
+            this.guna2HtmlLabel2.TabIndex = 17;
+            this.guna2HtmlLabel2.Text = "Search by";
             // 
             // MainForm
             // 
@@ -206,6 +245,7 @@
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -224,6 +264,8 @@
         private Guna.UI2.WinForms.Guna2DragControl dragControl1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }
 
