@@ -30,13 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.formPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2CustomGradientPanel1.SuspendLayout();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,18 +47,18 @@
             // 
             this.elipse.TargetControl = this;
             // 
-            // guna2CustomGradientPanel1
+            // formPanel
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.mainPanel);
-            this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
-            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.SteelBlue;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1280, 720);
-            this.guna2CustomGradientPanel1.TabIndex = 0;
+            this.formPanel.Controls.Add(this.mainPanel);
+            this.formPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.formPanel.FillColor = System.Drawing.Color.DarkGreen;
+            this.formPanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
+            this.formPanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.formPanel.FillColor4 = System.Drawing.Color.SteelBlue;
+            this.formPanel.Location = new System.Drawing.Point(0, 0);
+            this.formPanel.Name = "formPanel";
+            this.formPanel.Size = new System.Drawing.Size(1280, 720);
+            this.formPanel.TabIndex = 0;
             // 
             // mainPanel
             // 
@@ -65,6 +68,7 @@
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             this.mainPanel.BorderColor = System.Drawing.Color.Black;
             this.mainPanel.BorderRadius = 10;
+            this.mainPanel.Controls.Add(this.guna2HtmlLabel1);
             this.mainPanel.Controls.Add(this.guna2ControlBox3);
             this.mainPanel.Controls.Add(this.panel1);
             this.mainPanel.Controls.Add(this.guna2ControlBox2);
@@ -124,18 +128,42 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(38, 25);
             this.guna2ControlBox1.TabIndex = 14;
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(25, 6);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(107, 25);
+            this.guna2HtmlLabel1.TabIndex = 16;
+            this.guna2HtmlLabel1.Text = "ContactMate Pro";
+            // 
+            // dragControl
+            // 
+            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.dragControl.TargetControl = this.mainPanel;
+            this.dragControl.UseTransparentDrag = true;
+            // 
+            // dragControl1
+            // 
+            this.dragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.dragControl1.TargetControl = this.formPanel;
+            this.dragControl1.UseTransparentDrag = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.Controls.Add(this.formPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.formPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
+            this.mainPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -143,12 +171,15 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse elipse;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel formPanel;
         private Guna.UI2.WinForms.Guna2Panel mainPanel;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2DragControl dragControl;
+        private Guna.UI2.WinForms.Guna2DragControl dragControl1;
     }
 }
 
