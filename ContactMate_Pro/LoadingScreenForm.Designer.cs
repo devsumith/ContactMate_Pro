@@ -106,6 +106,10 @@
             this.guna2HtmlLabel1.TabIndex = 2;
             this.guna2HtmlLabel1.Text = "CONTACT MATE PRO";
             // 
+            // backgroundWorker
+            // 
+            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
+            // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
@@ -120,6 +124,7 @@
             this.Name = "LoadingScreenForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Diary Planner Pro";
+            this.Load += new System.EventHandler(this.LoadingScreenForm_Load);
             this.loginFormPanel.ResumeLayout(false);
             this.loginFormPanel.PerformLayout();
             this.ResumeLayout(false);
