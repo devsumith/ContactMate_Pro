@@ -43,8 +43,9 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.timeLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dateLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -147,8 +148,8 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2Panel1.Controls.Add(this.dateLabel);
+            this.guna2Panel1.Controls.Add(this.timeLabel);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Controls.Add(this.guna2ComboBox1);
             this.guna2Panel1.Controls.Add(this.guna2TextBox1);
@@ -220,27 +221,32 @@
             this.guna2HtmlLabel2.TabIndex = 17;
             this.guna2HtmlLabel2.Text = "Search by";
             // 
-            // guna2HtmlLabel3
+            // timeLabel
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(14, 610);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(62, 25);
-            this.guna2HtmlLabel3.TabIndex = 18;
-            this.guna2HtmlLabel3.Text = "00:00 am";
+            this.timeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.timeLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
+            this.timeLabel.ForeColor = System.Drawing.Color.DimGray;
+            this.timeLabel.Location = new System.Drawing.Point(14, 610);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(62, 25);
+            this.timeLabel.TabIndex = 18;
+            this.timeLabel.Text = "00:00 am";
             // 
-            // guna2HtmlLabel4
+            // dateLabel
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(14, 632);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(77, 25);
-            this.guna2HtmlLabel4.TabIndex = 19;
-            this.guna2HtmlLabel4.Text = "00/00/0000";
+            this.dateLabel.BackColor = System.Drawing.Color.Transparent;
+            this.dateLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
+            this.dateLabel.ForeColor = System.Drawing.Color.DimGray;
+            this.dateLabel.Location = new System.Drawing.Point(14, 632);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(77, 25);
+            this.dateLabel.TabIndex = 19;
+            this.dateLabel.Text = "00/00/0000";
+            // 
+            // timerTick
+            // 
+            this.timerTick.Enabled = true;
+            this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
             // MainForm
             // 
@@ -276,8 +282,9 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel dateLabel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel timeLabel;
+        private System.Windows.Forms.Timer timerTick;
     }
 }
 
