@@ -78,6 +78,10 @@
             this.guna2RadioButton20 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton21 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton22 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2CheckBox3 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.rememberMeCBox = new Guna.UI2.WinForms.Guna2CheckBox();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -86,6 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -422,6 +427,10 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.Controls.Add(this.guna2CheckBox3);
+            this.tabPage2.Controls.Add(this.guna2CheckBox2);
+            this.tabPage2.Controls.Add(this.guna2CheckBox1);
+            this.tabPage2.Controls.Add(this.rememberMeCBox);
             this.tabPage2.ForeColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
@@ -891,6 +900,90 @@
             this.guna2RadioButton22.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton22.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
+            // guna2CheckBox3
+            // 
+            this.guna2CheckBox3.Animated = true;
+            this.guna2CheckBox3.AutoSize = true;
+            this.guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox3.CheckedState.BorderRadius = 3;
+            this.guna2CheckBox3.CheckedState.BorderThickness = 1;
+            this.guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox3.CheckMarkColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox3.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CheckBox3.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2CheckBox3.Location = new System.Drawing.Point(136, 49);
+            this.guna2CheckBox3.Name = "guna2CheckBox3";
+            this.guna2CheckBox3.Size = new System.Drawing.Size(73, 23);
+            this.guna2CheckBox3.TabIndex = 18;
+            this.guna2CheckBox3.Text = "BSIT 2-3";
+            this.guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
+            this.guna2CheckBox3.UncheckedState.BorderRadius = 3;
+            this.guna2CheckBox3.UncheckedState.BorderThickness = 1;
+            this.guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            // 
+            // guna2CheckBox2
+            // 
+            this.guna2CheckBox2.Animated = true;
+            this.guna2CheckBox2.AutoSize = true;
+            this.guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox2.CheckedState.BorderRadius = 3;
+            this.guna2CheckBox2.CheckedState.BorderThickness = 1;
+            this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox2.CheckMarkColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox2.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CheckBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2CheckBox2.Location = new System.Drawing.Point(28, 49);
+            this.guna2CheckBox2.Name = "guna2CheckBox2";
+            this.guna2CheckBox2.Size = new System.Drawing.Size(72, 23);
+            this.guna2CheckBox2.TabIndex = 17;
+            this.guna2CheckBox2.Text = "BSIT 1-4";
+            this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
+            this.guna2CheckBox2.UncheckedState.BorderRadius = 3;
+            this.guna2CheckBox2.UncheckedState.BorderThickness = 1;
+            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            // 
+            // guna2CheckBox1
+            // 
+            this.guna2CheckBox1.Animated = true;
+            this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox1.CheckedState.BorderRadius = 3;
+            this.guna2CheckBox1.CheckedState.BorderThickness = 1;
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2CheckBox1.CheckMarkColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox1.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CheckBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2CheckBox1.Location = new System.Drawing.Point(136, 20);
+            this.guna2CheckBox1.Name = "guna2CheckBox1";
+            this.guna2CheckBox1.Size = new System.Drawing.Size(68, 23);
+            this.guna2CheckBox1.TabIndex = 16;
+            this.guna2CheckBox1.Text = "LOL\'ERS";
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 3;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 1;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            // 
+            // rememberMeCBox
+            // 
+            this.rememberMeCBox.Animated = true;
+            this.rememberMeCBox.AutoSize = true;
+            this.rememberMeCBox.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.rememberMeCBox.CheckedState.BorderRadius = 3;
+            this.rememberMeCBox.CheckedState.BorderThickness = 1;
+            this.rememberMeCBox.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.rememberMeCBox.CheckMarkColor = System.Drawing.Color.Honeydew;
+            this.rememberMeCBox.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rememberMeCBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.rememberMeCBox.Location = new System.Drawing.Point(28, 20);
+            this.rememberMeCBox.Name = "rememberMeCBox";
+            this.rememberMeCBox.Size = new System.Drawing.Size(91, 23);
+            this.rememberMeCBox.TabIndex = 15;
+            this.rememberMeCBox.Text = "QUAD PEEPZ";
+            this.rememberMeCBox.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
+            this.rememberMeCBox.UncheckedState.BorderRadius = 3;
+            this.rememberMeCBox.UncheckedState.BorderThickness = 1;
+            this.rememberMeCBox.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -912,6 +1005,8 @@
             this.guna2TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
@@ -968,6 +1063,10 @@
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton13;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton12;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton11;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox3;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2CheckBox rememberMeCBox;
     }
 }
 
