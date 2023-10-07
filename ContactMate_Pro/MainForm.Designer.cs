@@ -220,7 +220,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 208);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 215);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(66, 25);
             this.guna2HtmlLabel2.TabIndex = 17;
@@ -244,7 +244,7 @@
             "Last Name",
             "First Name",
             "Middle Name"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(86, 204);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(86, 211);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(151, 36);
             this.guna2ComboBox1.StartIndex = 0;
@@ -269,7 +269,7 @@
             this.guna2TextBox1.IconLeft = global::ContactMate_Pro.Properties.Resources.search_interface_symbol;
             this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(5, 0);
             this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(15, 15);
-            this.guna2TextBox1.Location = new System.Drawing.Point(14, 245);
+            this.guna2TextBox1.Location = new System.Drawing.Point(14, 252);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -358,7 +358,7 @@
             // 
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 300);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 310);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(20, 20);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -370,7 +370,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.OliveDrab;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(42, 295);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(42, 305);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(47, 27);
             this.guna2HtmlLabel5.TabIndex = 30;
@@ -382,7 +382,7 @@
             this.filterTab.Controls.Add(this.tabPage2);
             this.filterTab.Controls.Add(this.tabPage3);
             this.filterTab.ItemSize = new System.Drawing.Size(80, 35);
-            this.filterTab.Location = new System.Drawing.Point(3, 326);
+            this.filterTab.Location = new System.Drawing.Point(3, 336);
             this.filterTab.Name = "filterTab";
             this.filterTab.SelectedIndex = 0;
             this.filterTab.Size = new System.Drawing.Size(245, 260);
@@ -997,7 +997,7 @@
             this.clearButton.ForeColor = System.Drawing.Color.DarkGray;
             this.clearButton.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.clearButton.HoverState.ForeColor = System.Drawing.Color.OliveDrab;
-            this.clearButton.Location = new System.Drawing.Point(186, 302);
+            this.clearButton.Location = new System.Drawing.Point(186, 312);
             this.clearButton.Name = "clearButton";
             this.clearButton.PressedColor = System.Drawing.Color.Transparent;
             this.clearButton.Size = new System.Drawing.Size(62, 21);
