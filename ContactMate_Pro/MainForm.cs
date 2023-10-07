@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,32 @@ namespace ContactMate_Pro
         {
             timeLabel.Text = DateTime.Now.ToShortTimeString();
             dateLabel.Text = DateTime.Now.ToShortDateString();
+        }
+
+        #endregion
+
+        #region FUNCTIONS FOR CLEAR BUTTON OF FILTRATION
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Get the currently selected tab from the 'filterTab' TabControl.
+            TabPage selectedTab = filterTab.SelectedTab;
+
+            // If not null, call the 'ClearControlsInSelectedTab' method to clear controls within the selected tab.
+            if (selectedTab != null) 
+                ClearControlsInSelectedTab(selectedTab);
+        }
+
+        private void ClearControlsInSelectedTab(TabPage selectedTab)
+        {
+            // Iterate through all controls within the selected tab and clear them.
+            foreach (Control control in selectedTab.Controls)
+            {
+                if (control is Guna2CheckBox cBox)
+                    cBox.Checked = false;
+                else if (control is Guna2RadioButton rButton)
+                    rButton.Checked = false;
+            }
         }
 
         #endregion
