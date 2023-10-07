@@ -66,6 +66,18 @@
             this.guna2RadioButton8 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton9 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton10 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton11 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton12 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton13 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton14 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton15 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton16 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton17 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton18 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton19 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton20 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton21 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton22 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -74,6 +86,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // elipse
@@ -413,16 +426,28 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(237, 243);
+            this.tabPage2.Size = new System.Drawing.Size(237, 217);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "GROUP";
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Controls.Add(this.guna2RadioButton17);
+            this.tabPage3.Controls.Add(this.guna2RadioButton18);
+            this.tabPage3.Controls.Add(this.guna2RadioButton19);
+            this.tabPage3.Controls.Add(this.guna2RadioButton20);
+            this.tabPage3.Controls.Add(this.guna2RadioButton21);
+            this.tabPage3.Controls.Add(this.guna2RadioButton22);
+            this.tabPage3.Controls.Add(this.guna2RadioButton16);
+            this.tabPage3.Controls.Add(this.guna2RadioButton15);
+            this.tabPage3.Controls.Add(this.guna2RadioButton14);
+            this.tabPage3.Controls.Add(this.guna2RadioButton13);
+            this.tabPage3.Controls.Add(this.guna2RadioButton12);
+            this.tabPage3.Controls.Add(this.guna2RadioButton11);
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(237, 243);
+            this.tabPage3.Size = new System.Drawing.Size(237, 217);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "BIRTHDAY";
             // 
@@ -626,6 +651,246 @@
             this.guna2RadioButton10.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton10.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
+            // guna2RadioButton11
+            // 
+            this.guna2RadioButton11.Animated = true;
+            this.guna2RadioButton11.AutoSize = true;
+            this.guna2RadioButton11.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton11.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton11.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton11.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton11.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton11.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton11.Location = new System.Drawing.Point(31, 24);
+            this.guna2RadioButton11.Name = "guna2RadioButton11";
+            this.guna2RadioButton11.Size = new System.Drawing.Size(74, 23);
+            this.guna2RadioButton11.TabIndex = 1;
+            this.guna2RadioButton11.Text = "JANUARY";
+            this.guna2RadioButton11.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton11.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton11.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton11.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton12
+            // 
+            this.guna2RadioButton12.Animated = true;
+            this.guna2RadioButton12.AutoSize = true;
+            this.guna2RadioButton12.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton12.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton12.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton12.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton12.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton12.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton12.Location = new System.Drawing.Point(31, 53);
+            this.guna2RadioButton12.Name = "guna2RadioButton12";
+            this.guna2RadioButton12.Size = new System.Drawing.Size(80, 23);
+            this.guna2RadioButton12.TabIndex = 2;
+            this.guna2RadioButton12.Text = "FEBRUARY";
+            this.guna2RadioButton12.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton12.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton12.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton12.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton13
+            // 
+            this.guna2RadioButton13.Animated = true;
+            this.guna2RadioButton13.AutoSize = true;
+            this.guna2RadioButton13.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton13.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton13.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton13.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton13.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton13.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton13.Location = new System.Drawing.Point(31, 82);
+            this.guna2RadioButton13.Name = "guna2RadioButton13";
+            this.guna2RadioButton13.Size = new System.Drawing.Size(64, 23);
+            this.guna2RadioButton13.TabIndex = 3;
+            this.guna2RadioButton13.Text = "MARCH";
+            this.guna2RadioButton13.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton13.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton13.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton13.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton14
+            // 
+            this.guna2RadioButton14.Animated = true;
+            this.guna2RadioButton14.AutoSize = true;
+            this.guna2RadioButton14.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton14.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton14.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton14.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton14.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton14.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton14.Location = new System.Drawing.Point(31, 111);
+            this.guna2RadioButton14.Name = "guna2RadioButton14";
+            this.guna2RadioButton14.Size = new System.Drawing.Size(57, 23);
+            this.guna2RadioButton14.TabIndex = 4;
+            this.guna2RadioButton14.Text = "APRIL";
+            this.guna2RadioButton14.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton14.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton14.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton14.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton15
+            // 
+            this.guna2RadioButton15.Animated = true;
+            this.guna2RadioButton15.AutoSize = true;
+            this.guna2RadioButton15.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton15.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton15.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton15.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton15.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton15.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton15.Location = new System.Drawing.Point(31, 140);
+            this.guna2RadioButton15.Name = "guna2RadioButton15";
+            this.guna2RadioButton15.Size = new System.Drawing.Size(48, 23);
+            this.guna2RadioButton15.TabIndex = 5;
+            this.guna2RadioButton15.Text = "MAY";
+            this.guna2RadioButton15.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton15.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton15.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton15.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton16
+            // 
+            this.guna2RadioButton16.Animated = true;
+            this.guna2RadioButton16.AutoSize = true;
+            this.guna2RadioButton16.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton16.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton16.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton16.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton16.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton16.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton16.Location = new System.Drawing.Point(31, 169);
+            this.guna2RadioButton16.Name = "guna2RadioButton16";
+            this.guna2RadioButton16.Size = new System.Drawing.Size(53, 23);
+            this.guna2RadioButton16.TabIndex = 6;
+            this.guna2RadioButton16.Text = "JUNE";
+            this.guna2RadioButton16.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton16.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton16.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton16.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton17
+            // 
+            this.guna2RadioButton17.Animated = true;
+            this.guna2RadioButton17.AutoSize = true;
+            this.guna2RadioButton17.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton17.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton17.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton17.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton17.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton17.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton17.Location = new System.Drawing.Point(117, 169);
+            this.guna2RadioButton17.Name = "guna2RadioButton17";
+            this.guna2RadioButton17.Size = new System.Drawing.Size(82, 23);
+            this.guna2RadioButton17.TabIndex = 12;
+            this.guna2RadioButton17.Text = "DECEMBER";
+            this.guna2RadioButton17.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton17.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton17.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton17.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton18
+            // 
+            this.guna2RadioButton18.Animated = true;
+            this.guna2RadioButton18.AutoSize = true;
+            this.guna2RadioButton18.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton18.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton18.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton18.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton18.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton18.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton18.Location = new System.Drawing.Point(117, 140);
+            this.guna2RadioButton18.Name = "guna2RadioButton18";
+            this.guna2RadioButton18.Size = new System.Drawing.Size(82, 23);
+            this.guna2RadioButton18.TabIndex = 11;
+            this.guna2RadioButton18.Text = "NOVEMBER";
+            this.guna2RadioButton18.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton18.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton18.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton18.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton19
+            // 
+            this.guna2RadioButton19.Animated = true;
+            this.guna2RadioButton19.AutoSize = true;
+            this.guna2RadioButton19.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton19.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton19.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton19.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton19.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton19.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton19.Location = new System.Drawing.Point(117, 111);
+            this.guna2RadioButton19.Name = "guna2RadioButton19";
+            this.guna2RadioButton19.Size = new System.Drawing.Size(74, 23);
+            this.guna2RadioButton19.TabIndex = 10;
+            this.guna2RadioButton19.Text = "OCTOBER";
+            this.guna2RadioButton19.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton19.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton19.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton19.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton20
+            // 
+            this.guna2RadioButton20.Animated = true;
+            this.guna2RadioButton20.AutoSize = true;
+            this.guna2RadioButton20.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton20.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton20.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton20.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton20.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton20.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton20.Location = new System.Drawing.Point(117, 82);
+            this.guna2RadioButton20.Name = "guna2RadioButton20";
+            this.guna2RadioButton20.Size = new System.Drawing.Size(89, 23);
+            this.guna2RadioButton20.TabIndex = 9;
+            this.guna2RadioButton20.Text = "SEPTEMBER";
+            this.guna2RadioButton20.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton20.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton20.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton20.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton21
+            // 
+            this.guna2RadioButton21.Animated = true;
+            this.guna2RadioButton21.AutoSize = true;
+            this.guna2RadioButton21.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton21.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton21.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton21.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton21.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton21.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton21.Location = new System.Drawing.Point(117, 53);
+            this.guna2RadioButton21.Name = "guna2RadioButton21";
+            this.guna2RadioButton21.Size = new System.Drawing.Size(67, 23);
+            this.guna2RadioButton21.TabIndex = 8;
+            this.guna2RadioButton21.Text = "AUGUST";
+            this.guna2RadioButton21.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton21.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton21.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton21.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton22
+            // 
+            this.guna2RadioButton22.Animated = true;
+            this.guna2RadioButton22.AutoSize = true;
+            this.guna2RadioButton22.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton22.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton22.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
+            this.guna2RadioButton22.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2RadioButton22.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2RadioButton22.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2RadioButton22.Location = new System.Drawing.Point(117, 24);
+            this.guna2RadioButton22.Name = "guna2RadioButton22";
+            this.guna2RadioButton22.Size = new System.Drawing.Size(51, 23);
+            this.guna2RadioButton22.TabIndex = 7;
+            this.guna2RadioButton22.Text = "JULY";
+            this.guna2RadioButton22.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2RadioButton22.UncheckedState.BorderThickness = 1;
+            this.guna2RadioButton22.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton22.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -647,6 +912,8 @@
             this.guna2TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -689,6 +956,18 @@
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton3;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton9;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton17;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton18;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton19;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton20;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton21;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton22;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton16;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton15;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton14;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton13;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton12;
+        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton11;
     }
 }
 
