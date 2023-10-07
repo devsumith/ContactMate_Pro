@@ -52,12 +52,17 @@
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2TabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // elipse
@@ -90,7 +95,7 @@
             this.mainPanel.Controls.Add(this.panel1);
             this.mainPanel.Controls.Add(this.guna2ControlBox2);
             this.mainPanel.Controls.Add(this.guna2ControlBox1);
-            this.mainPanel.FillColor = System.Drawing.Color.White;
+            this.mainPanel.FillColor = System.Drawing.Color.MintCream;
             this.mainPanel.Location = new System.Drawing.Point(8, 8);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1264, 705);
@@ -100,6 +105,7 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderRadius = 10;
+            this.guna2Panel1.Controls.Add(this.guna2TabControl1);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
@@ -339,6 +345,66 @@
             this.guna2HtmlLabel5.TabIndex = 30;
             this.guna2HtmlLabel5.Text = "FILTER";
             // 
+            // guna2TabControl1
+            // 
+            this.guna2TabControl1.Controls.Add(this.tabPage1);
+            this.guna2TabControl1.Controls.Add(this.tabPage2);
+            this.guna2TabControl1.Controls.Add(this.tabPage3);
+            this.guna2TabControl1.ItemSize = new System.Drawing.Size(80, 35);
+            this.guna2TabControl1.Location = new System.Drawing.Point(3, 326);
+            this.guna2TabControl1.Name = "guna2TabControl1";
+            this.guna2TabControl1.SelectedIndex = 0;
+            this.guna2TabControl1.Size = new System.Drawing.Size(245, 286);
+            this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.Gainsboro;
+            this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.Honeydew;
+            this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonSelectedState.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.OliveDrab;
+            this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(80, 35);
+            this.guna2TabControl1.TabIndex = 31;
+            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.Honeydew;
+            this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Location = new System.Drawing.Point(4, 34);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(237, 248);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "RELATION";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.ForeColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Location = new System.Drawing.Point(4, 39);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(237, 243);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "GROUP";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Location = new System.Drawing.Point(4, 39);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(237, 243);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "BIRTHDAY";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +423,7 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.guna2TabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -385,6 +452,10 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2TabControl guna2TabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
 
