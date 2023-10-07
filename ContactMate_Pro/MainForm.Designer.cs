@@ -52,7 +52,7 @@
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -82,14 +82,14 @@
             this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.rememberMeCBox = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.clearButton = new Guna.UI2.WinForms.Guna2Button();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.guna2TabControl1.SuspendLayout();
+            this.filterTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -135,8 +135,8 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderRadius = 10;
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.guna2TabControl1);
+            this.guna2Panel1.Controls.Add(this.clearButton);
+            this.guna2Panel1.Controls.Add(this.filterTab);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
@@ -376,35 +376,35 @@
             this.guna2HtmlLabel5.TabIndex = 30;
             this.guna2HtmlLabel5.Text = "FILTER";
             // 
-            // guna2TabControl1
+            // filterTab
             // 
-            this.guna2TabControl1.Controls.Add(this.tabPage1);
-            this.guna2TabControl1.Controls.Add(this.tabPage2);
-            this.guna2TabControl1.Controls.Add(this.tabPage3);
-            this.guna2TabControl1.ItemSize = new System.Drawing.Size(80, 35);
-            this.guna2TabControl1.Location = new System.Drawing.Point(3, 326);
-            this.guna2TabControl1.Name = "guna2TabControl1";
-            this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(245, 260);
-            this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.Gainsboro;
-            this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.Gainsboro;
-            this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.Honeydew;
-            this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TabControl1.TabButtonSelectedState.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.OliveDrab;
-            this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(80, 35);
-            this.guna2TabControl1.TabIndex = 31;
-            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.Honeydew;
-            this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            this.filterTab.Controls.Add(this.tabPage1);
+            this.filterTab.Controls.Add(this.tabPage2);
+            this.filterTab.Controls.Add(this.tabPage3);
+            this.filterTab.ItemSize = new System.Drawing.Size(80, 35);
+            this.filterTab.Location = new System.Drawing.Point(3, 326);
+            this.filterTab.Name = "filterTab";
+            this.filterTab.SelectedIndex = 0;
+            this.filterTab.Size = new System.Drawing.Size(245, 260);
+            this.filterTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.Gainsboro;
+            this.filterTab.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonHoverState.ForeColor = System.Drawing.Color.DimGray;
+            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.Gainsboro;
+            this.filterTab.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonIdleState.ForeColor = System.Drawing.Color.DarkGray;
+            this.filterTab.TabButtonIdleState.InnerColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonSelectedState.FillColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonSelectedState.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.filterTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.OliveDrab;
+            this.filterTab.TabButtonSize = new System.Drawing.Size(80, 35);
+            this.filterTab.TabIndex = 31;
+            this.filterTab.TabMenuBackColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
             // 
             // tabPage1
             // 
@@ -986,23 +986,24 @@
             this.rememberMeCBox.UncheckedState.BorderThickness = 1;
             this.rememberMeCBox.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
             // 
-            // guna2Button2
+            // clearButton
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.OliveDrab;
-            this.guna2Button2.Location = new System.Drawing.Point(186, 302);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Size = new System.Drawing.Size(62, 21);
-            this.guna2Button2.TabIndex = 34;
-            this.guna2Button2.Text = "CLEAR";
+            this.clearButton.Animated = true;
+            this.clearButton.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.clearButton.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.clearButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.clearButton.FillColor = System.Drawing.Color.Transparent;
+            this.clearButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.ForeColor = System.Drawing.Color.DarkGray;
+            this.clearButton.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.clearButton.HoverState.ForeColor = System.Drawing.Color.OliveDrab;
+            this.clearButton.Location = new System.Drawing.Point(186, 302);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.PressedColor = System.Drawing.Color.Transparent;
+            this.clearButton.Size = new System.Drawing.Size(62, 21);
+            this.clearButton.TabIndex = 34;
+            this.clearButton.Text = "CLEAR";
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // MainForm
             // 
@@ -1022,7 +1023,7 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.guna2TabControl1.ResumeLayout(false);
+            this.filterTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -1057,7 +1058,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2TabControl guna2TabControl1;
+        private Guna.UI2.WinForms.Guna2TabControl filterTab;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
@@ -1087,7 +1088,7 @@
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private Guna.UI2.WinForms.Guna2CheckBox rememberMeCBox;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button clearButton;
     }
 }
 
