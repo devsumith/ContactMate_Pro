@@ -51,10 +51,12 @@ namespace ContactMate_Pro
             // Iterate through all controls within the selected tab and clear them.
             foreach (Control control in selectedTab.Controls)
             {
-                if (control is Guna2CheckBox cBox)
-                    cBox.Checked = false;
-                else if (control is Guna2RadioButton rButton)
-                    rButton.Checked = false;
+                if (control is Guna2CheckBox checkBox)
+                    checkBox.Checked = false;
+                else if (control is Guna2RadioButton radioButton)
+                    radioButton.Checked = false;
+                else if (control is Guna2ComboBox comboBox)
+                    comboBox.SelectedIndex = 0;
             }
         }
 
