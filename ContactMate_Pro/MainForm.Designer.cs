@@ -83,6 +83,7 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
+            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -525,6 +526,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Controls.Add(this.guna2ComboBox2);
             this.tabPage3.Controls.Add(this.guna2RadioButton17);
             this.tabPage3.Controls.Add(this.guna2RadioButton18);
             this.tabPage3.Controls.Add(this.guna2RadioButton19);
@@ -553,7 +555,7 @@
             this.guna2RadioButton17.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton17.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton17.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton17.Location = new System.Drawing.Point(117, 169);
+            this.guna2RadioButton17.Location = new System.Drawing.Point(120, 183);
             this.guna2RadioButton17.Name = "guna2RadioButton17";
             this.guna2RadioButton17.Size = new System.Drawing.Size(82, 23);
             this.guna2RadioButton17.TabIndex = 12;
@@ -573,7 +575,7 @@
             this.guna2RadioButton18.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton18.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton18.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton18.Location = new System.Drawing.Point(117, 140);
+            this.guna2RadioButton18.Location = new System.Drawing.Point(120, 157);
             this.guna2RadioButton18.Name = "guna2RadioButton18";
             this.guna2RadioButton18.Size = new System.Drawing.Size(82, 23);
             this.guna2RadioButton18.TabIndex = 11;
@@ -593,7 +595,7 @@
             this.guna2RadioButton19.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton19.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton19.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton19.Location = new System.Drawing.Point(117, 111);
+            this.guna2RadioButton19.Location = new System.Drawing.Point(120, 131);
             this.guna2RadioButton19.Name = "guna2RadioButton19";
             this.guna2RadioButton19.Size = new System.Drawing.Size(74, 23);
             this.guna2RadioButton19.TabIndex = 10;
@@ -613,7 +615,7 @@
             this.guna2RadioButton20.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton20.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton20.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton20.Location = new System.Drawing.Point(117, 82);
+            this.guna2RadioButton20.Location = new System.Drawing.Point(120, 105);
             this.guna2RadioButton20.Name = "guna2RadioButton20";
             this.guna2RadioButton20.Size = new System.Drawing.Size(89, 23);
             this.guna2RadioButton20.TabIndex = 9;
@@ -633,7 +635,7 @@
             this.guna2RadioButton21.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton21.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton21.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton21.Location = new System.Drawing.Point(117, 53);
+            this.guna2RadioButton21.Location = new System.Drawing.Point(120, 79);
             this.guna2RadioButton21.Name = "guna2RadioButton21";
             this.guna2RadioButton21.Size = new System.Drawing.Size(67, 23);
             this.guna2RadioButton21.TabIndex = 8;
@@ -653,7 +655,7 @@
             this.guna2RadioButton22.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton22.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton22.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton22.Location = new System.Drawing.Point(117, 24);
+            this.guna2RadioButton22.Location = new System.Drawing.Point(120, 53);
             this.guna2RadioButton22.Name = "guna2RadioButton22";
             this.guna2RadioButton22.Size = new System.Drawing.Size(51, 23);
             this.guna2RadioButton22.TabIndex = 7;
@@ -673,7 +675,7 @@
             this.guna2RadioButton16.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton16.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton16.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton16.Location = new System.Drawing.Point(31, 169);
+            this.guna2RadioButton16.Location = new System.Drawing.Point(27, 183);
             this.guna2RadioButton16.Name = "guna2RadioButton16";
             this.guna2RadioButton16.Size = new System.Drawing.Size(53, 23);
             this.guna2RadioButton16.TabIndex = 6;
@@ -693,7 +695,7 @@
             this.guna2RadioButton15.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton15.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton15.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton15.Location = new System.Drawing.Point(31, 140);
+            this.guna2RadioButton15.Location = new System.Drawing.Point(27, 157);
             this.guna2RadioButton15.Name = "guna2RadioButton15";
             this.guna2RadioButton15.Size = new System.Drawing.Size(48, 23);
             this.guna2RadioButton15.TabIndex = 5;
@@ -713,7 +715,7 @@
             this.guna2RadioButton14.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton14.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton14.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton14.Location = new System.Drawing.Point(31, 111);
+            this.guna2RadioButton14.Location = new System.Drawing.Point(27, 131);
             this.guna2RadioButton14.Name = "guna2RadioButton14";
             this.guna2RadioButton14.Size = new System.Drawing.Size(57, 23);
             this.guna2RadioButton14.TabIndex = 4;
@@ -733,7 +735,7 @@
             this.guna2RadioButton13.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton13.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton13.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton13.Location = new System.Drawing.Point(31, 82);
+            this.guna2RadioButton13.Location = new System.Drawing.Point(27, 105);
             this.guna2RadioButton13.Name = "guna2RadioButton13";
             this.guna2RadioButton13.Size = new System.Drawing.Size(64, 23);
             this.guna2RadioButton13.TabIndex = 3;
@@ -753,7 +755,7 @@
             this.guna2RadioButton12.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton12.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton12.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton12.Location = new System.Drawing.Point(31, 53);
+            this.guna2RadioButton12.Location = new System.Drawing.Point(27, 79);
             this.guna2RadioButton12.Name = "guna2RadioButton12";
             this.guna2RadioButton12.Size = new System.Drawing.Size(80, 23);
             this.guna2RadioButton12.TabIndex = 2;
@@ -773,7 +775,7 @@
             this.guna2RadioButton11.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton11.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton11.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton11.Location = new System.Drawing.Point(31, 24);
+            this.guna2RadioButton11.Location = new System.Drawing.Point(27, 53);
             this.guna2RadioButton11.Name = "guna2RadioButton11";
             this.guna2RadioButton11.Size = new System.Drawing.Size(74, 23);
             this.guna2RadioButton11.TabIndex = 1;
@@ -1006,6 +1008,106 @@
             this.timerTick.Enabled = true;
             this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
+            // guna2ComboBox2
+            // 
+            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox2.BorderRadius = 15;
+            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox2.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox2.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2ComboBox2.IntegralHeight = false;
+            this.guna2ComboBox2.ItemHeight = 30;
+            this.guna2ComboBox2.Items.AddRange(new object[] {
+            "YYYY",
+            "2023",
+            "2022",
+            "2021",
+            "2020",
+            "2019",
+            "2018",
+            "2017",
+            "2016",
+            "2015",
+            "2014",
+            "2013",
+            "2012",
+            "2011",
+            "2010",
+            "2009",
+            "2008",
+            "2007",
+            "2006",
+            "2005",
+            "2004",
+            "2003",
+            "2002",
+            "2001",
+            "2000",
+            "1999",
+            "1998",
+            "1997",
+            "1996",
+            "1995",
+            "1994",
+            "1993",
+            "1992",
+            "1991",
+            "1990",
+            "1989",
+            "1988",
+            "1987",
+            "1986",
+            "1985",
+            "1984",
+            "1983",
+            "1982",
+            "1981",
+            "1980",
+            "1979",
+            "1978",
+            "1977",
+            "1976",
+            "1975",
+            "1974",
+            "1973",
+            "1972",
+            "1971",
+            "1970",
+            "1969",
+            "1968",
+            "1967",
+            "1966",
+            "1965",
+            "1964",
+            "1963",
+            "1962",
+            "1961",
+            "1960",
+            "1959",
+            "1958",
+            "1957",
+            "1956",
+            "1955",
+            "1954",
+            "1953",
+            "1952",
+            "1951",
+            "1950"});
+            this.guna2ComboBox2.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox2.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox2.Location = new System.Drawing.Point(30, 11);
+            this.guna2ComboBox2.Name = "guna2ComboBox2";
+            this.guna2ComboBox2.Size = new System.Drawing.Size(101, 36);
+            this.guna2ComboBox2.StartIndex = 0;
+            this.guna2ComboBox2.TabIndex = 13;
+            this.guna2ComboBox2.TextOffset = new System.Drawing.Point(10, 0);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1090,6 +1192,7 @@
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private Guna.UI2.WinForms.Guna2CheckBox rememberMeCBox;
         private Guna.UI2.WinForms.Guna2Button clearButton;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
     }
 }
 
