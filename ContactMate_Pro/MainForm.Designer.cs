@@ -84,6 +84,7 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -526,6 +527,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Controls.Add(this.guna2ComboBox3);
             this.tabPage3.Controls.Add(this.guna2ComboBox2);
             this.tabPage3.Controls.Add(this.guna2RadioButton17);
             this.tabPage3.Controls.Add(this.guna2RadioButton18);
@@ -1101,12 +1103,69 @@
             "1950"});
             this.guna2ComboBox2.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
             this.guna2ComboBox2.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(30, 11);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(25, 11);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(101, 36);
+            this.guna2ComboBox2.Size = new System.Drawing.Size(92, 36);
             this.guna2ComboBox2.StartIndex = 0;
             this.guna2ComboBox2.TabIndex = 13;
             this.guna2ComboBox2.TextOffset = new System.Drawing.Point(10, 0);
+            // 
+            // guna2ComboBox3
+            // 
+            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox3.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.BorderRadius = 15;
+            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox3.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox3.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox3.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2ComboBox3.IntegralHeight = false;
+            this.guna2ComboBox3.ItemHeight = 30;
+            this.guna2ComboBox3.Items.AddRange(new object[] {
+            "DD",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
+            this.guna2ComboBox3.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox3.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.Location = new System.Drawing.Point(123, 11);
+            this.guna2ComboBox3.Name = "guna2ComboBox3";
+            this.guna2ComboBox3.Size = new System.Drawing.Size(79, 36);
+            this.guna2ComboBox3.StartIndex = 0;
+            this.guna2ComboBox3.TabIndex = 18;
+            this.guna2ComboBox3.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // MainForm
             // 
@@ -1193,6 +1252,7 @@
         private Guna.UI2.WinForms.Guna2CheckBox rememberMeCBox;
         private Guna.UI2.WinForms.Guna2Button clearButton;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
     }
 }
 
