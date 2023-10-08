@@ -13,6 +13,12 @@ namespace ContactMate_Pro
 {
     public partial class MainForm : Form
     {
+        #region FIELDS
+
+            TabPage previousTab = null;
+
+        #endregion
+
         public MainForm()
         {
             InitializeComponent();
@@ -50,6 +56,23 @@ namespace ContactMate_Pro
                 else if (control is Guna2RadioButton rButton)
                     rButton.Checked = false;
             }
+        }
+
+        #endregion
+
+        #region FUNCTION TO CLEAR THE FILTRATION OF PREVIOUS TAB
+
+        private void filterTab_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Check if 'previousTab' is null, which means it is the first time that selected index has changed.
+            // Therefore, it will clear the first tab.
+            // If not null, the tab that will be cleared is the previous one.
+            if (previousTab == null)
+                ClearControlsInSelectedTab(filterTab.TabPages[0]);
+            else
+                ClearControlsInSelectedTab(previousTab);
+
+            previousTab = filterTab.SelectedTab;
         }
 
         #endregion
