@@ -229,6 +229,7 @@
             // 
             this.guna2RadioButton10.Animated = true;
             this.guna2RadioButton10.AutoSize = true;
+            this.guna2RadioButton10.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton10.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton10.CheckedState.BorderThickness = 0;
             this.guna2RadioButton10.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -242,13 +243,15 @@
             this.guna2RadioButton10.Text = "OTHER";
             this.guna2RadioButton10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton10.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton10.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton10.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton10.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton10.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton10.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton9
             // 
             this.guna2RadioButton9.Animated = true;
             this.guna2RadioButton9.AutoSize = true;
+            this.guna2RadioButton9.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton9.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton9.CheckedState.BorderThickness = 0;
             this.guna2RadioButton9.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -262,13 +265,15 @@
             this.guna2RadioButton9.Text = "PERSONAL SERVICES";
             this.guna2RadioButton9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton9.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton9.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton9.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton9.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton9.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton9.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton8
             // 
             this.guna2RadioButton8.Animated = true;
             this.guna2RadioButton8.AutoSize = true;
+            this.guna2RadioButton8.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton8.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton8.CheckedState.BorderThickness = 0;
             this.guna2RadioButton8.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -282,13 +287,15 @@
             this.guna2RadioButton8.Text = "MEDICAL CONTACTS";
             this.guna2RadioButton8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton8.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton8.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton8.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton8.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton8.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton8.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton7
             // 
             this.guna2RadioButton7.Animated = true;
             this.guna2RadioButton7.AutoSize = true;
+            this.guna2RadioButton7.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton7.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton7.CheckedState.BorderThickness = 0;
             this.guna2RadioButton7.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -302,13 +309,15 @@
             this.guna2RadioButton7.Text = "PROFESSIONAL CONTACTS";
             this.guna2RadioButton7.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton7.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton7.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton7.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton7.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton7.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton7.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton6
             // 
             this.guna2RadioButton6.Animated = true;
             this.guna2RadioButton6.AutoSize = true;
+            this.guna2RadioButton6.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton6.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton6.CheckedState.BorderThickness = 0;
             this.guna2RadioButton6.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -322,13 +331,15 @@
             this.guna2RadioButton6.Text = "NEIGHBORS";
             this.guna2RadioButton6.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton6.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton6.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton6.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton6.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton6.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton6.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton5
             // 
             this.guna2RadioButton5.Animated = true;
             this.guna2RadioButton5.AutoSize = true;
+            this.guna2RadioButton5.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton5.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton5.CheckedState.BorderThickness = 0;
             this.guna2RadioButton5.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -342,13 +353,15 @@
             this.guna2RadioButton5.Text = "SCHOOL / UNIVERSITY";
             this.guna2RadioButton5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton5.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton5.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton5.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton5.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton5.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton5.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton4
             // 
             this.guna2RadioButton4.Animated = true;
             this.guna2RadioButton4.AutoSize = true;
+            this.guna2RadioButton4.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton4.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton4.CheckedState.BorderThickness = 0;
             this.guna2RadioButton4.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -362,13 +375,15 @@
             this.guna2RadioButton4.Text = "COLLEAGUES";
             this.guna2RadioButton4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton4.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton4.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton4.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton4.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton4.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton4.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton3
             // 
             this.guna2RadioButton3.Animated = true;
             this.guna2RadioButton3.AutoSize = true;
+            this.guna2RadioButton3.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton3.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton3.CheckedState.BorderThickness = 0;
             this.guna2RadioButton3.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -382,13 +397,15 @@
             this.guna2RadioButton3.Text = "FRIENDS";
             this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton3.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton3.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton3.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton2
             // 
             this.guna2RadioButton2.Animated = true;
             this.guna2RadioButton2.AutoSize = true;
+            this.guna2RadioButton2.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton2.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton2.CheckedState.BorderThickness = 0;
             this.guna2RadioButton2.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -402,13 +419,15 @@
             this.guna2RadioButton2.Text = "PARTNER";
             this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton2.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton2.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton2.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton1
             // 
             this.guna2RadioButton1.Animated = true;
             this.guna2RadioButton1.AutoSize = true;
+            this.guna2RadioButton1.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton1.CheckedState.BorderThickness = 0;
             this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -422,8 +441,9 @@
             this.guna2RadioButton1.Text = "FAMILY";
             this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton1.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton1.UseVisualStyleBackColor = false;
             // 
             // tabPage2
             // 
@@ -444,6 +464,7 @@
             // 
             this.guna2CheckBox3.Animated = true;
             this.guna2CheckBox3.AutoSize = true;
+            this.guna2CheckBox3.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2CheckBox3.CheckedState.BorderRadius = 3;
             this.guna2CheckBox3.CheckedState.BorderThickness = 1;
@@ -459,12 +480,14 @@
             this.guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
             this.guna2CheckBox3.UncheckedState.BorderRadius = 3;
             this.guna2CheckBox3.UncheckedState.BorderThickness = 1;
-            this.guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CheckBox3.UseVisualStyleBackColor = false;
             // 
             // guna2CheckBox2
             // 
             this.guna2CheckBox2.Animated = true;
             this.guna2CheckBox2.AutoSize = true;
+            this.guna2CheckBox2.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2CheckBox2.CheckedState.BorderRadius = 3;
             this.guna2CheckBox2.CheckedState.BorderThickness = 1;
@@ -480,12 +503,14 @@
             this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
             this.guna2CheckBox2.UncheckedState.BorderRadius = 3;
             this.guna2CheckBox2.UncheckedState.BorderThickness = 1;
-            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CheckBox2.UseVisualStyleBackColor = false;
             // 
             // guna2CheckBox1
             // 
             this.guna2CheckBox1.Animated = true;
             this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2CheckBox1.CheckedState.BorderRadius = 3;
             this.guna2CheckBox1.CheckedState.BorderThickness = 1;
@@ -501,12 +526,14 @@
             this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
             this.guna2CheckBox1.UncheckedState.BorderRadius = 3;
             this.guna2CheckBox1.UncheckedState.BorderThickness = 1;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CheckBox1.UseVisualStyleBackColor = false;
             // 
             // rememberMeCBox
             // 
             this.rememberMeCBox.Animated = true;
             this.rememberMeCBox.AutoSize = true;
+            this.rememberMeCBox.BackColor = System.Drawing.Color.Honeydew;
             this.rememberMeCBox.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.rememberMeCBox.CheckedState.BorderRadius = 3;
             this.rememberMeCBox.CheckedState.BorderThickness = 1;
@@ -522,7 +549,8 @@
             this.rememberMeCBox.UncheckedState.BorderColor = System.Drawing.Color.DimGray;
             this.rememberMeCBox.UncheckedState.BorderRadius = 3;
             this.rememberMeCBox.UncheckedState.BorderThickness = 1;
-            this.rememberMeCBox.UncheckedState.FillColor = System.Drawing.Color.Honeydew;
+            this.rememberMeCBox.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.rememberMeCBox.UseVisualStyleBackColor = false;
             // 
             // tabPage3
             // 
@@ -551,6 +579,7 @@
             // 
             this.guna2RadioButton17.Animated = true;
             this.guna2RadioButton17.AutoSize = true;
+            this.guna2RadioButton17.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton17.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton17.CheckedState.BorderThickness = 0;
             this.guna2RadioButton17.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -564,13 +593,15 @@
             this.guna2RadioButton17.Text = "DECEMBER";
             this.guna2RadioButton17.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton17.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton17.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton17.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton17.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton17.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton17.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton18
             // 
             this.guna2RadioButton18.Animated = true;
             this.guna2RadioButton18.AutoSize = true;
+            this.guna2RadioButton18.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton18.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton18.CheckedState.BorderThickness = 0;
             this.guna2RadioButton18.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -584,13 +615,15 @@
             this.guna2RadioButton18.Text = "NOVEMBER";
             this.guna2RadioButton18.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton18.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton18.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton18.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton18.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton18.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton18.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton19
             // 
             this.guna2RadioButton19.Animated = true;
             this.guna2RadioButton19.AutoSize = true;
+            this.guna2RadioButton19.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton19.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton19.CheckedState.BorderThickness = 0;
             this.guna2RadioButton19.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -604,13 +637,15 @@
             this.guna2RadioButton19.Text = "OCTOBER";
             this.guna2RadioButton19.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton19.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton19.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton19.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton19.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton19.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton19.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton20
             // 
             this.guna2RadioButton20.Animated = true;
             this.guna2RadioButton20.AutoSize = true;
+            this.guna2RadioButton20.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton20.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton20.CheckedState.BorderThickness = 0;
             this.guna2RadioButton20.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -624,13 +659,15 @@
             this.guna2RadioButton20.Text = "SEPTEMBER";
             this.guna2RadioButton20.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton20.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton20.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton20.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton20.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton20.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton20.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton21
             // 
             this.guna2RadioButton21.Animated = true;
             this.guna2RadioButton21.AutoSize = true;
+            this.guna2RadioButton21.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton21.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton21.CheckedState.BorderThickness = 0;
             this.guna2RadioButton21.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -644,13 +681,15 @@
             this.guna2RadioButton21.Text = "AUGUST";
             this.guna2RadioButton21.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton21.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton21.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton21.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton21.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton21.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton21.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton22
             // 
             this.guna2RadioButton22.Animated = true;
             this.guna2RadioButton22.AutoSize = true;
+            this.guna2RadioButton22.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton22.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton22.CheckedState.BorderThickness = 0;
             this.guna2RadioButton22.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -664,13 +703,15 @@
             this.guna2RadioButton22.Text = "JULY";
             this.guna2RadioButton22.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton22.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton22.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton22.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton22.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton22.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton22.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton16
             // 
             this.guna2RadioButton16.Animated = true;
             this.guna2RadioButton16.AutoSize = true;
+            this.guna2RadioButton16.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton16.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton16.CheckedState.BorderThickness = 0;
             this.guna2RadioButton16.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -684,13 +725,15 @@
             this.guna2RadioButton16.Text = "JUNE";
             this.guna2RadioButton16.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton16.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton16.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton16.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton16.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton16.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton16.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton15
             // 
             this.guna2RadioButton15.Animated = true;
             this.guna2RadioButton15.AutoSize = true;
+            this.guna2RadioButton15.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton15.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton15.CheckedState.BorderThickness = 0;
             this.guna2RadioButton15.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -704,13 +747,15 @@
             this.guna2RadioButton15.Text = "MAY";
             this.guna2RadioButton15.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton15.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton15.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton15.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton15.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton15.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton15.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton14
             // 
             this.guna2RadioButton14.Animated = true;
             this.guna2RadioButton14.AutoSize = true;
+            this.guna2RadioButton14.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton14.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton14.CheckedState.BorderThickness = 0;
             this.guna2RadioButton14.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -724,13 +769,15 @@
             this.guna2RadioButton14.Text = "APRIL";
             this.guna2RadioButton14.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton14.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton14.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton14.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton14.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton14.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton14.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton13
             // 
             this.guna2RadioButton13.Animated = true;
             this.guna2RadioButton13.AutoSize = true;
+            this.guna2RadioButton13.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton13.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton13.CheckedState.BorderThickness = 0;
             this.guna2RadioButton13.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -744,13 +791,15 @@
             this.guna2RadioButton13.Text = "MARCH";
             this.guna2RadioButton13.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton13.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton13.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton13.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton13.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton13.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton13.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton12
             // 
             this.guna2RadioButton12.Animated = true;
             this.guna2RadioButton12.AutoSize = true;
+            this.guna2RadioButton12.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton12.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton12.CheckedState.BorderThickness = 0;
             this.guna2RadioButton12.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -764,13 +813,15 @@
             this.guna2RadioButton12.Text = "FEBRUARY";
             this.guna2RadioButton12.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton12.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton12.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton12.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton12.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton12.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton12.UseVisualStyleBackColor = false;
             // 
             // guna2RadioButton11
             // 
             this.guna2RadioButton11.Animated = true;
             this.guna2RadioButton11.AutoSize = true;
+            this.guna2RadioButton11.BackColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton11.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
             this.guna2RadioButton11.CheckedState.BorderThickness = 0;
             this.guna2RadioButton11.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
@@ -784,8 +835,9 @@
             this.guna2RadioButton11.Text = "JANUARY";
             this.guna2RadioButton11.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton11.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton11.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton11.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton11.UncheckedState.FillColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton11.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
+            this.guna2RadioButton11.UseVisualStyleBackColor = false;
             // 
             // guna2HtmlLabel5
             // 
@@ -885,14 +937,15 @@
             // guna2ComboBox1
             // 
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderColor = System.Drawing.Color.Silver;
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2ComboBox1.BorderRadius = 15;
             this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FillColor = System.Drawing.Color.MintCream;
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Items.AddRange(new object[] {
@@ -900,6 +953,8 @@
             "Last Name",
             "First Name",
             "Middle Name"});
+            this.guna2ComboBox1.ItemsAppearance.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2ComboBox1.Location = new System.Drawing.Point(86, 211);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(151, 36);
@@ -910,7 +965,7 @@
             // guna2TextBox1
             // 
             this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.Silver;
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox1.BorderRadius = 15;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
@@ -918,9 +973,10 @@
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.Color.MintCream;
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox1.IconLeft = global::ContactMate_Pro.Properties.Resources.search_interface_symbol;
             this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(5, 0);
@@ -1017,7 +1073,7 @@
             this.guna2ComboBox2.BorderRadius = 15;
             this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2ComboBox2.FillColor = System.Drawing.Color.MintCream;
             this.guna2ComboBox2.FocusedColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox2.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
@@ -1117,7 +1173,7 @@
             this.guna2ComboBox3.BorderRadius = 15;
             this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2ComboBox3.FillColor = System.Drawing.Color.MintCream;
             this.guna2ComboBox3.FocusedColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
             this.guna2ComboBox3.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
