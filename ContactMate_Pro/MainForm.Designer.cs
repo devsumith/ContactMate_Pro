@@ -89,6 +89,7 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -141,6 +142,7 @@
             // 
             // bodyPanel
             // 
+            this.bodyPanel.Controls.Add(this.tableLayoutPanel1);
             this.bodyPanel.Controls.Add(this.guna2HtmlLabel6);
             this.bodyPanel.Controls.Add(this.guna2Button1);
             this.bodyPanel.Location = new System.Drawing.Point(251, 39);
@@ -1315,6 +1317,23 @@
             this.timerTick.Enabled = true;
             this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 53);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(986, 539);
+            this.tableLayoutPanel1.TabIndex = 2;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1406,6 +1425,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 
