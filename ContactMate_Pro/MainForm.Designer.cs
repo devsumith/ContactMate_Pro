@@ -1218,6 +1218,7 @@
             this.guna2CircleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2CircleButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
             this.guna2CircleButton2.BorderThickness = 1;
+            this.guna2CircleButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1245,7 +1246,7 @@
             this.guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2CircleButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
             this.guna2CircleButton1.BorderThickness = 1;
-            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
@@ -1272,6 +1273,7 @@
             this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
             this.guna2Button1.BorderRadius = 2;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1304,6 +1306,7 @@
             this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
             this.guna2Button2.BorderRadius = 2;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1402,6 +1405,7 @@
             this.guna2TabControl1.Controls.Add(this.tabPage4);
             this.guna2TabControl1.Controls.Add(this.tabPage5);
             this.guna2TabControl1.Controls.Add(this.tabPage6);
+            this.guna2TabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2TabControl1.ItemSize = new System.Drawing.Size(35, 35);
             this.guna2TabControl1.Location = new System.Drawing.Point(451, 613);
             this.guna2TabControl1.Name = "guna2TabControl1";
