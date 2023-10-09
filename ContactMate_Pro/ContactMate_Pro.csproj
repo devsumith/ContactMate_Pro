@@ -105,5 +105,23 @@
   <ItemGroup>
     <None Include="Resources\search-interface-symbol.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-contact %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-chevron - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
