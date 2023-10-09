@@ -1278,7 +1278,7 @@
             this.guna2ControlBox2.Animated = true;
             this.guna2ControlBox2.BorderRadius = 10;
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.MintCream;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox2.Location = new System.Drawing.Point(1179, 6);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
@@ -1290,7 +1290,7 @@
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.Animated = true;
             this.guna2ControlBox1.BorderRadius = 10;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.MintCream;
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1219, 6);
