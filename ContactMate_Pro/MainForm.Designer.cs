@@ -92,6 +92,10 @@
             this.userImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -103,6 +107,7 @@
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
+            this.guna2TabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // elipse
@@ -144,6 +149,7 @@
             // 
             // bodyPanel
             // 
+            this.bodyPanel.Controls.Add(this.guna2TabControl1);
             this.bodyPanel.Controls.Add(this.guna2HtmlLabel6);
             this.bodyPanel.Controls.Add(this.guna2CircleButton2);
             this.bodyPanel.Controls.Add(this.guna2CircleButton1);
@@ -1223,12 +1229,14 @@
             this.guna2CircleButton2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
             this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.PaleGreen;
             this.guna2CircleButton2.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(403, 610);
+            this.guna2CircleButton2.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(12, 12);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(564, 616);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CircleButton2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(35, 35);
+            this.guna2CircleButton2.Size = new System.Drawing.Size(30, 30);
             this.guna2CircleButton2.TabIndex = 4;
             // 
             // guna2CircleButton1
@@ -1237,9 +1245,9 @@
             this.guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2CircleButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
             this.guna2CircleButton1.BorderThickness = 1;
+            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2CircleButton1.FillColor = System.Drawing.Color.MintCream;
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
@@ -1248,12 +1256,13 @@
             this.guna2CircleButton1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
             this.guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
             this.guna2CircleButton1.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(362, 610);
+            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(12, 12);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(415, 616);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CircleButton1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(35, 35);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(30, 30);
             this.guna2CircleButton1.TabIndex = 3;
             // 
             // guna2Button1
@@ -1277,7 +1286,7 @@
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.Location = new System.Drawing.Point(875, 5);
+            this.guna2Button1.Location = new System.Drawing.Point(866, 5);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
@@ -1381,12 +1390,73 @@
             this.guna2HtmlLabel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(967, 12);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(958, 12);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(35, 19);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(40, 19);
             this.guna2HtmlLabel6.TabIndex = 5;
             this.guna2HtmlLabel6.Text = "0";
             this.guna2HtmlLabel6.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // guna2TabControl1
+            // 
+            this.guna2TabControl1.Controls.Add(this.tabPage4);
+            this.guna2TabControl1.Controls.Add(this.tabPage5);
+            this.guna2TabControl1.Controls.Add(this.tabPage6);
+            this.guna2TabControl1.ItemSize = new System.Drawing.Size(35, 35);
+            this.guna2TabControl1.Location = new System.Drawing.Point(451, 613);
+            this.guna2TabControl1.Name = "guna2TabControl1";
+            this.guna2TabControl1.Padding = new System.Drawing.Point(0, 0);
+            this.guna2TabControl1.SelectedIndex = 0;
+            this.guna2TabControl1.Size = new System.Drawing.Size(110, 38);
+            this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.Silver;
+            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.Empty;
+            this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TabControl1.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(35, 35);
+            this.guna2TabControl1.TabIndex = 32;
+            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.MintCream;
+            this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage4.Location = new System.Drawing.Point(4, 39);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(102, 0);
+            this.tabPage4.TabIndex = 0;
+            this.tabPage4.Text = "1";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage5.ForeColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.Location = new System.Drawing.Point(4, 39);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(102, 0);
+            this.tabPage5.TabIndex = 1;
+            this.tabPage5.Text = "2";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage6.Location = new System.Drawing.Point(4, 39);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(102, 0);
+            this.tabPage6.TabIndex = 2;
+            this.tabPage6.Text = "3";
             // 
             // MainForm
             // 
@@ -1414,6 +1484,7 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
+            this.guna2TabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1482,6 +1553,10 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2TabControl guna2TabControl1;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage6;
     }
 }
 
