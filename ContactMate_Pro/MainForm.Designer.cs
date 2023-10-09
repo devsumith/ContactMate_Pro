@@ -87,6 +87,7 @@
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.bodyPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.sidePanel.SuspendLayout();
@@ -1229,6 +1230,7 @@
             // 
             // bodyPanel
             // 
+            this.bodyPanel.Controls.Add(this.guna2HtmlLabel6);
             this.bodyPanel.Controls.Add(this.guna2Button1);
             this.bodyPanel.Location = new System.Drawing.Point(251, 39);
             this.bodyPanel.Name = "bodyPanel";
@@ -1266,6 +1268,21 @@
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "ADD";
             this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.AutoSize = false;
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2HtmlLabel6.BackgroundImage")));
+            this.guna2HtmlLabel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(967, 12);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(35, 19);
+            this.guna2HtmlLabel6.TabIndex = 1;
+            this.guna2HtmlLabel6.Text = "0";
+            this.guna2HtmlLabel6.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // MainForm
             // 
@@ -1356,6 +1373,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Guna.UI2.WinForms.Guna2Panel bodyPanel;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
     }
 }
 
