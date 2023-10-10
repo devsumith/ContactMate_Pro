@@ -94,7 +94,15 @@ namespace ContactMate_Pro
 
         private void prevPageBtn_Click(object sender, EventArgs e)
         {
-            pageControl.SelectedIndex -= 1;
+            if ((selectedPage - 1) % 3 == 0)
+            {
+                for (int i = 0; i < 3; i++)
+                    pageControl.TabPages[i].Text = (Convert.ToInt16(pageControl.TabPages[i].Text) - 3).ToString();
+
+                pageControl.SelectedIndex = 2;
+            }
+            else
+                pageControl.SelectedIndex -= 1;
         }
 
         private void nextPageBtn_Click(object sender, EventArgs e)
