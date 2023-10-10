@@ -15,8 +15,9 @@ namespace ContactMate_Pro
     {
         #region FIELDS
 
-            TabPage previousTab = null;
-            short selectedPage = 1;
+        TabPage previousTab = null;
+        short selectedPage = 1;
+        contactControl contactPanel = new contactControl();
 
         #endregion
 
