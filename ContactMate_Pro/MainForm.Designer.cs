@@ -1307,6 +1307,8 @@
             this.cPanel12.Location = new System.Drawing.Point(762, 328);
             this.cPanel12.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel12.Name = "cPanel12";
+            this.cPanel12.ShadowDecoration.BorderRadius = 10;
+            this.cPanel12.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel12.Size = new System.Drawing.Size(226, 114);
             this.cPanel12.TabIndex = 48;
             // 
@@ -1319,6 +1321,8 @@
             this.cPanel11.Location = new System.Drawing.Point(516, 328);
             this.cPanel11.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel11.Name = "cPanel11";
+            this.cPanel11.ShadowDecoration.BorderRadius = 10;
+            this.cPanel11.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel11.Size = new System.Drawing.Size(226, 114);
             this.cPanel11.TabIndex = 53;
             // 
@@ -1331,6 +1335,8 @@
             this.cPanel10.Location = new System.Drawing.Point(270, 328);
             this.cPanel10.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel10.Name = "cPanel10";
+            this.cPanel10.ShadowDecoration.BorderRadius = 10;
+            this.cPanel10.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel10.Size = new System.Drawing.Size(226, 114);
             this.cPanel10.TabIndex = 52;
             // 
@@ -1343,6 +1349,8 @@
             this.cPanel9.Location = new System.Drawing.Point(24, 328);
             this.cPanel9.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel9.Name = "cPanel9";
+            this.cPanel9.ShadowDecoration.BorderRadius = 10;
+            this.cPanel9.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel9.Size = new System.Drawing.Size(226, 114);
             this.cPanel9.TabIndex = 51;
             // 
@@ -1355,6 +1363,8 @@
             this.cPanel8.Location = new System.Drawing.Point(762, 194);
             this.cPanel8.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel8.Name = "cPanel8";
+            this.cPanel8.ShadowDecoration.BorderRadius = 10;
+            this.cPanel8.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel8.Size = new System.Drawing.Size(226, 114);
             this.cPanel8.TabIndex = 50;
             // 
@@ -1367,6 +1377,8 @@
             this.cPanel7.Location = new System.Drawing.Point(516, 194);
             this.cPanel7.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel7.Name = "cPanel7";
+            this.cPanel7.ShadowDecoration.BorderRadius = 10;
+            this.cPanel7.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel7.Size = new System.Drawing.Size(226, 114);
             this.cPanel7.TabIndex = 49;
             // 
@@ -1379,6 +1391,8 @@
             this.cPanel13.Location = new System.Drawing.Point(24, 462);
             this.cPanel13.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel13.Name = "cPanel13";
+            this.cPanel13.ShadowDecoration.BorderRadius = 10;
+            this.cPanel13.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel13.Size = new System.Drawing.Size(226, 114);
             this.cPanel13.TabIndex = 47;
             // 
@@ -1391,6 +1405,8 @@
             this.cPanel14.Location = new System.Drawing.Point(270, 462);
             this.cPanel14.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel14.Name = "cPanel14";
+            this.cPanel14.ShadowDecoration.BorderRadius = 10;
+            this.cPanel14.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel14.Size = new System.Drawing.Size(226, 114);
             this.cPanel14.TabIndex = 46;
             // 
@@ -1403,6 +1419,8 @@
             this.cPanel15.Location = new System.Drawing.Point(516, 462);
             this.cPanel15.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel15.Name = "cPanel15";
+            this.cPanel15.ShadowDecoration.BorderRadius = 10;
+            this.cPanel15.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel15.Size = new System.Drawing.Size(226, 114);
             this.cPanel15.TabIndex = 45;
             // 
@@ -1415,6 +1433,8 @@
             this.cPanel16.Location = new System.Drawing.Point(762, 462);
             this.cPanel16.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel16.Name = "cPanel16";
+            this.cPanel16.ShadowDecoration.BorderRadius = 10;
+            this.cPanel16.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel16.Size = new System.Drawing.Size(226, 114);
             this.cPanel16.TabIndex = 44;
             // 
@@ -1427,6 +1447,8 @@
             this.cPanel6.Location = new System.Drawing.Point(270, 194);
             this.cPanel6.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel6.Name = "cPanel6";
+            this.cPanel6.ShadowDecoration.BorderRadius = 10;
+            this.cPanel6.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel6.Size = new System.Drawing.Size(226, 114);
             this.cPanel6.TabIndex = 43;
             // 
@@ -1439,6 +1461,8 @@
             this.cPanel5.Location = new System.Drawing.Point(24, 194);
             this.cPanel5.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel5.Name = "cPanel5";
+            this.cPanel5.ShadowDecoration.BorderRadius = 10;
+            this.cPanel5.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel5.Size = new System.Drawing.Size(226, 114);
             this.cPanel5.TabIndex = 42;
             // 
@@ -1451,6 +1475,8 @@
             this.cPanel4.Location = new System.Drawing.Point(762, 60);
             this.cPanel4.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel4.Name = "cPanel4";
+            this.cPanel4.ShadowDecoration.BorderRadius = 10;
+            this.cPanel4.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel4.Size = new System.Drawing.Size(226, 114);
             this.cPanel4.TabIndex = 41;
             // 
@@ -1463,6 +1489,8 @@
             this.cPanel3.Location = new System.Drawing.Point(516, 60);
             this.cPanel3.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel3.Name = "cPanel3";
+            this.cPanel3.ShadowDecoration.BorderRadius = 10;
+            this.cPanel3.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel3.Size = new System.Drawing.Size(226, 114);
             this.cPanel3.TabIndex = 40;
             // 
@@ -1475,6 +1503,8 @@
             this.cPanel2.Location = new System.Drawing.Point(270, 60);
             this.cPanel2.Margin = new System.Windows.Forms.Padding(10);
             this.cPanel2.Name = "cPanel2";
+            this.cPanel2.ShadowDecoration.BorderRadius = 10;
+            this.cPanel2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel2.Size = new System.Drawing.Size(226, 114);
             this.cPanel2.TabIndex = 39;
             // 
