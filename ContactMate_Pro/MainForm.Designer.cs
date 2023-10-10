@@ -50,9 +50,6 @@
             this.cPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.firstButton = new System.Windows.Forms.TabPage();
@@ -116,9 +113,102 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel25 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel26 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel27 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel28 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel29 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel30 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel31 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel32 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel33 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel34 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel35 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel36 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel37 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel38 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel39 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel40 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel41 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel42 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel43 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel44 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel45 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel46 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel47 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel48 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel49 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel50 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel51 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel52 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel53 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel54 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
+            this.cPanel12.SuspendLayout();
+            this.cPanel11.SuspendLayout();
+            this.cPanel10.SuspendLayout();
+            this.cPanel9.SuspendLayout();
+            this.cPanel8.SuspendLayout();
+            this.cPanel7.SuspendLayout();
+            this.cPanel13.SuspendLayout();
+            this.cPanel14.SuspendLayout();
+            this.cPanel15.SuspendLayout();
+            this.cPanel16.SuspendLayout();
+            this.cPanel6.SuspendLayout();
+            this.cPanel5.SuspendLayout();
+            this.cPanel4.SuspendLayout();
+            this.cPanel3.SuspendLayout();
+            this.cPanel2.SuspendLayout();
             this.cPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.pageControl.SuspendLayout();
@@ -131,6 +221,36 @@
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            this.guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
+            this.guna2Panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
+            this.guna2Panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
+            this.guna2Panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
+            this.guna2Panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
+            this.guna2Panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
+            this.guna2Panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
+            this.guna2Panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
+            this.guna2Panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
+            this.guna2Panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            this.guna2Panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
+            this.guna2Panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // elipse
@@ -201,6 +321,10 @@
             // cPanel12
             // 
             this.cPanel12.BorderRadius = 10;
+            this.cPanel12.Controls.Add(this.guna2Panel12);
+            this.cPanel12.Controls.Add(this.guna2HtmlLabel34);
+            this.cPanel12.Controls.Add(this.guna2HtmlLabel35);
+            this.cPanel12.Controls.Add(this.guna2HtmlLabel36);
             this.cPanel12.FillColor = System.Drawing.Color.Transparent;
             this.cPanel12.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel12.FillColor3 = System.Drawing.Color.Transparent;
@@ -216,6 +340,10 @@
             // cPanel11
             // 
             this.cPanel11.BorderRadius = 10;
+            this.cPanel11.Controls.Add(this.guna2Panel11);
+            this.cPanel11.Controls.Add(this.guna2HtmlLabel31);
+            this.cPanel11.Controls.Add(this.guna2HtmlLabel32);
+            this.cPanel11.Controls.Add(this.guna2HtmlLabel33);
             this.cPanel11.FillColor = System.Drawing.Color.Transparent;
             this.cPanel11.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel11.FillColor3 = System.Drawing.Color.Transparent;
@@ -231,6 +359,10 @@
             // cPanel10
             // 
             this.cPanel10.BorderRadius = 10;
+            this.cPanel10.Controls.Add(this.guna2Panel9);
+            this.cPanel10.Controls.Add(this.guna2HtmlLabel28);
+            this.cPanel10.Controls.Add(this.guna2HtmlLabel29);
+            this.cPanel10.Controls.Add(this.guna2HtmlLabel30);
             this.cPanel10.FillColor = System.Drawing.Color.Transparent;
             this.cPanel10.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel10.FillColor3 = System.Drawing.Color.Transparent;
@@ -246,6 +378,10 @@
             // cPanel9
             // 
             this.cPanel9.BorderRadius = 10;
+            this.cPanel9.Controls.Add(this.guna2Panel10);
+            this.cPanel9.Controls.Add(this.guna2HtmlLabel49);
+            this.cPanel9.Controls.Add(this.guna2HtmlLabel50);
+            this.cPanel9.Controls.Add(this.guna2HtmlLabel51);
             this.cPanel9.FillColor = System.Drawing.Color.Transparent;
             this.cPanel9.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel9.FillColor3 = System.Drawing.Color.Transparent;
@@ -261,6 +397,10 @@
             // cPanel8
             // 
             this.cPanel8.BorderRadius = 10;
+            this.cPanel8.Controls.Add(this.guna2Panel5);
+            this.cPanel8.Controls.Add(this.guna2HtmlLabel19);
+            this.cPanel8.Controls.Add(this.guna2HtmlLabel20);
+            this.cPanel8.Controls.Add(this.guna2HtmlLabel21);
             this.cPanel8.FillColor = System.Drawing.Color.Transparent;
             this.cPanel8.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel8.FillColor3 = System.Drawing.Color.Transparent;
@@ -276,6 +416,10 @@
             // cPanel7
             // 
             this.cPanel7.BorderRadius = 10;
+            this.cPanel7.Controls.Add(this.guna2Panel6);
+            this.cPanel7.Controls.Add(this.guna2HtmlLabel22);
+            this.cPanel7.Controls.Add(this.guna2HtmlLabel23);
+            this.cPanel7.Controls.Add(this.guna2HtmlLabel24);
             this.cPanel7.FillColor = System.Drawing.Color.Transparent;
             this.cPanel7.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel7.FillColor3 = System.Drawing.Color.Transparent;
@@ -291,6 +435,10 @@
             // cPanel13
             // 
             this.cPanel13.BorderRadius = 10;
+            this.cPanel13.Controls.Add(this.guna2Panel16);
+            this.cPanel13.Controls.Add(this.guna2HtmlLabel46);
+            this.cPanel13.Controls.Add(this.guna2HtmlLabel47);
+            this.cPanel13.Controls.Add(this.guna2HtmlLabel48);
             this.cPanel13.FillColor = System.Drawing.Color.Transparent;
             this.cPanel13.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel13.FillColor3 = System.Drawing.Color.Transparent;
@@ -306,6 +454,10 @@
             // cPanel14
             // 
             this.cPanel14.BorderRadius = 10;
+            this.cPanel14.Controls.Add(this.guna2Panel15);
+            this.cPanel14.Controls.Add(this.guna2HtmlLabel43);
+            this.cPanel14.Controls.Add(this.guna2HtmlLabel44);
+            this.cPanel14.Controls.Add(this.guna2HtmlLabel45);
             this.cPanel14.FillColor = System.Drawing.Color.Transparent;
             this.cPanel14.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel14.FillColor3 = System.Drawing.Color.Transparent;
@@ -321,6 +473,10 @@
             // cPanel15
             // 
             this.cPanel15.BorderRadius = 10;
+            this.cPanel15.Controls.Add(this.guna2Panel14);
+            this.cPanel15.Controls.Add(this.guna2HtmlLabel40);
+            this.cPanel15.Controls.Add(this.guna2HtmlLabel41);
+            this.cPanel15.Controls.Add(this.guna2HtmlLabel42);
             this.cPanel15.FillColor = System.Drawing.Color.Transparent;
             this.cPanel15.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel15.FillColor3 = System.Drawing.Color.Transparent;
@@ -332,10 +488,15 @@
             this.cPanel15.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel15.Size = new System.Drawing.Size(226, 114);
             this.cPanel15.TabIndex = 45;
+            this.cPanel15.Paint += new System.Windows.Forms.PaintEventHandler(this.cPanel15_Paint);
             // 
             // cPanel16
             // 
             this.cPanel16.BorderRadius = 10;
+            this.cPanel16.Controls.Add(this.guna2Panel13);
+            this.cPanel16.Controls.Add(this.guna2HtmlLabel37);
+            this.cPanel16.Controls.Add(this.guna2HtmlLabel38);
+            this.cPanel16.Controls.Add(this.guna2HtmlLabel39);
             this.cPanel16.FillColor = System.Drawing.Color.Transparent;
             this.cPanel16.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel16.FillColor3 = System.Drawing.Color.Transparent;
@@ -351,6 +512,10 @@
             // cPanel6
             // 
             this.cPanel6.BorderRadius = 10;
+            this.cPanel6.Controls.Add(this.guna2Panel7);
+            this.cPanel6.Controls.Add(this.guna2HtmlLabel25);
+            this.cPanel6.Controls.Add(this.guna2HtmlLabel26);
+            this.cPanel6.Controls.Add(this.guna2HtmlLabel27);
             this.cPanel6.FillColor = System.Drawing.Color.Transparent;
             this.cPanel6.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel6.FillColor3 = System.Drawing.Color.Transparent;
@@ -366,6 +531,10 @@
             // cPanel5
             // 
             this.cPanel5.BorderRadius = 10;
+            this.cPanel5.Controls.Add(this.guna2Panel8);
+            this.cPanel5.Controls.Add(this.guna2HtmlLabel52);
+            this.cPanel5.Controls.Add(this.guna2HtmlLabel53);
+            this.cPanel5.Controls.Add(this.guna2HtmlLabel54);
             this.cPanel5.FillColor = System.Drawing.Color.Transparent;
             this.cPanel5.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel5.FillColor3 = System.Drawing.Color.Transparent;
@@ -381,6 +550,10 @@
             // cPanel4
             // 
             this.cPanel4.BorderRadius = 10;
+            this.cPanel4.Controls.Add(this.guna2Panel4);
+            this.cPanel4.Controls.Add(this.guna2HtmlLabel16);
+            this.cPanel4.Controls.Add(this.guna2HtmlLabel17);
+            this.cPanel4.Controls.Add(this.guna2HtmlLabel18);
             this.cPanel4.FillColor = System.Drawing.Color.Transparent;
             this.cPanel4.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel4.FillColor3 = System.Drawing.Color.Transparent;
@@ -396,6 +569,10 @@
             // cPanel3
             // 
             this.cPanel3.BorderRadius = 10;
+            this.cPanel3.Controls.Add(this.guna2Panel3);
+            this.cPanel3.Controls.Add(this.guna2HtmlLabel13);
+            this.cPanel3.Controls.Add(this.guna2HtmlLabel14);
+            this.cPanel3.Controls.Add(this.guna2HtmlLabel15);
             this.cPanel3.FillColor = System.Drawing.Color.Transparent;
             this.cPanel3.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel3.FillColor3 = System.Drawing.Color.Transparent;
@@ -412,6 +589,10 @@
             // 
             this.cPanel2.AccessibleName = "";
             this.cPanel2.BorderRadius = 10;
+            this.cPanel2.Controls.Add(this.guna2Panel2);
+            this.cPanel2.Controls.Add(this.guna2HtmlLabel10);
+            this.cPanel2.Controls.Add(this.guna2HtmlLabel11);
+            this.cPanel2.Controls.Add(this.guna2HtmlLabel12);
             this.cPanel2.FillColor = System.Drawing.Color.Transparent;
             this.cPanel2.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel2.FillColor3 = System.Drawing.Color.Transparent;
@@ -427,10 +608,10 @@
             // cPanel1
             // 
             this.cPanel1.BorderRadius = 10;
+            this.cPanel1.Controls.Add(this.guna2Panel1);
             this.cPanel1.Controls.Add(this.guna2HtmlLabel9);
             this.cPanel1.Controls.Add(this.guna2HtmlLabel8);
             this.cPanel1.Controls.Add(this.guna2HtmlLabel7);
-            this.cPanel1.Controls.Add(this.guna2Panel1);
             this.cPanel1.FillColor = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor3 = System.Drawing.Color.Transparent;
@@ -443,45 +624,12 @@
             this.cPanel1.Size = new System.Drawing.Size(226, 114);
             this.cPanel1.TabIndex = 38;
             // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(77, 51);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(138, 20);
-            this.guna2HtmlLabel9.TabIndex = 38;
-            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(76, 28);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
-            this.guna2HtmlLabel8.TabIndex = 37;
-            this.guna2HtmlLabel8.Text = "09392723942";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(69, 76);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(96, 27);
-            this.guna2HtmlLabel7.TabIndex = 36;
-            this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
-            // 
             // guna2Panel1
             // 
             this.guna2Panel1.BorderRadius = 30;
             this.guna2Panel1.Controls.Add(this.contactImage);
             this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Panel1.Location = new System.Drawing.Point(12, 11);
+            this.guna2Panel1.Location = new System.Drawing.Point(155, 11);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
             this.guna2Panel1.TabIndex = 35;
@@ -1778,7 +1926,7 @@
             // contactImage
             // 
             this.contactImage.BackColor = System.Drawing.Color.Transparent;
-            this.contactImage.FillColor = System.Drawing.Color.Transparent;
+            this.contactImage.FillColor = System.Drawing.Color.MintCream;
             this.contactImage.ImageRotate = 0F;
             this.contactImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.contactImage.Location = new System.Drawing.Point(3, 3);
@@ -1789,6 +1937,910 @@
             this.contactImage.TabIndex = 3;
             this.contactImage.TabStop = false;
             this.contactImage.UseTransparentBackground = true;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel7.TabIndex = 36;
+            this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel8.TabIndex = 37;
+            this.guna2HtmlLabel8.Text = "09392723942";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(14, 84);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel9.TabIndex = 38;
+            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel10.TabIndex = 41;
+            this.guna2HtmlLabel10.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel11.TabIndex = 40;
+            this.guna2HtmlLabel11.Text = "09392723942";
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel12.TabIndex = 39;
+            this.guna2HtmlLabel12.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel13.TabIndex = 41;
+            this.guna2HtmlLabel13.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel14
+            // 
+            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            this.guna2HtmlLabel14.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel14.TabIndex = 40;
+            this.guna2HtmlLabel14.Text = "09392723942";
+            // 
+            // guna2HtmlLabel15
+            // 
+            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            this.guna2HtmlLabel15.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel15.TabIndex = 39;
+            this.guna2HtmlLabel15.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel16
+            // 
+            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            this.guna2HtmlLabel16.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel16.TabIndex = 41;
+            this.guna2HtmlLabel16.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel17
+            // 
+            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            this.guna2HtmlLabel17.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel17.TabIndex = 40;
+            this.guna2HtmlLabel17.Text = "09392723942";
+            // 
+            // guna2HtmlLabel18
+            // 
+            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel18.TabIndex = 39;
+            this.guna2HtmlLabel18.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel19
+            // 
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel19.TabIndex = 41;
+            this.guna2HtmlLabel19.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel20
+            // 
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel20.TabIndex = 40;
+            this.guna2HtmlLabel20.Text = "09392723942";
+            // 
+            // guna2HtmlLabel21
+            // 
+            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel21.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
+            this.guna2HtmlLabel21.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel21.TabIndex = 39;
+            this.guna2HtmlLabel21.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel22
+            // 
+            this.guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel22.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel22.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel22.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel22.Name = "guna2HtmlLabel22";
+            this.guna2HtmlLabel22.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel22.TabIndex = 41;
+            this.guna2HtmlLabel22.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel23
+            // 
+            this.guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel23.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel23.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel23.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel23.Name = "guna2HtmlLabel23";
+            this.guna2HtmlLabel23.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel23.TabIndex = 40;
+            this.guna2HtmlLabel23.Text = "09392723942";
+            // 
+            // guna2HtmlLabel24
+            // 
+            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel24.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel24.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
+            this.guna2HtmlLabel24.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel24.TabIndex = 39;
+            this.guna2HtmlLabel24.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel25
+            // 
+            this.guna2HtmlLabel25.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel25.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel25.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel25.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel25.Name = "guna2HtmlLabel25";
+            this.guna2HtmlLabel25.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel25.TabIndex = 41;
+            this.guna2HtmlLabel25.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel26
+            // 
+            this.guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel26.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel26.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel26.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel26.Name = "guna2HtmlLabel26";
+            this.guna2HtmlLabel26.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel26.TabIndex = 40;
+            this.guna2HtmlLabel26.Text = "09392723942";
+            // 
+            // guna2HtmlLabel27
+            // 
+            this.guna2HtmlLabel27.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel27.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel27.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel27.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel27.Name = "guna2HtmlLabel27";
+            this.guna2HtmlLabel27.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel27.TabIndex = 39;
+            this.guna2HtmlLabel27.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel28
+            // 
+            this.guna2HtmlLabel28.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel28.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel28.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel28.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel28.Name = "guna2HtmlLabel28";
+            this.guna2HtmlLabel28.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel28.TabIndex = 41;
+            this.guna2HtmlLabel28.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel29
+            // 
+            this.guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel29.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel29.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel29.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel29.Name = "guna2HtmlLabel29";
+            this.guna2HtmlLabel29.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel29.TabIndex = 40;
+            this.guna2HtmlLabel29.Text = "09392723942";
+            // 
+            // guna2HtmlLabel30
+            // 
+            this.guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel30.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel30.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel30.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel30.Name = "guna2HtmlLabel30";
+            this.guna2HtmlLabel30.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel30.TabIndex = 39;
+            this.guna2HtmlLabel30.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel31
+            // 
+            this.guna2HtmlLabel31.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel31.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel31.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel31.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel31.Name = "guna2HtmlLabel31";
+            this.guna2HtmlLabel31.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel31.TabIndex = 41;
+            this.guna2HtmlLabel31.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel32
+            // 
+            this.guna2HtmlLabel32.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel32.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel32.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel32.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel32.Name = "guna2HtmlLabel32";
+            this.guna2HtmlLabel32.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel32.TabIndex = 40;
+            this.guna2HtmlLabel32.Text = "09392723942";
+            // 
+            // guna2HtmlLabel33
+            // 
+            this.guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel33.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel33.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel33.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel33.Name = "guna2HtmlLabel33";
+            this.guna2HtmlLabel33.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel33.TabIndex = 39;
+            this.guna2HtmlLabel33.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel34
+            // 
+            this.guna2HtmlLabel34.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel34.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel34.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel34.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel34.Name = "guna2HtmlLabel34";
+            this.guna2HtmlLabel34.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel34.TabIndex = 41;
+            this.guna2HtmlLabel34.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel35
+            // 
+            this.guna2HtmlLabel35.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel35.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel35.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel35.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel35.Name = "guna2HtmlLabel35";
+            this.guna2HtmlLabel35.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel35.TabIndex = 40;
+            this.guna2HtmlLabel35.Text = "09392723942";
+            // 
+            // guna2HtmlLabel36
+            // 
+            this.guna2HtmlLabel36.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel36.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel36.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel36.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel36.Name = "guna2HtmlLabel36";
+            this.guna2HtmlLabel36.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel36.TabIndex = 39;
+            this.guna2HtmlLabel36.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel37
+            // 
+            this.guna2HtmlLabel37.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel37.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel37.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel37.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel37.Name = "guna2HtmlLabel37";
+            this.guna2HtmlLabel37.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel37.TabIndex = 41;
+            this.guna2HtmlLabel37.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel38
+            // 
+            this.guna2HtmlLabel38.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel38.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel38.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel38.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel38.Name = "guna2HtmlLabel38";
+            this.guna2HtmlLabel38.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel38.TabIndex = 40;
+            this.guna2HtmlLabel38.Text = "09392723942";
+            // 
+            // guna2HtmlLabel39
+            // 
+            this.guna2HtmlLabel39.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel39.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel39.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel39.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel39.Name = "guna2HtmlLabel39";
+            this.guna2HtmlLabel39.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel39.TabIndex = 39;
+            this.guna2HtmlLabel39.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel40
+            // 
+            this.guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel40.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel40.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel40.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel40.Name = "guna2HtmlLabel40";
+            this.guna2HtmlLabel40.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel40.TabIndex = 41;
+            this.guna2HtmlLabel40.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel41
+            // 
+            this.guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel41.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel41.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel41.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel41.Name = "guna2HtmlLabel41";
+            this.guna2HtmlLabel41.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel41.TabIndex = 40;
+            this.guna2HtmlLabel41.Text = "09392723942";
+            // 
+            // guna2HtmlLabel42
+            // 
+            this.guna2HtmlLabel42.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel42.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel42.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel42.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel42.Name = "guna2HtmlLabel42";
+            this.guna2HtmlLabel42.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel42.TabIndex = 39;
+            this.guna2HtmlLabel42.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel43
+            // 
+            this.guna2HtmlLabel43.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel43.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel43.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel43.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel43.Name = "guna2HtmlLabel43";
+            this.guna2HtmlLabel43.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel43.TabIndex = 41;
+            this.guna2HtmlLabel43.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel44
+            // 
+            this.guna2HtmlLabel44.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel44.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel44.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel44.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel44.Name = "guna2HtmlLabel44";
+            this.guna2HtmlLabel44.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel44.TabIndex = 40;
+            this.guna2HtmlLabel44.Text = "09392723942";
+            // 
+            // guna2HtmlLabel45
+            // 
+            this.guna2HtmlLabel45.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel45.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel45.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel45.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel45.Name = "guna2HtmlLabel45";
+            this.guna2HtmlLabel45.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel45.TabIndex = 39;
+            this.guna2HtmlLabel45.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel46
+            // 
+            this.guna2HtmlLabel46.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel46.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel46.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel46.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel46.Name = "guna2HtmlLabel46";
+            this.guna2HtmlLabel46.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel46.TabIndex = 44;
+            this.guna2HtmlLabel46.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel47
+            // 
+            this.guna2HtmlLabel47.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel47.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel47.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel47.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel47.Name = "guna2HtmlLabel47";
+            this.guna2HtmlLabel47.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel47.TabIndex = 43;
+            this.guna2HtmlLabel47.Text = "09392723942";
+            // 
+            // guna2HtmlLabel48
+            // 
+            this.guna2HtmlLabel48.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel48.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel48.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel48.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel48.Name = "guna2HtmlLabel48";
+            this.guna2HtmlLabel48.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel48.TabIndex = 42;
+            this.guna2HtmlLabel48.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel49
+            // 
+            this.guna2HtmlLabel49.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel49.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel49.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel49.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel49.Name = "guna2HtmlLabel49";
+            this.guna2HtmlLabel49.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel49.TabIndex = 44;
+            this.guna2HtmlLabel49.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel50
+            // 
+            this.guna2HtmlLabel50.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel50.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel50.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel50.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel50.Name = "guna2HtmlLabel50";
+            this.guna2HtmlLabel50.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel50.TabIndex = 43;
+            this.guna2HtmlLabel50.Text = "09392723942";
+            // 
+            // guna2HtmlLabel51
+            // 
+            this.guna2HtmlLabel51.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel51.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel51.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel51.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel51.Name = "guna2HtmlLabel51";
+            this.guna2HtmlLabel51.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel51.TabIndex = 42;
+            this.guna2HtmlLabel51.Text = "JIRO LAURENZ";
+            // 
+            // guna2HtmlLabel52
+            // 
+            this.guna2HtmlLabel52.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel52.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel52.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel52.Location = new System.Drawing.Point(14, 83);
+            this.guna2HtmlLabel52.Name = "guna2HtmlLabel52";
+            this.guna2HtmlLabel52.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel52.TabIndex = 44;
+            this.guna2HtmlLabel52.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel53
+            // 
+            this.guna2HtmlLabel53.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel53.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel53.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel53.Location = new System.Drawing.Point(14, 61);
+            this.guna2HtmlLabel53.Name = "guna2HtmlLabel53";
+            this.guna2HtmlLabel53.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel53.TabIndex = 43;
+            this.guna2HtmlLabel53.Text = "09392723942";
+            // 
+            // guna2HtmlLabel54
+            // 
+            this.guna2HtmlLabel54.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel54.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel54.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel54.Location = new System.Drawing.Point(14, 11);
+            this.guna2HtmlLabel54.Name = "guna2HtmlLabel54";
+            this.guna2HtmlLabel54.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel54.TabIndex = 42;
+            this.guna2HtmlLabel54.Text = "JIRO LAURENZ";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BorderRadius = 30;
+            this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox1);
+            this.guna2Panel2.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel2.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel2.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 3;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BorderRadius = 30;
+            this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2Panel3.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel3.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel3.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox2.TabIndex = 3;
+            this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.UseTransparentBackground = true;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BorderRadius = 30;
+            this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox3);
+            this.guna2Panel4.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel4.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel4.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox3.TabIndex = 3;
+            this.guna2CirclePictureBox3.TabStop = false;
+            this.guna2CirclePictureBox3.UseTransparentBackground = true;
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BorderRadius = 30;
+            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox4);
+            this.guna2Panel5.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel5.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel5.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox4
+            // 
+            this.guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox4.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox4.ImageRotate = 0F;
+            this.guna2CirclePictureBox4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox4.TabIndex = 3;
+            this.guna2CirclePictureBox4.TabStop = false;
+            this.guna2CirclePictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BorderRadius = 30;
+            this.guna2Panel6.Controls.Add(this.guna2CirclePictureBox5);
+            this.guna2Panel6.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel6.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel6.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox5
+            // 
+            this.guna2CirclePictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox5.ImageRotate = 0F;
+            this.guna2CirclePictureBox5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
+            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox5.TabIndex = 3;
+            this.guna2CirclePictureBox5.TabStop = false;
+            this.guna2CirclePictureBox5.UseTransparentBackground = true;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BorderRadius = 30;
+            this.guna2Panel7.Controls.Add(this.guna2CirclePictureBox6);
+            this.guna2Panel7.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel7.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel7.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox6
+            // 
+            this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox6.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox6.ImageRotate = 0F;
+            this.guna2CirclePictureBox6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
+            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox6.TabIndex = 3;
+            this.guna2CirclePictureBox6.TabStop = false;
+            this.guna2CirclePictureBox6.UseTransparentBackground = true;
+            // 
+            // guna2Panel8
+            // 
+            this.guna2Panel8.BorderRadius = 30;
+            this.guna2Panel8.Controls.Add(this.guna2CirclePictureBox7);
+            this.guna2Panel8.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel8.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel8.Name = "guna2Panel8";
+            this.guna2Panel8.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel8.TabIndex = 45;
+            // 
+            // guna2CirclePictureBox7
+            // 
+            this.guna2CirclePictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox7.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox7.ImageRotate = 0F;
+            this.guna2CirclePictureBox7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
+            this.guna2CirclePictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox7.TabIndex = 3;
+            this.guna2CirclePictureBox7.TabStop = false;
+            this.guna2CirclePictureBox7.UseTransparentBackground = true;
+            // 
+            // guna2Panel9
+            // 
+            this.guna2Panel9.BorderRadius = 30;
+            this.guna2Panel9.Controls.Add(this.guna2CirclePictureBox8);
+            this.guna2Panel9.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel9.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel9.Name = "guna2Panel9";
+            this.guna2Panel9.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel9.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox8
+            // 
+            this.guna2CirclePictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox8.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox8.ImageRotate = 0F;
+            this.guna2CirclePictureBox8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
+            this.guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox8.TabIndex = 3;
+            this.guna2CirclePictureBox8.TabStop = false;
+            this.guna2CirclePictureBox8.UseTransparentBackground = true;
+            // 
+            // guna2Panel10
+            // 
+            this.guna2Panel10.BorderRadius = 30;
+            this.guna2Panel10.Controls.Add(this.guna2CirclePictureBox9);
+            this.guna2Panel10.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel10.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel10.Name = "guna2Panel10";
+            this.guna2Panel10.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel10.TabIndex = 45;
+            // 
+            // guna2CirclePictureBox9
+            // 
+            this.guna2CirclePictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox9.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox9.ImageRotate = 0F;
+            this.guna2CirclePictureBox9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
+            this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox9.TabIndex = 3;
+            this.guna2CirclePictureBox9.TabStop = false;
+            this.guna2CirclePictureBox9.UseTransparentBackground = true;
+            // 
+            // guna2Panel11
+            // 
+            this.guna2Panel11.BorderRadius = 30;
+            this.guna2Panel11.Controls.Add(this.guna2CirclePictureBox10);
+            this.guna2Panel11.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel11.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel11.Name = "guna2Panel11";
+            this.guna2Panel11.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel11.TabIndex = 42;
+            this.guna2Panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel11_Paint);
+            // 
+            // guna2CirclePictureBox10
+            // 
+            this.guna2CirclePictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox10.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox10.ImageRotate = 0F;
+            this.guna2CirclePictureBox10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
+            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox10.TabIndex = 3;
+            this.guna2CirclePictureBox10.TabStop = false;
+            this.guna2CirclePictureBox10.UseTransparentBackground = true;
+            // 
+            // guna2Panel12
+            // 
+            this.guna2Panel12.BorderRadius = 30;
+            this.guna2Panel12.Controls.Add(this.guna2CirclePictureBox11);
+            this.guna2Panel12.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel12.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel12.Name = "guna2Panel12";
+            this.guna2Panel12.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel12.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox11
+            // 
+            this.guna2CirclePictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox11.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox11.ImageRotate = 0F;
+            this.guna2CirclePictureBox11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
+            this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox11.TabIndex = 3;
+            this.guna2CirclePictureBox11.TabStop = false;
+            this.guna2CirclePictureBox11.UseTransparentBackground = true;
+            // 
+            // guna2Panel13
+            // 
+            this.guna2Panel13.BorderRadius = 30;
+            this.guna2Panel13.Controls.Add(this.guna2CirclePictureBox12);
+            this.guna2Panel13.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel13.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel13.Name = "guna2Panel13";
+            this.guna2Panel13.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel13.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox12
+            // 
+            this.guna2CirclePictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox12.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox12.ImageRotate = 0F;
+            this.guna2CirclePictureBox12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox12.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox12.Name = "guna2CirclePictureBox12";
+            this.guna2CirclePictureBox12.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox12.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox12.TabIndex = 3;
+            this.guna2CirclePictureBox12.TabStop = false;
+            this.guna2CirclePictureBox12.UseTransparentBackground = true;
+            // 
+            // guna2Panel14
+            // 
+            this.guna2Panel14.BorderRadius = 30;
+            this.guna2Panel14.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2Panel14.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel14.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel14.Name = "guna2Panel14";
+            this.guna2Panel14.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel14.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox13.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox13.TabIndex = 3;
+            this.guna2CirclePictureBox13.TabStop = false;
+            this.guna2CirclePictureBox13.UseTransparentBackground = true;
+            // 
+            // guna2Panel15
+            // 
+            this.guna2Panel15.BorderRadius = 30;
+            this.guna2Panel15.Controls.Add(this.guna2CirclePictureBox14);
+            this.guna2Panel15.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel15.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel15.Name = "guna2Panel15";
+            this.guna2Panel15.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel15.TabIndex = 42;
+            // 
+            // guna2CirclePictureBox14
+            // 
+            this.guna2CirclePictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox14.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox14.ImageRotate = 0F;
+            this.guna2CirclePictureBox14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
+            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox14.TabIndex = 3;
+            this.guna2CirclePictureBox14.TabStop = false;
+            this.guna2CirclePictureBox14.UseTransparentBackground = true;
+            // 
+            // guna2Panel16
+            // 
+            this.guna2Panel16.BorderRadius = 30;
+            this.guna2Panel16.Controls.Add(this.guna2CirclePictureBox15);
+            this.guna2Panel16.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel16.Location = new System.Drawing.Point(155, 11);
+            this.guna2Panel16.Name = "guna2Panel16";
+            this.guna2Panel16.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel16.TabIndex = 45;
+            // 
+            // guna2CirclePictureBox15
+            // 
+            this.guna2CirclePictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox15.FillColor = System.Drawing.Color.MintCream;
+            this.guna2CirclePictureBox15.ImageRotate = 0F;
+            this.guna2CirclePictureBox15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
+            this.guna2CirclePictureBox15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(55, 55);
+            this.guna2CirclePictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox15.TabIndex = 3;
+            this.guna2CirclePictureBox15.TabStop = false;
+            this.guna2CirclePictureBox15.UseTransparentBackground = true;
             // 
             // MainForm
             // 
@@ -1804,6 +2856,36 @@
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.bodyPanel.ResumeLayout(false);
+            this.cPanel12.ResumeLayout(false);
+            this.cPanel12.PerformLayout();
+            this.cPanel11.ResumeLayout(false);
+            this.cPanel11.PerformLayout();
+            this.cPanel10.ResumeLayout(false);
+            this.cPanel10.PerformLayout();
+            this.cPanel9.ResumeLayout(false);
+            this.cPanel9.PerformLayout();
+            this.cPanel8.ResumeLayout(false);
+            this.cPanel8.PerformLayout();
+            this.cPanel7.ResumeLayout(false);
+            this.cPanel7.PerformLayout();
+            this.cPanel13.ResumeLayout(false);
+            this.cPanel13.PerformLayout();
+            this.cPanel14.ResumeLayout(false);
+            this.cPanel14.PerformLayout();
+            this.cPanel15.ResumeLayout(false);
+            this.cPanel15.PerformLayout();
+            this.cPanel16.ResumeLayout(false);
+            this.cPanel16.PerformLayout();
+            this.cPanel6.ResumeLayout(false);
+            this.cPanel6.PerformLayout();
+            this.cPanel5.ResumeLayout(false);
+            this.cPanel5.PerformLayout();
+            this.cPanel4.ResumeLayout(false);
+            this.cPanel4.PerformLayout();
+            this.cPanel3.ResumeLayout(false);
+            this.cPanel3.PerformLayout();
+            this.cPanel2.ResumeLayout(false);
+            this.cPanel2.PerformLayout();
             this.cPanel1.ResumeLayout(false);
             this.cPanel1.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
@@ -1821,6 +2903,36 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).EndInit();
+            this.guna2Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.guna2Panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            this.guna2Panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            this.guna2Panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
+            this.guna2Panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            this.guna2Panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
+            this.guna2Panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
+            this.guna2Panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
+            this.guna2Panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
+            this.guna2Panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
+            this.guna2Panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
+            this.guna2Panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
+            this.guna2Panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            this.guna2Panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
+            this.guna2Panel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1908,11 +3020,86 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel34;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel35;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel36;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel31;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel32;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel33;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel28;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel29;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel30;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel22;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel23;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel25;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel26;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel27;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel49;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel50;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel51;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel46;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel47;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel48;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel43;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel44;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel45;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel40;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel41;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel42;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel37;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel38;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel39;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel52;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel53;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel54;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox11;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox10;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox8;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox14;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox13;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox12;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox7;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox15;
     }
 }
 
