@@ -84,8 +84,10 @@ namespace ContactMate_Pro
 
         private void pageControl_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Get the selected page number by converting the text of the selected tab to an integer.
             selectedPage = Convert.ToInt16(pageControl.SelectedTab.Text);
 
+            // Enable or disable the previous page button based on whether the selected page is the first page.
             if (selectedPage == 1)
                 prevPageBtn.Enabled = false;
             else
@@ -94,27 +96,33 @@ namespace ContactMate_Pro
 
         private void prevPageBtn_Click(object sender, EventArgs e)
         {
+            // Check if the previous page is a multiple of 3.
             if ((selectedPage - 1) % 3 == 0)
             {
+                // Decrease the page numbers of all tabs in the TabControl by 3.
                 for (int i = 0; i < 3; i++)
                     pageControl.TabPages[i].Text = (Convert.ToInt16(pageControl.TabPages[i].Text) - 3).ToString();
 
+                // Set the selected index to the last tab.
                 pageControl.SelectedIndex = 2;
             }
-            else
+            else // If not, simply move to the previous tab.
                 pageControl.SelectedIndex -= 1;
         }
 
         private void nextPageBtn_Click(object sender, EventArgs e)
         {
+            // Check if the current page is a multiple of 3.
             if (selectedPage % 3 == 0)
             {
+                // Increase the page numbers of all tabs in the TabControl by 3.
                 for (int i = 0; i < 3; i++)
                     pageControl.TabPages[i].Text = (Convert.ToInt16(pageControl.TabPages[i].Text) + 3).ToString();
 
+                // Set the selected index to the first tab.
                 pageControl.SelectedIndex = 0;
             }
-            else
+            else // If not, simply move to the next tab.
                 pageControl.SelectedIndex += 1;
         }
 
