@@ -265,6 +265,7 @@
             this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
             this.nextPageBtn.TabIndex = 4;
+            this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
             // 
             // prevPageBtn
             // 
@@ -291,6 +292,7 @@
             this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
             this.prevPageBtn.TabIndex = 3;
+            this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
             // 
             // tableLayoutPanel1
             // 
