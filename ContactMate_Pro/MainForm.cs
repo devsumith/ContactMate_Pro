@@ -16,7 +16,7 @@ namespace ContactMate_Pro
         #region FIELDS
 
             TabPage previousTab = null;
-            short selectedPage;
+            short selectedPage = 1;
 
         #endregion
 
@@ -99,7 +99,15 @@ namespace ContactMate_Pro
 
         private void nextPageBtn_Click(object sender, EventArgs e)
         {
-            pageControl.SelectedIndex += 1;
+            if (selectedPage % 3 == 0)
+            {
+                for (int i = 0; i < 3; i++)
+                    pageControl.TabPages[i].Text = (Convert.ToInt16(pageControl.TabPages[i].Text) + 3).ToString();
+
+                pageControl.SelectedIndex = 0;
+            }
+            else
+                pageControl.SelectedIndex += 1;
         }
 
         #endregion
