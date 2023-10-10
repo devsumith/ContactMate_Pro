@@ -18,12 +18,33 @@ namespace ContactMate_Pro
         TabPage previousTab = null;
         short selectedPage = 1;
         contactControl contactPanel = new contactControl();
+        List<Guna2CustomGradientPanel> panelList;
 
         #endregion
 
         public MainForm()
         {
             InitializeComponent();
+
+            panelList = new List<Guna2CustomGradientPanel>
+            {
+                cPanel1,
+                cPanel2,
+                cPanel3,
+                cPanel4,
+                cPanel5,
+                cPanel6,
+                cPanel7,                  
+                cPanel8,
+                cPanel9,
+                cPanel10,
+                cPanel11,
+                cPanel12,
+                cPanel13,
+                cPanel14,
+                cPanel15,
+                cPanel16,                 
+            };
         }
 
         #region FUNCTION TO UPDATE THE TIME AND DATE LABEL EVERY 100 MILLISECONDS 
