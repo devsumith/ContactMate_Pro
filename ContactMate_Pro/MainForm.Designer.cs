@@ -50,12 +50,6 @@
             this.cPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel18 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.firstButton = new System.Windows.Forms.TabPage();
             this.secondButton = new System.Windows.Forms.TabPage();
@@ -63,7 +57,7 @@
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.clearButton = new Guna.UI2.WinForms.Guna2Button();
@@ -120,10 +114,6 @@
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
-            this.cPanel1.SuspendLayout();
-            this.guna2CustomGradientPanel18.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.pageControl.SuspendLayout();
             this.sidePanel.SuspendLayout();
             this.filterTab.SuspendLayout();
@@ -194,7 +184,7 @@
             this.bodyPanel.Controls.Add(this.guna2HtmlLabel6);
             this.bodyPanel.Controls.Add(this.nextPageBtn);
             this.bodyPanel.Controls.Add(this.prevPageBtn);
-            this.bodyPanel.Controls.Add(this.guna2Button1);
+            this.bodyPanel.Controls.Add(this.addNContactBtn);
             this.bodyPanel.Location = new System.Drawing.Point(251, 39);
             this.bodyPanel.Name = "bodyPanel";
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
@@ -413,7 +403,6 @@
             // 
             // cPanel1
             // 
-            this.cPanel1.Controls.Add(this.guna2CustomGradientPanel18);
             this.cPanel1.FillColor = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor3 = System.Drawing.Color.Transparent;
@@ -423,85 +412,8 @@
             this.cPanel1.Name = "cPanel1";
             this.cPanel1.ShadowDecoration.BorderRadius = 10;
             this.cPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.cPanel1.ShadowDecoration.Enabled = true;
             this.cPanel1.Size = new System.Drawing.Size(226, 114);
             this.cPanel1.TabIndex = 38;
-            // 
-            // guna2CustomGradientPanel18
-            // 
-            this.guna2CustomGradientPanel18.BorderRadius = 10;
-            this.guna2CustomGradientPanel18.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2CustomGradientPanel18.Controls.Add(this.guna2HtmlLabel8);
-            this.guna2CustomGradientPanel18.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2CustomGradientPanel18.Controls.Add(this.guna2Panel1);
-            this.guna2CustomGradientPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2CustomGradientPanel18.FillColor = System.Drawing.Color.LimeGreen;
-            this.guna2CustomGradientPanel18.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
-            this.guna2CustomGradientPanel18.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.guna2CustomGradientPanel18.FillColor4 = System.Drawing.Color.SteelBlue;
-            this.guna2CustomGradientPanel18.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel18.Name = "guna2CustomGradientPanel18";
-            this.guna2CustomGradientPanel18.Size = new System.Drawing.Size(226, 114);
-            this.guna2CustomGradientPanel18.TabIndex = 0;
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(73, 51);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(138, 20);
-            this.guna2HtmlLabel9.TabIndex = 30;
-            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(72, 28);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
-            this.guna2HtmlLabel8.TabIndex = 29;
-            this.guna2HtmlLabel8.Text = "09392723942";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Honeydew;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(65, 76);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(96, 27);
-            this.guna2HtmlLabel7.TabIndex = 19;
-            this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BorderRadius = 30;
-            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2Panel1.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2Panel1.Location = new System.Drawing.Point(8, 11);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
-            this.guna2Panel1.TabIndex = 0;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(55, 55);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 3;
-            this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
             // pageControl
             // 
@@ -637,38 +549,39 @@
             this.prevPageBtn.TabIndex = 3;
             this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
             // 
-            // guna2Button1
+            // addNContactBtn
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.BorderRadius = 2;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Button1.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.Location = new System.Drawing.Point(866, 5);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.ShadowDecoration.Depth = 10;
-            this.guna2Button1.ShadowDecoration.Enabled = true;
-            this.guna2Button1.Size = new System.Drawing.Size(88, 34);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "ADD";
-            this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
+            this.addNContactBtn.Animated = true;
+            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
+            this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.BorderRadius = 2;
+            this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.addNContactBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
+            this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
+            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
+            this.addNContactBtn.Name = "addNContactBtn";
+            this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.addNContactBtn.ShadowDecoration.Depth = 10;
+            this.addNContactBtn.ShadowDecoration.Enabled = true;
+            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
+            this.addNContactBtn.TabIndex = 0;
+            this.addNContactBtn.Text = "ADD";
+            this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
+            this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
             // 
             // sidePanel
             // 
@@ -1805,11 +1718,6 @@
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.bodyPanel.ResumeLayout(false);
-            this.cPanel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel18.ResumeLayout(false);
-            this.guna2CustomGradientPanel18.PerformLayout();
-            this.guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.pageControl.ResumeLayout(false);
             this.sidePanel.ResumeLayout(false);
             this.sidePanel.PerformLayout();
@@ -1885,7 +1793,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Guna.UI2.WinForms.Guna2Panel bodyPanel;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button addNContactBtn;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
         private Guna.UI2.WinForms.Guna2CircleButton nextPageBtn;
@@ -1909,12 +1817,6 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel4;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel1;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel18;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel2;
     }
 }
