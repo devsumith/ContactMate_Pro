@@ -16,6 +16,7 @@ namespace ContactMate_Pro
         #region FIELDS
 
             TabPage previousTab = null;
+            short selectedPage;
 
         #endregion
 
@@ -75,6 +76,20 @@ namespace ContactMate_Pro
                 ClearControlsInSelectedTab(previousTab);
 
             previousTab = filterTab.SelectedTab;
+        }
+
+        #endregion
+
+        #region FUNCTIONS FOR PAGE CONTROL
+
+        private void pageControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            selectedPage = Convert.ToInt16(pageControl.SelectedTab.Text);
+
+            if (selectedPage == 1)
+                prevPageBtn.Enabled = false;
+            else
+                prevPageBtn.Enabled = true;
         }
 
         #endregion

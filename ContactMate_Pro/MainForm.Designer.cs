@@ -39,8 +39,8 @@
             this.secondButton = new System.Windows.Forms.TabPage();
             this.thirdButton = new System.Windows.Forms.TabPage();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -151,8 +151,8 @@
             // 
             this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.guna2HtmlLabel6);
-            this.bodyPanel.Controls.Add(this.guna2CircleButton2);
-            this.bodyPanel.Controls.Add(this.guna2CircleButton1);
+            this.bodyPanel.Controls.Add(this.nextPageBtn);
+            this.bodyPanel.Controls.Add(this.prevPageBtn);
             this.bodyPanel.Controls.Add(this.tableLayoutPanel1);
             this.bodyPanel.Controls.Add(this.guna2Button1);
             this.bodyPanel.Location = new System.Drawing.Point(251, 39);
@@ -191,6 +191,7 @@
             this.pageControl.TabIndex = 32;
             this.pageControl.TabMenuBackColor = System.Drawing.Color.MintCream;
             this.pageControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            this.pageControl.SelectedIndexChanged += new System.EventHandler(this.pageControl_SelectedIndexChanged);
             // 
             // firstButton
             // 
@@ -237,59 +238,59 @@
             this.guna2HtmlLabel6.Text = "0";
             this.guna2HtmlLabel6.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // guna2CircleButton2
+            // nextPageBtn
             // 
-            this.guna2CircleButton2.Animated = true;
-            this.guna2CircleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CircleButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton2.BorderThickness = 1;
-            this.guna2CircleButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.MintCream;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.guna2CircleButton2.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
-            this.guna2CircleButton2.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(566, 616);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CircleButton2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton2.TabIndex = 4;
+            this.nextPageBtn.Animated = true;
+            this.nextPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nextPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.BorderThickness = 1;
+            this.nextPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nextPageBtn.ForeColor = System.Drawing.Color.White;
+            this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.nextPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
+            this.nextPageBtn.ImageOffset = new System.Drawing.Point(1, 0);
+            this.nextPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.nextPageBtn.Location = new System.Drawing.Point(566, 616);
+            this.nextPageBtn.Name = "nextPageBtn";
+            this.nextPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.nextPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.nextPageBtn.TabIndex = 4;
             // 
-            // guna2CircleButton1
+            // prevPageBtn
             // 
-            this.guna2CircleButton1.Animated = true;
-            this.guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton1.BorderThickness = 1;
-            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.Enabled = false;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.guna2CircleButton1.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(12, 12);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(416, 616);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2CircleButton1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton1.TabIndex = 3;
+            this.prevPageBtn.Animated = true;
+            this.prevPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.prevPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.BorderThickness = 1;
+            this.prevPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.prevPageBtn.Enabled = false;
+            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.prevPageBtn.ForeColor = System.Drawing.Color.White;
+            this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.prevPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
+            this.prevPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.prevPageBtn.Location = new System.Drawing.Point(416, 616);
+            this.prevPageBtn.Name = "prevPageBtn";
+            this.prevPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prevPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.prevPageBtn.TabIndex = 3;
             // 
             // tableLayoutPanel1
             // 
@@ -1554,8 +1555,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
+        private Guna.UI2.WinForms.Guna2CircleButton nextPageBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2TabControl pageControl;
         private System.Windows.Forms.TabPage firstButton;
