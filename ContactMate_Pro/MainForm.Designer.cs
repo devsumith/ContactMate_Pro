@@ -50,6 +50,10 @@
             this.cPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.cPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.firstButton = new System.Windows.Forms.TabPage();
             this.secondButton = new System.Windows.Forms.TabPage();
@@ -111,9 +115,12 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
+            this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
+            this.cPanel1.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
             this.pageControl.SuspendLayout();
             this.sidePanel.SuspendLayout();
             this.filterTab.SuspendLayout();
@@ -123,6 +130,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
             this.SuspendLayout();
             // 
             // elipse
@@ -192,6 +200,7 @@
             // 
             // cPanel12
             // 
+            this.cPanel12.BorderRadius = 10;
             this.cPanel12.FillColor = System.Drawing.Color.Transparent;
             this.cPanel12.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel12.FillColor3 = System.Drawing.Color.Transparent;
@@ -206,6 +215,7 @@
             // 
             // cPanel11
             // 
+            this.cPanel11.BorderRadius = 10;
             this.cPanel11.FillColor = System.Drawing.Color.Transparent;
             this.cPanel11.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel11.FillColor3 = System.Drawing.Color.Transparent;
@@ -220,6 +230,7 @@
             // 
             // cPanel10
             // 
+            this.cPanel10.BorderRadius = 10;
             this.cPanel10.FillColor = System.Drawing.Color.Transparent;
             this.cPanel10.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel10.FillColor3 = System.Drawing.Color.Transparent;
@@ -234,6 +245,7 @@
             // 
             // cPanel9
             // 
+            this.cPanel9.BorderRadius = 10;
             this.cPanel9.FillColor = System.Drawing.Color.Transparent;
             this.cPanel9.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel9.FillColor3 = System.Drawing.Color.Transparent;
@@ -248,6 +260,7 @@
             // 
             // cPanel8
             // 
+            this.cPanel8.BorderRadius = 10;
             this.cPanel8.FillColor = System.Drawing.Color.Transparent;
             this.cPanel8.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel8.FillColor3 = System.Drawing.Color.Transparent;
@@ -262,6 +275,7 @@
             // 
             // cPanel7
             // 
+            this.cPanel7.BorderRadius = 10;
             this.cPanel7.FillColor = System.Drawing.Color.Transparent;
             this.cPanel7.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel7.FillColor3 = System.Drawing.Color.Transparent;
@@ -276,6 +290,7 @@
             // 
             // cPanel13
             // 
+            this.cPanel13.BorderRadius = 10;
             this.cPanel13.FillColor = System.Drawing.Color.Transparent;
             this.cPanel13.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel13.FillColor3 = System.Drawing.Color.Transparent;
@@ -290,6 +305,7 @@
             // 
             // cPanel14
             // 
+            this.cPanel14.BorderRadius = 10;
             this.cPanel14.FillColor = System.Drawing.Color.Transparent;
             this.cPanel14.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel14.FillColor3 = System.Drawing.Color.Transparent;
@@ -304,6 +320,7 @@
             // 
             // cPanel15
             // 
+            this.cPanel15.BorderRadius = 10;
             this.cPanel15.FillColor = System.Drawing.Color.Transparent;
             this.cPanel15.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel15.FillColor3 = System.Drawing.Color.Transparent;
@@ -318,6 +335,7 @@
             // 
             // cPanel16
             // 
+            this.cPanel16.BorderRadius = 10;
             this.cPanel16.FillColor = System.Drawing.Color.Transparent;
             this.cPanel16.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel16.FillColor3 = System.Drawing.Color.Transparent;
@@ -332,6 +350,7 @@
             // 
             // cPanel6
             // 
+            this.cPanel6.BorderRadius = 10;
             this.cPanel6.FillColor = System.Drawing.Color.Transparent;
             this.cPanel6.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel6.FillColor3 = System.Drawing.Color.Transparent;
@@ -346,6 +365,7 @@
             // 
             // cPanel5
             // 
+            this.cPanel5.BorderRadius = 10;
             this.cPanel5.FillColor = System.Drawing.Color.Transparent;
             this.cPanel5.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel5.FillColor3 = System.Drawing.Color.Transparent;
@@ -360,6 +380,7 @@
             // 
             // cPanel4
             // 
+            this.cPanel4.BorderRadius = 10;
             this.cPanel4.FillColor = System.Drawing.Color.Transparent;
             this.cPanel4.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel4.FillColor3 = System.Drawing.Color.Transparent;
@@ -374,6 +395,7 @@
             // 
             // cPanel3
             // 
+            this.cPanel3.BorderRadius = 10;
             this.cPanel3.FillColor = System.Drawing.Color.Transparent;
             this.cPanel3.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel3.FillColor3 = System.Drawing.Color.Transparent;
@@ -389,6 +411,7 @@
             // cPanel2
             // 
             this.cPanel2.AccessibleName = "";
+            this.cPanel2.BorderRadius = 10;
             this.cPanel2.FillColor = System.Drawing.Color.Transparent;
             this.cPanel2.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel2.FillColor3 = System.Drawing.Color.Transparent;
@@ -403,6 +426,11 @@
             // 
             // cPanel1
             // 
+            this.cPanel1.BorderRadius = 10;
+            this.cPanel1.Controls.Add(this.guna2HtmlLabel9);
+            this.cPanel1.Controls.Add(this.guna2HtmlLabel8);
+            this.cPanel1.Controls.Add(this.guna2HtmlLabel7);
+            this.cPanel1.Controls.Add(this.guna2Panel1);
             this.cPanel1.FillColor = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.cPanel1.FillColor3 = System.Drawing.Color.Transparent;
@@ -414,6 +442,49 @@
             this.cPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel1.Size = new System.Drawing.Size(226, 114);
             this.cPanel1.TabIndex = 38;
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(77, 51);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(138, 20);
+            this.guna2HtmlLabel9.TabIndex = 38;
+            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(76, 28);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel8.TabIndex = 37;
+            this.guna2HtmlLabel8.Text = "09392723942";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(69, 76);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(96, 27);
+            this.guna2HtmlLabel7.TabIndex = 36;
+            this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BorderRadius = 30;
+            this.guna2Panel1.Controls.Add(this.contactImage);
+            this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel1.Location = new System.Drawing.Point(12, 11);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel1.TabIndex = 35;
             // 
             // pageControl
             // 
@@ -1704,6 +1775,21 @@
             this.timerTick.Enabled = true;
             this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
+            // contactImage
+            // 
+            this.contactImage.BackColor = System.Drawing.Color.Transparent;
+            this.contactImage.FillColor = System.Drawing.Color.Transparent;
+            this.contactImage.ImageRotate = 0F;
+            this.contactImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.contactImage.Location = new System.Drawing.Point(3, 3);
+            this.contactImage.Name = "contactImage";
+            this.contactImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.contactImage.Size = new System.Drawing.Size(55, 55);
+            this.contactImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.contactImage.TabIndex = 3;
+            this.contactImage.TabStop = false;
+            this.contactImage.UseTransparentBackground = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1718,6 +1804,9 @@
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.bodyPanel.ResumeLayout(false);
+            this.cPanel1.ResumeLayout(false);
+            this.cPanel1.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
             this.pageControl.ResumeLayout(false);
             this.sidePanel.ResumeLayout(false);
             this.sidePanel.PerformLayout();
@@ -1731,6 +1820,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1818,6 +1908,11 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel cPanel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
     }
 }
 

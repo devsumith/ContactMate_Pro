@@ -17,49 +17,29 @@ namespace ContactMate_Pro
 
         TabPage previousTab = null;
         short selectedPage = 1;
-        private List<Guna2CustomGradientPanel> panelList;
-        int listIndex = 0;
+        int listIndex = 1;
 
         #endregion
 
         public MainForm()
         {
             InitializeComponent();
-
-            #region LIST OF CONTACT PANELS
-
-            panelList = new List<Guna2CustomGradientPanel>
-            {
-                cPanel1,
-                cPanel2,
-                cPanel3,
-                cPanel4,
-                cPanel5,
-                cPanel6,
-                cPanel7,                  
-                cPanel8,
-                cPanel9,
-                cPanel10,
-                cPanel11,
-                cPanel12,
-                cPanel13,
-                cPanel14,
-                cPanel15,
-                cPanel16,                 
-            };
-
-            #endregion
         }
 
         #region FUNCTION TO ADD NEW CONTACT
 
-        private void addNContactBtn_Click(object sender, EventArgs e)
+        private async void addNContactBtn_Click(object sender, EventArgs e)
         {
-            contactControl contactPanel = new contactControl();
-            contactPanel.Dock = DockStyle.Fill;
+            Guna2CustomGradientPanel panel = Controls.Find($"cPanel{listIndex}", true).FirstOrDefault() as Guna2CustomGradientPanel;
 
-            panelList[listIndex].Controls.Add(contactPanel);
-            panelList[listIndex].ShadowDecoration.Enabled = true;
+            await Task.Run(() =>
+            {
+                panel.FillColor = Color.LimeGreen;
+                panel.FillColor2 = Color.FromArgb(2, 187, 106);
+                panel.FillColor3 = Color.FromArgb(0, 0, 64);
+                panel.FillColor4 = Color.SteelBlue;
+                panel.ShadowDecoration.Enabled = true;
+            });
 
             listIndex++;
         }
