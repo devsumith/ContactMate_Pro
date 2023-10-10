@@ -92,6 +92,16 @@ namespace ContactMate_Pro
                 prevPageBtn.Enabled = true;
         }
 
+        private void prevPageBtn_Click(object sender, EventArgs e)
+        {
+            pageControl.SelectedIndex -= 1;
+        }
+
+        private void nextPageBtn_Click(object sender, EventArgs e)
+        {
+            pageControl.SelectedIndex += 1;
+        }
+
         #endregion
     }
 }
