@@ -17,14 +17,16 @@ namespace ContactMate_Pro
 
         TabPage previousTab = null;
         short selectedPage = 1;
-        contactControl contactPanel = new contactControl();
-        List<Guna2CustomGradientPanel> panelList;
+        private List<Guna2CustomGradientPanel> panelList;
+        int listIndex = 0;
 
         #endregion
 
         public MainForm()
         {
             InitializeComponent();
+
+            #region LIST OF CONTACT PANELS
 
             panelList = new List<Guna2CustomGradientPanel>
             {
@@ -45,7 +47,24 @@ namespace ContactMate_Pro
                 cPanel15,
                 cPanel16,                 
             };
+
+            #endregion
         }
+
+        #region FUNCTION TO ADD NEW CONTACT
+
+        private void addNContactBtn_Click(object sender, EventArgs e)
+        {
+            contactControl contactPanel = new contactControl();
+            contactPanel.Dock = DockStyle.Fill;
+
+            panelList[listIndex].Controls.Add(contactPanel);
+            panelList[listIndex].ShadowDecoration.Enabled = true;
+
+            listIndex++;
+        }
+
+        #endregion
 
         #region FUNCTION TO UPDATE THE TIME AND DATE LABEL EVERY 100 MILLISECONDS 
 
