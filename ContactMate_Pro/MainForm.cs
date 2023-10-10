@@ -148,5 +148,20 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        private void cPanel16_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cPanel15_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
