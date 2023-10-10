@@ -58,6 +58,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contactControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="contactControl.Designer.cs">
+      <DependentUpon>contactControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoadingScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="contactControl.resx">
+      <DependentUpon>contactControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadingScreenForm.resx">
       <DependentUpon>LoadingScreenForm.cs</DependentUpon>
     </EmbeddedResource>
