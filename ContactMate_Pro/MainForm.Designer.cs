@@ -488,7 +488,7 @@
             this.cPanel15.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.cPanel15.Size = new System.Drawing.Size(226, 114);
             this.cPanel15.TabIndex = 45;
-            this.cPanel15.Paint += new System.Windows.Forms.PaintEventHandler(this.cPanel15_Paint);
+            //this.cPanel15.Paint += new System.Windows.Forms.PaintEventHandler(this.cPanel15_Paint);
             // 
             // cPanel16
             // 
@@ -2700,7 +2700,7 @@
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(60, 60);
             this.guna2Panel11.TabIndex = 42;
-            this.guna2Panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel11_Paint);
+            //this.guna2Panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel11_Paint);
             // 
             // guna2CirclePictureBox10
             // 
