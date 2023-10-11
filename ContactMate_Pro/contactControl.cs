@@ -16,10 +16,5 @@ namespace ContactMate_Pro
         {
             InitializeComponent();
         }
-
-        private void guna2CustomGradientPanel18_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
