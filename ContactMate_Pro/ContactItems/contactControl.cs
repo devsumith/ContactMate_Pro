@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ContactMate_Pro
 {
-    public partial class contactControl : UserControl
+    public partial class ContactControl : UserControl
     {
-        public contactControl()
+        public ContactControl()
         {
             InitializeComponent();
         }

@@ -34,10 +34,8 @@ namespace ContactMate_Pro
 
             await Task.Run(() =>
             {
-                panel.FillColor = Color.LimeGreen;
-                panel.FillColor2 = Color.FromArgb(2, 187, 106);
-                panel.FillColor3 = Color.FromArgb(0, 0, 64);
-                panel.FillColor4 = Color.SteelBlue;
+                panel.ShadowDecoration.Enabled = true;
+
             });
 
             listIndex++;
