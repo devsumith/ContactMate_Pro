@@ -28,15 +28,14 @@ namespace ContactMate_Pro
 
         #region FUNCTION TO ADD NEW CONTACT
 
-        private async void addNContactBtn_Click(object sender, EventArgs e)
+        private void addNContactBtn_Click(object sender, EventArgs e)
         {
             Guna2CustomGradientPanel panel = Controls.Find($"cPanel{listIndex}", true).FirstOrDefault() as Guna2CustomGradientPanel;
 
-            await Task.Run(() =>
-            {
-                panel.ShadowDecoration.Enabled = true;
+            ContactControl contactControl = new ContactControl();
 
-            });
+            panel.ShadowDecoration.Enabled = true;
+            panel.Controls.Add(contactControl);
 
             listIndex++;
         }
