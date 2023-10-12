@@ -1,6 +1,6 @@
 ﻿namespace ContactMate_Pro
 {
-    partial class contactControl
+    partial class ContactControl
     {
         /// <summary> 
         /// Required designer variable.
