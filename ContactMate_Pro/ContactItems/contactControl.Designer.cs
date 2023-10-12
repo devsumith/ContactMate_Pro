@@ -32,10 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactControl));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
             this.SuspendLayout();
@@ -55,22 +55,6 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
             this.guna2Panel1.TabIndex = 39;
-            // 
-            // contactImage
-            // 
-            this.contactImage.BackColor = System.Drawing.Color.Transparent;
-            this.contactImage.FillColor = System.Drawing.Color.MintCream;
-            this.contactImage.Image = ((System.Drawing.Image)(resources.GetObject("contactImage.Image")));
-            this.contactImage.ImageRotate = 0F;
-            this.contactImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.contactImage.Location = new System.Drawing.Point(3, 3);
-            this.contactImage.Name = "contactImage";
-            this.contactImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.contactImage.Size = new System.Drawing.Size(55, 55);
-            this.contactImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.contactImage.TabIndex = 3;
-            this.contactImage.TabStop = false;
-            this.contactImage.UseTransparentBackground = true;
             // 
             // guna2HtmlLabel9
             // 
@@ -105,16 +89,32 @@
             this.guna2HtmlLabel7.TabIndex = 40;
             this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
             // 
-            // contactControl
+            // contactImage
+            // 
+            this.contactImage.BackColor = System.Drawing.Color.Transparent;
+            this.contactImage.FillColor = System.Drawing.Color.MintCream;
+            this.contactImage.Image = ((System.Drawing.Image)(resources.GetObject("contactImage.Image")));
+            this.contactImage.ImageRotate = 0F;
+            this.contactImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.contactImage.Location = new System.Drawing.Point(3, 3);
+            this.contactImage.Name = "contactImage";
+            this.contactImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.contactImage.Size = new System.Drawing.Size(55, 55);
+            this.contactImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.contactImage.TabIndex = 3;
+            this.contactImage.TabStop = false;
+            this.contactImage.UseTransparentBackground = true;
+            // 
+            // ContactControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2HtmlLabel9);
             this.Controls.Add(this.guna2HtmlLabel8);
             this.Controls.Add(this.guna2HtmlLabel7);
-            this.Name = "contactControl";
+            this.Name = "ContactControl";
             this.Size = new System.Drawing.Size(226, 114);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).EndInit();
@@ -127,9 +127,9 @@
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
     }
 }
