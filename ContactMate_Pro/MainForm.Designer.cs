@@ -33,6 +33,15 @@
             this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.formPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.bodyPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
+            this.firstButton = new System.Windows.Forms.TabPage();
+            this.secondButton = new System.Windows.Forms.TabPage();
+            this.thirdButton = new System.Windows.Forms.TabPage();
+            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.clearButton = new Guna.UI2.WinForms.Guna2Button();
@@ -86,17 +95,10 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
-            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
-            this.thirdButton = new System.Windows.Forms.TabPage();
-            this.secondButton = new System.Windows.Forms.TabPage();
-            this.firstButton = new System.Windows.Forms.TabPage();
-            this.bodyPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
+            this.bodyPanel.SuspendLayout();
+            this.pageControl.SuspendLayout();
             this.sidePanel.SuspendLayout();
             this.filterTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -105,8 +107,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
-            this.pageControl.SuspendLayout();
-            this.bodyPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // elipse
@@ -145,6 +145,186 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1264, 705);
             this.mainPanel.TabIndex = 2;
+            // 
+            // bodyPanel
+            // 
+            this.bodyPanel.Controls.Add(this.pageControl);
+            this.bodyPanel.Controls.Add(this.contactsCount);
+            this.bodyPanel.Controls.Add(this.nextPageBtn);
+            this.bodyPanel.Controls.Add(this.prevPageBtn);
+            this.bodyPanel.Controls.Add(this.addNContactBtn);
+            this.bodyPanel.Location = new System.Drawing.Point(251, 39);
+            this.bodyPanel.Name = "bodyPanel";
+            this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
+            this.bodyPanel.TabIndex = 18;
+            // 
+            // pageControl
+            // 
+            this.pageControl.Controls.Add(this.firstButton);
+            this.pageControl.Controls.Add(this.secondButton);
+            this.pageControl.Controls.Add(this.thirdButton);
+            this.pageControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pageControl.ItemSize = new System.Drawing.Size(35, 35);
+            this.pageControl.Location = new System.Drawing.Point(453, 613);
+            this.pageControl.Name = "pageControl";
+            this.pageControl.Padding = new System.Drawing.Point(0, 0);
+            this.pageControl.SelectedIndex = 0;
+            this.pageControl.Size = new System.Drawing.Size(110, 38);
+            this.pageControl.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonHoverState.FillColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pageControl.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.pageControl.TabButtonHoverState.InnerColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonIdleState.FillColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pageControl.TabButtonIdleState.ForeColor = System.Drawing.Color.Silver;
+            this.pageControl.TabButtonIdleState.InnerColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonSelectedState.FillColor = System.Drawing.Color.Empty;
+            this.pageControl.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pageControl.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.pageControl.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.pageControl.TabButtonSize = new System.Drawing.Size(35, 35);
+            this.pageControl.TabIndex = 32;
+            this.pageControl.TabMenuBackColor = System.Drawing.Color.MintCream;
+            this.pageControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            this.pageControl.SelectedIndexChanged += new System.EventHandler(this.pageControl_SelectedIndexChanged);
+            // 
+            // firstButton
+            // 
+            this.firstButton.BackColor = System.Drawing.Color.Honeydew;
+            this.firstButton.Location = new System.Drawing.Point(4, 39);
+            this.firstButton.Name = "firstButton";
+            this.firstButton.Padding = new System.Windows.Forms.Padding(3);
+            this.firstButton.Size = new System.Drawing.Size(102, 0);
+            this.firstButton.TabIndex = 0;
+            this.firstButton.Text = "1";
+            // 
+            // secondButton
+            // 
+            this.secondButton.BackColor = System.Drawing.Color.Honeydew;
+            this.secondButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.secondButton.Location = new System.Drawing.Point(4, 39);
+            this.secondButton.Name = "secondButton";
+            this.secondButton.Padding = new System.Windows.Forms.Padding(3);
+            this.secondButton.Size = new System.Drawing.Size(102, 0);
+            this.secondButton.TabIndex = 1;
+            this.secondButton.Text = "2";
+            // 
+            // thirdButton
+            // 
+            this.thirdButton.BackColor = System.Drawing.Color.Honeydew;
+            this.thirdButton.Location = new System.Drawing.Point(4, 39);
+            this.thirdButton.Name = "thirdButton";
+            this.thirdButton.Size = new System.Drawing.Size(102, 0);
+            this.thirdButton.TabIndex = 2;
+            this.thirdButton.Text = "3";
+            // 
+            // contactsCount
+            // 
+            this.contactsCount.AutoSize = false;
+            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
+            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
+            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
+            this.contactsCount.Location = new System.Drawing.Point(958, 12);
+            this.contactsCount.Name = "contactsCount";
+            this.contactsCount.Size = new System.Drawing.Size(40, 19);
+            this.contactsCount.TabIndex = 5;
+            this.contactsCount.Text = "0";
+            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // nextPageBtn
+            // 
+            this.nextPageBtn.Animated = true;
+            this.nextPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nextPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.BorderThickness = 1;
+            this.nextPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nextPageBtn.ForeColor = System.Drawing.Color.White;
+            this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.nextPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
+            this.nextPageBtn.ImageOffset = new System.Drawing.Point(1, 0);
+            this.nextPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.nextPageBtn.Location = new System.Drawing.Point(566, 616);
+            this.nextPageBtn.Name = "nextPageBtn";
+            this.nextPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.nextPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.nextPageBtn.TabIndex = 4;
+            this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
+            // 
+            // prevPageBtn
+            // 
+            this.prevPageBtn.Animated = true;
+            this.prevPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.prevPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.BorderThickness = 1;
+            this.prevPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.prevPageBtn.Enabled = false;
+            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.prevPageBtn.ForeColor = System.Drawing.Color.White;
+            this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.prevPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
+            this.prevPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.prevPageBtn.Location = new System.Drawing.Point(416, 616);
+            this.prevPageBtn.Name = "prevPageBtn";
+            this.prevPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prevPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.prevPageBtn.TabIndex = 3;
+            this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
+            // 
+            // addNContactBtn
+            // 
+            this.addNContactBtn.Animated = true;
+            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
+            this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.BorderRadius = 2;
+            this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.addNContactBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
+            this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
+            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
+            this.addNContactBtn.Name = "addNContactBtn";
+            this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.addNContactBtn.ShadowDecoration.Depth = 10;
+            this.addNContactBtn.ShadowDecoration.Enabled = true;
+            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
+            this.addNContactBtn.TabIndex = 0;
+            this.addNContactBtn.Text = "ADD";
+            this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
+            this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
             // 
             // sidePanel
             // 
@@ -1267,186 +1447,6 @@
             this.timerTick.Enabled = true;
             this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
-            // contactsCount
-            // 
-            this.contactsCount.AutoSize = false;
-            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
-            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
-            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.contactsCount.Location = new System.Drawing.Point(958, 12);
-            this.contactsCount.Name = "contactsCount";
-            this.contactsCount.Size = new System.Drawing.Size(40, 19);
-            this.contactsCount.TabIndex = 5;
-            this.contactsCount.Text = "0";
-            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // addNContactBtn
-            // 
-            this.addNContactBtn.Animated = true;
-            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
-            this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.BorderRadius = 2;
-            this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
-            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.addNContactBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
-            this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
-            this.addNContactBtn.Name = "addNContactBtn";
-            this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.addNContactBtn.ShadowDecoration.Depth = 10;
-            this.addNContactBtn.ShadowDecoration.Enabled = true;
-            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
-            this.addNContactBtn.TabIndex = 0;
-            this.addNContactBtn.Text = "ADD";
-            this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
-            this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
-            // 
-            // prevPageBtn
-            // 
-            this.prevPageBtn.Animated = true;
-            this.prevPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.prevPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.BorderThickness = 1;
-            this.prevPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
-            this.prevPageBtn.Enabled = false;
-            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
-            this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.prevPageBtn.ForeColor = System.Drawing.Color.White;
-            this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.prevPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
-            this.prevPageBtn.ImageSize = new System.Drawing.Size(12, 12);
-            this.prevPageBtn.Location = new System.Drawing.Point(416, 616);
-            this.prevPageBtn.Name = "prevPageBtn";
-            this.prevPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prevPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
-            this.prevPageBtn.TabIndex = 3;
-            this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
-            // 
-            // nextPageBtn
-            // 
-            this.nextPageBtn.Animated = true;
-            this.nextPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.nextPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.BorderThickness = 1;
-            this.nextPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
-            this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nextPageBtn.ForeColor = System.Drawing.Color.White;
-            this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.nextPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
-            this.nextPageBtn.ImageOffset = new System.Drawing.Point(1, 0);
-            this.nextPageBtn.ImageSize = new System.Drawing.Size(12, 12);
-            this.nextPageBtn.Location = new System.Drawing.Point(566, 616);
-            this.nextPageBtn.Name = "nextPageBtn";
-            this.nextPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.nextPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
-            this.nextPageBtn.TabIndex = 4;
-            this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
-            // 
-            // pageControl
-            // 
-            this.pageControl.Controls.Add(this.firstButton);
-            this.pageControl.Controls.Add(this.secondButton);
-            this.pageControl.Controls.Add(this.thirdButton);
-            this.pageControl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pageControl.ItemSize = new System.Drawing.Size(35, 35);
-            this.pageControl.Location = new System.Drawing.Point(453, 613);
-            this.pageControl.Name = "pageControl";
-            this.pageControl.Padding = new System.Drawing.Point(0, 0);
-            this.pageControl.SelectedIndex = 0;
-            this.pageControl.Size = new System.Drawing.Size(110, 38);
-            this.pageControl.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonHoverState.FillColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pageControl.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.pageControl.TabButtonHoverState.InnerColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonIdleState.FillColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pageControl.TabButtonIdleState.ForeColor = System.Drawing.Color.Silver;
-            this.pageControl.TabButtonIdleState.InnerColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonSelectedState.FillColor = System.Drawing.Color.Empty;
-            this.pageControl.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pageControl.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.pageControl.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.pageControl.TabButtonSize = new System.Drawing.Size(35, 35);
-            this.pageControl.TabIndex = 32;
-            this.pageControl.TabMenuBackColor = System.Drawing.Color.MintCream;
-            this.pageControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
-            this.pageControl.SelectedIndexChanged += new System.EventHandler(this.pageControl_SelectedIndexChanged);
-            // 
-            // thirdButton
-            // 
-            this.thirdButton.BackColor = System.Drawing.Color.Honeydew;
-            this.thirdButton.Location = new System.Drawing.Point(4, 39);
-            this.thirdButton.Name = "thirdButton";
-            this.thirdButton.Size = new System.Drawing.Size(102, 0);
-            this.thirdButton.TabIndex = 2;
-            this.thirdButton.Text = "3";
-            // 
-            // secondButton
-            // 
-            this.secondButton.BackColor = System.Drawing.Color.Honeydew;
-            this.secondButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.secondButton.Location = new System.Drawing.Point(4, 39);
-            this.secondButton.Name = "secondButton";
-            this.secondButton.Padding = new System.Windows.Forms.Padding(3);
-            this.secondButton.Size = new System.Drawing.Size(102, 0);
-            this.secondButton.TabIndex = 1;
-            this.secondButton.Text = "2";
-            // 
-            // firstButton
-            // 
-            this.firstButton.BackColor = System.Drawing.Color.Honeydew;
-            this.firstButton.Location = new System.Drawing.Point(4, 39);
-            this.firstButton.Name = "firstButton";
-            this.firstButton.Padding = new System.Windows.Forms.Padding(3);
-            this.firstButton.Size = new System.Drawing.Size(102, 0);
-            this.firstButton.TabIndex = 0;
-            this.firstButton.Text = "1";
-            // 
-            // bodyPanel
-            // 
-            this.bodyPanel.Controls.Add(this.pageControl);
-            this.bodyPanel.Controls.Add(this.contactsCount);
-            this.bodyPanel.Controls.Add(this.nextPageBtn);
-            this.bodyPanel.Controls.Add(this.prevPageBtn);
-            this.bodyPanel.Controls.Add(this.addNContactBtn);
-            this.bodyPanel.Location = new System.Drawing.Point(251, 39);
-            this.bodyPanel.Name = "bodyPanel";
-            this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
-            this.bodyPanel.TabIndex = 18;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1460,6 +1460,8 @@
             this.formPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
+            this.bodyPanel.ResumeLayout(false);
+            this.pageControl.ResumeLayout(false);
             this.sidePanel.ResumeLayout(false);
             this.sidePanel.PerformLayout();
             this.filterTab.ResumeLayout(false);
@@ -1472,8 +1474,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
-            this.pageControl.ResumeLayout(false);
-            this.bodyPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
