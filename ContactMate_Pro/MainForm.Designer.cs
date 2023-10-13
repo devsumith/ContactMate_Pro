@@ -94,8 +94,7 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
-            this.animatedWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -1444,22 +1443,28 @@
             this.timerTick.Enabled = true;
             this.timerTick.Tick += new System.EventHandler(this.timerTick_Tick);
             // 
-            // animatedWindow
+            // borderlessForm
             // 
-            this.animatedWindow.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
-            this.animatedWindow.TargetForm = this;
+            this.borderlessForm.AnimateWindow = true;
+            this.borderlessForm.BorderRadius = 10;
+            this.borderlessForm.ContainerControl = this;
+            this.borderlessForm.DockIndicatorTransparencyValue = 0.6D;
+            this.borderlessForm.DragForm = false;
+            this.borderlessForm.HasFormShadow = false;
+            this.borderlessForm.ResizeForm = false;
+            this.borderlessForm.TransparentWhileDrag = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.formPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.formPanel.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
@@ -1546,8 +1551,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton nextPageBtn;
         private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
         private Guna.UI2.WinForms.Guna2Button addNContactBtn;
-        private Guna.UI2.WinForms.Guna2AnimateWindow animatedWindow;
-        private Guna.UI2.WinForms.Guna2Elipse elipse;
+        private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
     }
 }
 
