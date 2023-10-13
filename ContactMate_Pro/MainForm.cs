@@ -39,6 +39,11 @@ namespace ContactMate_Pro
             InitializeComponent();
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            elipse.TargetControl = this;
+        }
+
         #region FUNCTION TO ADD NEW CONTACT
 
         private void addNContactBtn_Click(object sender, EventArgs e)

@@ -35,7 +35,8 @@
             this.progressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.animatedWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.loginFormPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,9 +111,10 @@
             // 
             this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
             // 
-            // guna2Elipse1
+            // animatedWindow
             // 
-            this.guna2Elipse1.TargetControl = this;
+            this.animatedWindow.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
+            this.animatedWindow.TargetForm = this;
             // 
             // LoadingScreenForm
             // 
@@ -137,8 +139,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2ProgressBar progressBar;
         private System.ComponentModel.BackgroundWorker backgroundWorker;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Elipse elipse;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel loadingPercent;
+        private Guna.UI2.WinForms.Guna2AnimateWindow animatedWindow;
     }
 }
