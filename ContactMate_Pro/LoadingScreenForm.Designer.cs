@@ -35,8 +35,7 @@
             this.progressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
-            this.elipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.animatedWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.loginFormPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,10 +110,16 @@
             // 
             this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
             // 
-            // animatedWindow
+            // borderlessForm
             // 
-            this.animatedWindow.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
-            this.animatedWindow.TargetForm = this;
+            this.borderlessForm.AnimateWindow = true;
+            this.borderlessForm.BorderRadius = 10;
+            this.borderlessForm.ContainerControl = this;
+            this.borderlessForm.DockIndicatorTransparencyValue = 0.6D;
+            this.borderlessForm.DragForm = false;
+            this.borderlessForm.HasFormShadow = false;
+            this.borderlessForm.ResizeForm = false;
+            this.borderlessForm.TransparentWhileDrag = true;
             // 
             // LoadingScreenForm
             // 
@@ -139,9 +144,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2ProgressBar progressBar;
         private System.ComponentModel.BackgroundWorker backgroundWorker;
-        private Guna.UI2.WinForms.Guna2Elipse elipse;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel loadingPercent;
-        private Guna.UI2.WinForms.Guna2AnimateWindow animatedWindow;
+        private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
     }
 }

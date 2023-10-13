@@ -19,8 +19,6 @@ namespace ContactMate_Pro
 
         private void LoadingScreenForm_Load(object sender, EventArgs e)
         {
-            elipse.TargetControl = this;
-
             // When the form loads, start the background worker.
             backgroundWorker.RunWorkerAsync();
         }
