@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactControl));
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -42,13 +40,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // guna2CustomGradientPanel1
             // 
+            this.guna2CustomGradientPanel1.BorderRadius = 10;
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel9);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel8);
@@ -60,6 +54,8 @@
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.SteelBlue;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 10;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(226, 114);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
@@ -140,8 +136,6 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
