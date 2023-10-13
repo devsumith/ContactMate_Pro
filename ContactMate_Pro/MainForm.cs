@@ -43,6 +43,27 @@ namespace ContactMate_Pro
 
         private void addNContactBtn_Click(object sender, EventArgs e)
         {
+            if (panelCount < 16)
+            {
+                //Panel panel = new Panel();
+                //panel.Size = new Size(226, 114);
+                //panel.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
+                //panel.ShadowDecoration.Color = Color.DarkOliveGreen;
+                //panel.ShadowDecoration.BorderRadius = 10;
+                //panel.ShadowDecoration.Enabled = true;
+                //panel.BackColor = Color.DarkOliveGreen;
+                //panel.BorderStyle = BorderStyle.Fixed3D;
+                //bodyPanel.Controls.Add(panel);
+                //panel.Name = $"cPanel{panelCount + 1}";
+
+                ContactControl contactControl = new ContactControl();
+                contactControl.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
+                bodyPanel.Controls.Add(contactControl);
+                //panel.Controls.Add(contactControl);
+
+                panelCount++;
+            }
+
         }
 
         #endregion
