@@ -15,9 +15,22 @@ namespace ContactMate_Pro
     {
         #region FIELDS
 
-        TabPage previousTab = null;
-        short selectedPage = 1;
-        int listIndex = 1;
+        #region FIELDS FOR PAGE CONTROL
+
+        private TabPage previousTab = null;
+        private short selectedPage = 1;
+
+        #endregion
+
+        #region FIELDS FOR GENERATING NEW CONTACT PANEL
+
+        private int panelCount = 0;
+        private int xStart = 24;
+        private int yStart = 60;
+        private int xSpacing = 246;
+        private int ySpacing = 134;
+
+        #endregion
 
         #endregion
 
@@ -30,14 +43,6 @@ namespace ContactMate_Pro
 
         private void addNContactBtn_Click(object sender, EventArgs e)
         {
-            Guna2CustomGradientPanel panel = Controls.Find($"cPanel{listIndex}", true).FirstOrDefault() as Guna2CustomGradientPanel;
-
-            ContactControl contactControl = new ContactControl();
-
-            panel.ShadowDecoration.Enabled = true;
-            panel.Controls.Add(contactControl);
-
-            listIndex++;
         }
 
         #endregion
