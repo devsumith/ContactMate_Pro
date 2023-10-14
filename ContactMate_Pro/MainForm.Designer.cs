@@ -37,12 +37,7 @@
             this.firstButton = new System.Windows.Forms.TabPage();
             this.secondButton = new System.Windows.Forms.TabPage();
             this.thirdButton = new System.Windows.Forms.TabPage();
-            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.clearButton = new Guna.UI2.WinForms.Guna2Button();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -77,15 +72,12 @@
             this.guna2RadioButton12 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton11 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.userImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.dateLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timeLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -95,7 +87,14 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.userImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -105,8 +104,8 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,9 +144,8 @@
             // 
             // bodyPanel
             // 
-            this.bodyPanel.Controls.Add(this.flowLayoutPanel);
-            this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.contactsCount);
+            this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.nextPageBtn);
             this.bodyPanel.Controls.Add(this.prevPageBtn);
             this.bodyPanel.Controls.Add(this.addNContactBtn);
@@ -219,111 +217,6 @@
             this.thirdButton.TabIndex = 2;
             this.thirdButton.Text = "3";
             // 
-            // contactsCount
-            // 
-            this.contactsCount.AutoSize = false;
-            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
-            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
-            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.contactsCount.Location = new System.Drawing.Point(958, 12);
-            this.contactsCount.Name = "contactsCount";
-            this.contactsCount.Size = new System.Drawing.Size(40, 19);
-            this.contactsCount.TabIndex = 5;
-            this.contactsCount.Text = "0";
-            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // nextPageBtn
-            // 
-            this.nextPageBtn.Animated = true;
-            this.nextPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.nextPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.BorderThickness = 1;
-            this.nextPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
-            this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nextPageBtn.ForeColor = System.Drawing.Color.White;
-            this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.nextPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.nextPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
-            this.nextPageBtn.ImageOffset = new System.Drawing.Point(1, 0);
-            this.nextPageBtn.ImageSize = new System.Drawing.Size(12, 12);
-            this.nextPageBtn.Location = new System.Drawing.Point(566, 616);
-            this.nextPageBtn.Name = "nextPageBtn";
-            this.nextPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.nextPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
-            this.nextPageBtn.TabIndex = 4;
-            this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
-            // 
-            // prevPageBtn
-            // 
-            this.prevPageBtn.Animated = true;
-            this.prevPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.prevPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.BorderThickness = 1;
-            this.prevPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
-            this.prevPageBtn.Enabled = false;
-            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
-            this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.prevPageBtn.ForeColor = System.Drawing.Color.White;
-            this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
-            this.prevPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.prevPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
-            this.prevPageBtn.ImageSize = new System.Drawing.Size(12, 12);
-            this.prevPageBtn.Location = new System.Drawing.Point(416, 616);
-            this.prevPageBtn.Name = "prevPageBtn";
-            this.prevPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prevPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
-            this.prevPageBtn.TabIndex = 3;
-            this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
-            // 
-            // addNContactBtn
-            // 
-            this.addNContactBtn.Animated = true;
-            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
-            this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.BorderRadius = 2;
-            this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
-            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.addNContactBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
-            this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
-            this.addNContactBtn.Name = "addNContactBtn";
-            this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.addNContactBtn.ShadowDecoration.Depth = 10;
-            this.addNContactBtn.ShadowDecoration.Enabled = true;
-            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
-            this.addNContactBtn.TabIndex = 0;
-            this.addNContactBtn.Text = "ADD";
-            this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
-            this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
-            // 
             // sidePanel
             // 
             this.sidePanel.BackColor = System.Drawing.Color.Transparent;
@@ -346,36 +239,6 @@
             this.sidePanel.Name = "sidePanel";
             this.sidePanel.Size = new System.Drawing.Size(251, 665);
             this.sidePanel.TabIndex = 17;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.BorderRadius = 2;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2Button2.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.Image = global::ContactMate_Pro.Properties.Resources.setting__1_;
-            this.guna2Button2.Location = new System.Drawing.Point(209, 622);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button2.ShadowDecoration.Depth = 10;
-            this.guna2Button2.ShadowDecoration.Enabled = true;
-            this.guna2Button2.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button2.TabIndex = 35;
-            this.guna2Button2.TextOffset = new System.Drawing.Point(15, 0);
             // 
             // clearButton
             // 
@@ -1229,17 +1092,6 @@
             this.guna2HtmlLabel5.TabIndex = 30;
             this.guna2HtmlLabel5.Text = "FILTER";
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::ContactMate_Pro.Properties.Resources.filter;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 310);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 29;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -1263,22 +1115,6 @@
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(140, 140);
             this.guna2CustomGradientPanel2.TabIndex = 27;
-            // 
-            // userImage
-            // 
-            this.userImage.BackColor = System.Drawing.Color.Transparent;
-            this.userImage.FillColor = System.Drawing.Color.Transparent;
-            this.userImage.Image = ((System.Drawing.Image)(resources.GetObject("userImage.Image")));
-            this.userImage.ImageRotate = 0F;
-            this.userImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.userImage.Location = new System.Drawing.Point(3, 3);
-            this.userImage.Name = "userImage";
-            this.userImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.userImage.Size = new System.Drawing.Size(135, 135);
-            this.userImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.userImage.TabIndex = 2;
-            this.userImage.TabStop = false;
-            this.userImage.UseTransparentBackground = true;
             // 
             // dateLabel
             // 
@@ -1340,35 +1176,6 @@
             this.guna2ComboBox1.StartIndex = 0;
             this.guna2ComboBox1.TabIndex = 1;
             this.guna2ComboBox1.TextOffset = new System.Drawing.Point(10, 0);
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox1.BorderRadius = 15;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox1.IconLeft = global::ContactMate_Pro.Properties.Resources.search_interface_symbol;
-            this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(15, 15);
-            this.guna2TextBox1.Location = new System.Drawing.Point(14, 252);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(223, 41);
-            this.guna2TextBox1.TabIndex = 0;
-            this.guna2TextBox1.TextOffset = new System.Drawing.Point(5, 0);
             // 
             // guna2HtmlLabel4
             // 
@@ -1456,12 +1263,196 @@
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
             // 
-            // flowLayoutPanel
+            // nextPageBtn
             // 
-            this.flowLayoutPanel.Location = new System.Drawing.Point(16, 57);
-            this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(980, 543);
-            this.flowLayoutPanel.TabIndex = 33;
+            this.nextPageBtn.Animated = true;
+            this.nextPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nextPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.BorderThickness = 1;
+            this.nextPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nextPageBtn.ForeColor = System.Drawing.Color.White;
+            this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.nextPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.nextPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron;
+            this.nextPageBtn.ImageOffset = new System.Drawing.Point(1, 0);
+            this.nextPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.nextPageBtn.Location = new System.Drawing.Point(566, 616);
+            this.nextPageBtn.Name = "nextPageBtn";
+            this.nextPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.nextPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.nextPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.nextPageBtn.TabIndex = 4;
+            this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
+            // 
+            // prevPageBtn
+            // 
+            this.prevPageBtn.Animated = true;
+            this.prevPageBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.prevPageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.BorderThickness = 1;
+            this.prevPageBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.prevPageBtn.Enabled = false;
+            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.prevPageBtn.ForeColor = System.Drawing.Color.White;
+            this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
+            this.prevPageBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.prevPageBtn.Image = global::ContactMate_Pro.Properties.Resources.left_chevron___Copy;
+            this.prevPageBtn.ImageSize = new System.Drawing.Size(12, 12);
+            this.prevPageBtn.Location = new System.Drawing.Point(416, 616);
+            this.prevPageBtn.Name = "prevPageBtn";
+            this.prevPageBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.prevPageBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.prevPageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
+            this.prevPageBtn.TabIndex = 3;
+            this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
+            // 
+            // addNContactBtn
+            // 
+            this.addNContactBtn.Animated = true;
+            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
+            this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.BorderRadius = 2;
+            this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.addNContactBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
+            this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
+            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
+            this.addNContactBtn.Name = "addNContactBtn";
+            this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.addNContactBtn.ShadowDecoration.Depth = 10;
+            this.addNContactBtn.ShadowDecoration.Enabled = true;
+            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
+            this.addNContactBtn.TabIndex = 0;
+            this.addNContactBtn.Text = "ADD";
+            this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
+            this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button2.BorderRadius = 2;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2Button2.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button2.Image = global::ContactMate_Pro.Properties.Resources.setting__1_;
+            this.guna2Button2.Location = new System.Drawing.Point(209, 622);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Button2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Button2.ShadowDecoration.Depth = 10;
+            this.guna2Button2.ShadowDecoration.Enabled = true;
+            this.guna2Button2.Size = new System.Drawing.Size(35, 35);
+            this.guna2Button2.TabIndex = 35;
+            this.guna2Button2.TextOffset = new System.Drawing.Point(15, 0);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::ContactMate_Pro.Properties.Resources.filter;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(17, 310);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 29;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // userImage
+            // 
+            this.userImage.BackColor = System.Drawing.Color.Transparent;
+            this.userImage.FillColor = System.Drawing.Color.Transparent;
+            this.userImage.Image = ((System.Drawing.Image)(resources.GetObject("userImage.Image")));
+            this.userImage.ImageRotate = 0F;
+            this.userImage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.userImage.Location = new System.Drawing.Point(3, 3);
+            this.userImage.Name = "userImage";
+            this.userImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.userImage.Size = new System.Drawing.Size(135, 135);
+            this.userImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.userImage.TabIndex = 2;
+            this.userImage.TabStop = false;
+            this.userImage.UseTransparentBackground = true;
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Animated = true;
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox1.BorderRadius = 15;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox1.IconLeft = global::ContactMate_Pro.Properties.Resources.search_interface_symbol;
+            this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(5, 0);
+            this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(15, 15);
+            this.guna2TextBox1.Location = new System.Drawing.Point(14, 252);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(223, 41);
+            this.guna2TextBox1.TabIndex = 0;
+            this.guna2TextBox1.TextOffset = new System.Drawing.Point(5, 0);
+            // 
+            // contactsCount
+            // 
+            this.contactsCount.AutoSize = false;
+            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
+            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
+            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
+            this.contactsCount.Location = new System.Drawing.Point(958, 12);
+            this.contactsCount.Name = "contactsCount";
+            this.contactsCount.Size = new System.Drawing.Size(40, 19);
+            this.contactsCount.TabIndex = 33;
+            this.contactsCount.Text = "0";
+            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // MainForm
             // 
@@ -1488,8 +1479,8 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userImage)).EndInit();
             this.ResumeLayout(false);
 
@@ -1551,7 +1542,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
         private Guna.UI2.WinForms.Guna2Panel bodyPanel;
         private Guna.UI2.WinForms.Guna2TabControl pageControl;
         private System.Windows.Forms.TabPage firstButton;
@@ -1561,7 +1551,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
         private Guna.UI2.WinForms.Guna2Button addNContactBtn;
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
     }
 }
 
