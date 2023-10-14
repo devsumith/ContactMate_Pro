@@ -95,6 +95,7 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -144,6 +145,7 @@
             // 
             // bodyPanel
             // 
+            this.bodyPanel.Controls.Add(this.flowLayoutPanel);
             this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.contactsCount);
             this.bodyPanel.Controls.Add(this.nextPageBtn);
@@ -1454,6 +1456,13 @@
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
             // 
+            // flowLayoutPanel
+            // 
+            this.flowLayoutPanel.Location = new System.Drawing.Point(16, 57);
+            this.flowLayoutPanel.Name = "flowLayoutPanel";
+            this.flowLayoutPanel.Size = new System.Drawing.Size(980, 543);
+            this.flowLayoutPanel.TabIndex = 33;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1552,6 +1561,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
         private Guna.UI2.WinForms.Guna2Button addNContactBtn;
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
     }
 }
 
