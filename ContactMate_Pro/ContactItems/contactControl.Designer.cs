@@ -66,6 +66,7 @@
             // 
             this.viewContactBtn.Animated = true;
             this.viewContactBtn.BorderRadius = 3;
+            this.viewContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.viewContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.viewContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.viewContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
