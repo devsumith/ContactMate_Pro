@@ -405,10 +405,10 @@
             this.filterTab.SelectedIndex = 0;
             this.filterTab.Size = new System.Drawing.Size(245, 260);
             this.filterTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.Gainsboro;
+            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.DarkSeaGreen;
             this.filterTab.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.filterTab.TabButtonHoverState.ForeColor = System.Drawing.Color.DimGray;
-            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.Gainsboro;
+            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.DarkSeaGreen;
             this.filterTab.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
             this.filterTab.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
             this.filterTab.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactControl));
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
@@ -47,6 +47,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel9);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel8);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel7);
+            this.guna2CustomGradientPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
@@ -59,16 +60,16 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(226, 114);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
-            // guna2Panel1
+            // guna2HtmlLabel9
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 30;
-            this.guna2Panel1.Controls.Add(this.contactImage);
-            this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Panel1.Location = new System.Drawing.Point(154, 10);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
-            this.guna2Panel1.TabIndex = 43;
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(13, 83);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(150, 21);
+            this.guna2HtmlLabel9.TabIndex = 46;
+            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
             // 
             // contactImage
             // 
@@ -86,27 +87,16 @@
             this.contactImage.TabStop = false;
             this.contactImage.UseTransparentBackground = true;
             // 
-            // guna2HtmlLabel9
+            // guna2Panel1
             // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(13, 83);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(150, 21);
-            this.guna2HtmlLabel9.TabIndex = 46;
-            this.guna2HtmlLabel9.Text = "jirolaurenz0101@gmail.com";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(13, 60);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
-            this.guna2HtmlLabel8.TabIndex = 45;
-            this.guna2HtmlLabel8.Text = "09392723942";
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderRadius = 30;
+            this.guna2Panel1.Controls.Add(this.contactImage);
+            this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel1.Location = new System.Drawing.Point(154, 10);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(60, 60);
+            this.guna2Panel1.TabIndex = 43;
             // 
             // guna2HtmlLabel7
             // 
@@ -119,6 +109,17 @@
             this.guna2HtmlLabel7.TabIndex = 44;
             this.guna2HtmlLabel7.Text = "JIRO LAURENZ";
             // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.MintCream;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(13, 60);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel8.TabIndex = 45;
+            this.guna2HtmlLabel8.Text = "09392723942";
+            // 
             // ContactControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -129,8 +130,8 @@
             this.Size = new System.Drawing.Size(226, 114);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
-            this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
