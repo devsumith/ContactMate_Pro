@@ -144,11 +144,11 @@
             // 
             // bodyPanel
             // 
-            this.bodyPanel.Controls.Add(this.contactsCount);
             this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.nextPageBtn);
             this.bodyPanel.Controls.Add(this.prevPageBtn);
             this.bodyPanel.Controls.Add(this.addNContactBtn);
+            this.bodyPanel.Controls.Add(this.contactsCount);
             this.bodyPanel.Location = new System.Drawing.Point(251, 39);
             this.bodyPanel.Name = "bodyPanel";
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
@@ -162,7 +162,7 @@
             this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.contactsCount.Location = new System.Drawing.Point(958, 12);
+            this.contactsCount.Location = new System.Drawing.Point(950, 12);
             this.contactsCount.Name = "contactsCount";
             this.contactsCount.Size = new System.Drawing.Size(40, 19);
             this.contactsCount.TabIndex = 33;
@@ -294,7 +294,7 @@
             this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
             this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.addNContactBtn.BorderRadius = 2;
+            this.addNContactBtn.BorderRadius = 15;
             this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -310,15 +310,16 @@
             this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(866, 5);
+            this.addNContactBtn.Location = new System.Drawing.Point(814, 5);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
             this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.addNContactBtn.ShadowDecoration.Depth = 10;
             this.addNContactBtn.ShadowDecoration.Enabled = true;
-            this.addNContactBtn.Size = new System.Drawing.Size(88, 34);
+            this.addNContactBtn.Size = new System.Drawing.Size(140, 34);
             this.addNContactBtn.TabIndex = 0;
-            this.addNContactBtn.Text = "ADD";
+            this.addNContactBtn.Text = "ADD CONTACT";
             this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
             this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
             // 
