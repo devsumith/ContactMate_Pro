@@ -59,6 +59,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\ContactDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ContactDetailsForm.Designer.cs">
+      <DependentUpon>ContactDetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContactItems\ContactControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -71,10 +77,10 @@
     <Compile Include="LoadingScreenForm.Designer.cs">
       <DependentUpon>LoadingScreenForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -82,10 +88,13 @@
     <EmbeddedResource Include="ContactItems\ContactControl.resx">
       <DependentUpon>ContactControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ContactDetailsForm.resx">
+      <DependentUpon>ContactDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadingScreenForm.resx">
       <DependentUpon>LoadingScreenForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -132,6 +141,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\setting %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

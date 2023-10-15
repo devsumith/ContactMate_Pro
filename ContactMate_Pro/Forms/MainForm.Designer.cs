@@ -33,7 +33,7 @@
             this.formPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.bodyPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pageControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.firstButton = new System.Windows.Forms.TabPage();
             this.secondButton = new System.Windows.Forms.TabPage();
@@ -41,6 +41,7 @@
             this.nextPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.prevPageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.addNContactBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.contactsCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.clearButton = new Guna.UI2.WinForms.Guna2Button();
@@ -95,7 +96,6 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -156,20 +156,36 @@
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
             this.bodyPanel.TabIndex = 18;
             // 
-            // contactsCount
+            // guna2Button1
             // 
-            this.contactsCount.AutoSize = false;
-            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
-            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
-            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.contactsCount.Location = new System.Drawing.Point(6, 9);
-            this.contactsCount.Name = "contactsCount";
-            this.contactsCount.Size = new System.Drawing.Size(40, 19);
-            this.contactsCount.TabIndex = 33;
-            this.contactsCount.Text = "0";
-            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2Button1.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.Image = global::ContactMate_Pro.Properties.Resources.menu__2_;
+            this.guna2Button1.Location = new System.Drawing.Point(952, 7);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Button1.ShadowDecoration.BorderRadius = 20;
+            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Button1.ShadowDecoration.Depth = 10;
+            this.guna2Button1.ShadowDecoration.Enabled = true;
+            this.guna2Button1.Size = new System.Drawing.Size(35, 35);
+            this.guna2Button1.TabIndex = 34;
+            this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
             // 
             // pageControl
             // 
@@ -324,6 +340,21 @@
             this.addNContactBtn.Text = "ADD CONTACT";
             this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
             this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
+            // 
+            // contactsCount
+            // 
+            this.contactsCount.AutoSize = false;
+            this.contactsCount.BackColor = System.Drawing.Color.Transparent;
+            this.contactsCount.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contactsCount.BackgroundImage")));
+            this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
+            this.contactsCount.Location = new System.Drawing.Point(6, 9);
+            this.contactsCount.Name = "contactsCount";
+            this.contactsCount.Size = new System.Drawing.Size(40, 19);
+            this.contactsCount.TabIndex = 33;
+            this.contactsCount.Text = "0";
+            this.contactsCount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // sidePanel
             // 
@@ -1456,37 +1487,6 @@
             this.borderlessForm.HasFormShadow = false;
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2Button1.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.Location = new System.Drawing.Point(952, 7);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button1.ShadowDecoration.BorderRadius = 20;
-            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.ShadowDecoration.Depth = 10;
-            this.guna2Button1.ShadowDecoration.Enabled = true;
-            this.guna2Button1.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button1.TabIndex = 34;
-            this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
             // 
             // MainForm
             // 
