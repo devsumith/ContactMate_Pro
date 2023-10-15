@@ -243,7 +243,7 @@
             this.nextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.nextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.nextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.nextPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.nextPageBtn.FillColor = System.Drawing.Color.Honeydew;
             this.nextPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nextPageBtn.ForeColor = System.Drawing.Color.White;
             this.nextPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
@@ -271,7 +271,7 @@
             this.prevPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.prevPageBtn.DisabledState.FillColor = System.Drawing.Color.Transparent;
             this.prevPageBtn.Enabled = false;
-            this.prevPageBtn.FillColor = System.Drawing.Color.MintCream;
+            this.prevPageBtn.FillColor = System.Drawing.Color.Honeydew;
             this.prevPageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.prevPageBtn.ForeColor = System.Drawing.Color.White;
             this.prevPageBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(168)))), ((int)(((byte)(23)))));
@@ -300,7 +300,7 @@
             this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addNContactBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addNContactBtn.FillColor = System.Drawing.Color.Honeydew;
             this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
             this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
