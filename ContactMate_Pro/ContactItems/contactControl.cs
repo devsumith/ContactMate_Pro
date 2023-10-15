@@ -17,16 +17,22 @@ namespace ContactMate_Pro
             InitializeComponent();
         }
 
+        public Image ContactImage
+        {
+            get { return contactImage.Image; }
+            set { contactImage.Image = value; }
+        }
+
         #region FUNCTIONS FOR HOVER UI DESIGN OF VIEW CONTACT BUTTON
 
         private void viewContactBtn_MouseEnter(object sender, EventArgs e)
         {
-            firstNameLabel.ForeColor = Color.PaleGreen;
+            contactNameLabel.ForeColor = Color.PaleGreen;
         }
 
         private void viewContactBtn_MouseLeave(object sender, EventArgs e)
         {
-            firstNameLabel.ForeColor = Color.MintCream;
+            contactNameLabel.ForeColor = Color.MintCream;
         }
 
         #endregion
