@@ -95,6 +95,7 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -144,6 +145,7 @@
             // 
             // bodyPanel
             // 
+            this.bodyPanel.Controls.Add(this.guna2Button1);
             this.bodyPanel.Controls.Add(this.pageControl);
             this.bodyPanel.Controls.Add(this.nextPageBtn);
             this.bodyPanel.Controls.Add(this.prevPageBtn);
@@ -310,14 +312,14 @@
             this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(824, 7);
+            this.addNContactBtn.Location = new System.Drawing.Point(802, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
             this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.addNContactBtn.ShadowDecoration.Depth = 10;
             this.addNContactBtn.ShadowDecoration.Enabled = true;
-            this.addNContactBtn.Size = new System.Drawing.Size(140, 34);
+            this.addNContactBtn.Size = new System.Drawing.Size(140, 35);
             this.addNContactBtn.TabIndex = 0;
             this.addNContactBtn.Text = "ADD CONTACT";
             this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
@@ -1455,6 +1457,37 @@
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Honeydew;
+            this.guna2Button1.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.PaleGreen;
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(952, 7);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Button1.ShadowDecoration.BorderRadius = 20;
+            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Button1.ShadowDecoration.Depth = 10;
+            this.guna2Button1.ShadowDecoration.Enabled = true;
+            this.guna2Button1.Size = new System.Drawing.Size(35, 35);
+            this.guna2Button1.TabIndex = 34;
+            this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1553,6 +1586,7 @@
         private Guna.UI2.WinForms.Guna2Button addNContactBtn;
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
         private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
 
