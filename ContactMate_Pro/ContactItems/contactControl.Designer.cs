@@ -35,7 +35,7 @@
             this.contactImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.gmailAddLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.contactNumLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.firstNameLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.contactNameLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.imagePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImage)).BeginInit();
@@ -48,7 +48,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.imagePanel);
             this.guna2CustomGradientPanel1.Controls.Add(this.gmailAddLabel);
             this.guna2CustomGradientPanel1.Controls.Add(this.contactNumLabel);
-            this.guna2CustomGradientPanel1.Controls.Add(this.firstNameLabel);
+            this.guna2CustomGradientPanel1.Controls.Add(this.contactNameLabel);
             this.guna2CustomGradientPanel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.LimeGreen;
@@ -131,16 +131,16 @@
             this.contactNumLabel.TabIndex = 45;
             this.contactNumLabel.Text = "09392723942";
             // 
-            // firstNameLabel
+            // contactNameLabel
             // 
-            this.firstNameLabel.BackColor = System.Drawing.Color.Transparent;
-            this.firstNameLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstNameLabel.ForeColor = System.Drawing.Color.MintCream;
-            this.firstNameLabel.Location = new System.Drawing.Point(21, 7);
-            this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(96, 27);
-            this.firstNameLabel.TabIndex = 44;
-            this.firstNameLabel.Text = "JIRO LAURENZ";
+            this.contactNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.contactNameLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactNameLabel.ForeColor = System.Drawing.Color.MintCream;
+            this.contactNameLabel.Location = new System.Drawing.Point(21, 7);
+            this.contactNameLabel.Name = "contactNameLabel";
+            this.contactNameLabel.Size = new System.Drawing.Size(96, 27);
+            this.contactNameLabel.TabIndex = 44;
+            this.contactNameLabel.Text = "JIRO LAURENZ";
             // 
             // ContactControl
             // 
@@ -164,7 +164,7 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox contactImage;
         private Guna.UI2.WinForms.Guna2HtmlLabel gmailAddLabel;
         private Guna.UI2.WinForms.Guna2HtmlLabel contactNumLabel;
-        private Guna.UI2.WinForms.Guna2HtmlLabel firstNameLabel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel contactNameLabel;
         private Guna.UI2.WinForms.Guna2Button viewContactBtn;
     }
 }
