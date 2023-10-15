@@ -162,7 +162,7 @@
             this.contactsCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.contactsCount.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contactsCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(9)))));
-            this.contactsCount.Location = new System.Drawing.Point(950, 12);
+            this.contactsCount.Location = new System.Drawing.Point(6, 9);
             this.contactsCount.Name = "contactsCount";
             this.contactsCount.Size = new System.Drawing.Size(40, 19);
             this.contactsCount.TabIndex = 33;
@@ -310,7 +310,7 @@
             this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(814, 5);
+            this.addNContactBtn.Location = new System.Drawing.Point(824, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
