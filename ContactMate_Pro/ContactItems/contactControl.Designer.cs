@@ -61,6 +61,7 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(226, 114);
             this.guna2CustomGradientPanel1.TabIndex = 0;
+            //this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
             // 
             // viewContactBtn
             // 
@@ -135,7 +136,7 @@
             // 
             this.contactNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.contactNameLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contactNameLabel.ForeColor = System.Drawing.Color.MintCream;
+            this.contactNameLabel.ForeColor = System.Drawing.Color.Honeydew;
             this.contactNameLabel.Location = new System.Drawing.Point(21, 7);
             this.contactNameLabel.Name = "contactNameLabel";
             this.contactNameLabel.Size = new System.Drawing.Size(96, 27);
