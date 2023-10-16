@@ -155,7 +155,6 @@
             this.bodyPanel.Name = "bodyPanel";
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
             this.bodyPanel.TabIndex = 18;
-            //this.bodyPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bodyPanel_Paint);
             // 
             // guna2Button1
             // 
@@ -187,7 +186,6 @@
             this.guna2Button1.Size = new System.Drawing.Size(35, 35);
             this.guna2Button1.TabIndex = 34;
             this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
-            //this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pageControl
             // 
@@ -480,7 +478,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(237, 217);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "RELATION";
+            this.tabPage1.Text = "Relation";
             // 
             // guna2RadioButton10
             // 
@@ -495,9 +493,9 @@
             this.guna2RadioButton10.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton10.Location = new System.Drawing.Point(116, 69);
             this.guna2RadioButton10.Name = "guna2RadioButton10";
-            this.guna2RadioButton10.Size = new System.Drawing.Size(60, 23);
+            this.guna2RadioButton10.Size = new System.Drawing.Size(56, 23);
             this.guna2RadioButton10.TabIndex = 9;
-            this.guna2RadioButton10.Text = "OTHER";
+            this.guna2RadioButton10.Text = "Other";
             this.guna2RadioButton10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton10.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton10.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -517,9 +515,9 @@
             this.guna2RadioButton9.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton9.Location = new System.Drawing.Point(28, 153);
             this.guna2RadioButton9.Name = "guna2RadioButton9";
-            this.guna2RadioButton9.Size = new System.Drawing.Size(133, 23);
+            this.guna2RadioButton9.Size = new System.Drawing.Size(122, 23);
             this.guna2RadioButton9.TabIndex = 8;
-            this.guna2RadioButton9.Text = "PERSONAL SERVICES";
+            this.guna2RadioButton9.Text = "Personal Services";
             this.guna2RadioButton9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton9.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton9.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -539,9 +537,9 @@
             this.guna2RadioButton8.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton8.Location = new System.Drawing.Point(28, 125);
             this.guna2RadioButton8.Name = "guna2RadioButton8";
-            this.guna2RadioButton8.Size = new System.Drawing.Size(129, 23);
+            this.guna2RadioButton8.Size = new System.Drawing.Size(118, 23);
             this.guna2RadioButton8.TabIndex = 7;
-            this.guna2RadioButton8.Text = "MEDICAL CONTACTS";
+            this.guna2RadioButton8.Text = "Medical Contacts";
             this.guna2RadioButton8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton8.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton8.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -561,9 +559,9 @@
             this.guna2RadioButton7.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton7.Location = new System.Drawing.Point(28, 181);
             this.guna2RadioButton7.Name = "guna2RadioButton7";
-            this.guna2RadioButton7.Size = new System.Drawing.Size(161, 23);
+            this.guna2RadioButton7.Size = new System.Drawing.Size(144, 23);
             this.guna2RadioButton7.TabIndex = 6;
-            this.guna2RadioButton7.Text = "PROFESSIONAL CONTACTS";
+            this.guna2RadioButton7.Text = "Professional Contacts";
             this.guna2RadioButton7.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton7.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton7.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -583,9 +581,9 @@
             this.guna2RadioButton6.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton6.Location = new System.Drawing.Point(116, 13);
             this.guna2RadioButton6.Name = "guna2RadioButton6";
-            this.guna2RadioButton6.Size = new System.Drawing.Size(85, 23);
+            this.guna2RadioButton6.Size = new System.Drawing.Size(79, 23);
             this.guna2RadioButton6.TabIndex = 5;
-            this.guna2RadioButton6.Text = "NEIGHBORS";
+            this.guna2RadioButton6.Text = "Neighbors";
             this.guna2RadioButton6.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton6.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton6.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -605,9 +603,9 @@
             this.guna2RadioButton5.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton5.Location = new System.Drawing.Point(28, 97);
             this.guna2RadioButton5.Name = "guna2RadioButton5";
-            this.guna2RadioButton5.Size = new System.Drawing.Size(138, 23);
+            this.guna2RadioButton5.Size = new System.Drawing.Size(126, 23);
             this.guna2RadioButton5.TabIndex = 4;
-            this.guna2RadioButton5.Text = "SCHOOL / UNIVERSITY";
+            this.guna2RadioButton5.Text = "School / University";
             this.guna2RadioButton5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton5.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton5.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -627,9 +625,9 @@
             this.guna2RadioButton4.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton4.Location = new System.Drawing.Point(116, 41);
             this.guna2RadioButton4.Name = "guna2RadioButton4";
-            this.guna2RadioButton4.Size = new System.Drawing.Size(92, 23);
+            this.guna2RadioButton4.Size = new System.Drawing.Size(86, 23);
             this.guna2RadioButton4.TabIndex = 3;
-            this.guna2RadioButton4.Text = "COLLEAGUES";
+            this.guna2RadioButton4.Text = "Colleagues";
             this.guna2RadioButton4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton4.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton4.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -649,9 +647,9 @@
             this.guna2RadioButton3.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton3.Location = new System.Drawing.Point(28, 69);
             this.guna2RadioButton3.Name = "guna2RadioButton3";
-            this.guna2RadioButton3.Size = new System.Drawing.Size(70, 23);
+            this.guna2RadioButton3.Size = new System.Drawing.Size(66, 23);
             this.guna2RadioButton3.TabIndex = 2;
-            this.guna2RadioButton3.Text = "FRIENDS";
+            this.guna2RadioButton3.Text = "Friends";
             this.guna2RadioButton3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton3.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton3.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -671,9 +669,9 @@
             this.guna2RadioButton2.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton2.Location = new System.Drawing.Point(28, 41);
             this.guna2RadioButton2.Name = "guna2RadioButton2";
-            this.guna2RadioButton2.Size = new System.Drawing.Size(73, 23);
+            this.guna2RadioButton2.Size = new System.Drawing.Size(68, 23);
             this.guna2RadioButton2.TabIndex = 1;
-            this.guna2RadioButton2.Text = "PARTNER";
+            this.guna2RadioButton2.Text = "Partner";
             this.guna2RadioButton2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton2.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton2.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -693,9 +691,9 @@
             this.guna2RadioButton1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton1.Location = new System.Drawing.Point(28, 13);
             this.guna2RadioButton1.Name = "guna2RadioButton1";
-            this.guna2RadioButton1.Size = new System.Drawing.Size(62, 23);
+            this.guna2RadioButton1.Size = new System.Drawing.Size(63, 23);
             this.guna2RadioButton1.TabIndex = 0;
-            this.guna2RadioButton1.Text = "FAMILY";
+            this.guna2RadioButton1.Text = "Family";
             this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton1.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -715,7 +713,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(237, 217);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "GROUP";
+            this.tabPage2.Text = "Group";
             // 
             // guna2CheckBox3
             // 
@@ -830,7 +828,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(237, 217);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "BIRTHDAY";
+            this.tabPage3.Text = "Birthday";
             // 
             // guna2ComboBox3
             // 
@@ -1002,9 +1000,9 @@
             this.guna2RadioButton17.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton17.Location = new System.Drawing.Point(120, 183);
             this.guna2RadioButton17.Name = "guna2RadioButton17";
-            this.guna2RadioButton17.Size = new System.Drawing.Size(82, 23);
+            this.guna2RadioButton17.Size = new System.Drawing.Size(79, 23);
             this.guna2RadioButton17.TabIndex = 12;
-            this.guna2RadioButton17.Text = "DECEMBER";
+            this.guna2RadioButton17.Text = "December";
             this.guna2RadioButton17.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton17.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton17.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1024,9 +1022,9 @@
             this.guna2RadioButton18.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton18.Location = new System.Drawing.Point(120, 157);
             this.guna2RadioButton18.Name = "guna2RadioButton18";
-            this.guna2RadioButton18.Size = new System.Drawing.Size(82, 23);
+            this.guna2RadioButton18.Size = new System.Drawing.Size(79, 23);
             this.guna2RadioButton18.TabIndex = 11;
-            this.guna2RadioButton18.Text = "NOVEMBER";
+            this.guna2RadioButton18.Text = "November";
             this.guna2RadioButton18.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton18.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton18.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1046,9 +1044,9 @@
             this.guna2RadioButton19.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton19.Location = new System.Drawing.Point(120, 131);
             this.guna2RadioButton19.Name = "guna2RadioButton19";
-            this.guna2RadioButton19.Size = new System.Drawing.Size(74, 23);
+            this.guna2RadioButton19.Size = new System.Drawing.Size(67, 23);
             this.guna2RadioButton19.TabIndex = 10;
-            this.guna2RadioButton19.Text = "OCTOBER";
+            this.guna2RadioButton19.Text = "October";
             this.guna2RadioButton19.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton19.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton19.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1068,9 +1066,9 @@
             this.guna2RadioButton20.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton20.Location = new System.Drawing.Point(120, 105);
             this.guna2RadioButton20.Name = "guna2RadioButton20";
-            this.guna2RadioButton20.Size = new System.Drawing.Size(89, 23);
+            this.guna2RadioButton20.Size = new System.Drawing.Size(83, 23);
             this.guna2RadioButton20.TabIndex = 9;
-            this.guna2RadioButton20.Text = "SEPTEMBER";
+            this.guna2RadioButton20.Text = "September";
             this.guna2RadioButton20.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton20.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton20.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1090,9 +1088,9 @@
             this.guna2RadioButton21.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton21.Location = new System.Drawing.Point(120, 79);
             this.guna2RadioButton21.Name = "guna2RadioButton21";
-            this.guna2RadioButton21.Size = new System.Drawing.Size(67, 23);
+            this.guna2RadioButton21.Size = new System.Drawing.Size(64, 23);
             this.guna2RadioButton21.TabIndex = 8;
-            this.guna2RadioButton21.Text = "AUGUST";
+            this.guna2RadioButton21.Text = "August";
             this.guna2RadioButton21.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton21.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton21.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1112,9 +1110,9 @@
             this.guna2RadioButton22.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton22.Location = new System.Drawing.Point(120, 53);
             this.guna2RadioButton22.Name = "guna2RadioButton22";
-            this.guna2RadioButton22.Size = new System.Drawing.Size(51, 23);
+            this.guna2RadioButton22.Size = new System.Drawing.Size(50, 23);
             this.guna2RadioButton22.TabIndex = 7;
-            this.guna2RadioButton22.Text = "JULY";
+            this.guna2RadioButton22.Text = "July";
             this.guna2RadioButton22.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton22.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton22.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1136,7 +1134,7 @@
             this.guna2RadioButton16.Name = "guna2RadioButton16";
             this.guna2RadioButton16.Size = new System.Drawing.Size(53, 23);
             this.guna2RadioButton16.TabIndex = 6;
-            this.guna2RadioButton16.Text = "JUNE";
+            this.guna2RadioButton16.Text = "June";
             this.guna2RadioButton16.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton16.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton16.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1156,9 +1154,9 @@
             this.guna2RadioButton15.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton15.Location = new System.Drawing.Point(27, 157);
             this.guna2RadioButton15.Name = "guna2RadioButton15";
-            this.guna2RadioButton15.Size = new System.Drawing.Size(48, 23);
+            this.guna2RadioButton15.Size = new System.Drawing.Size(49, 23);
             this.guna2RadioButton15.TabIndex = 5;
-            this.guna2RadioButton15.Text = "MAY";
+            this.guna2RadioButton15.Text = "May";
             this.guna2RadioButton15.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton15.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton15.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1178,9 +1176,9 @@
             this.guna2RadioButton14.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton14.Location = new System.Drawing.Point(27, 131);
             this.guna2RadioButton14.Name = "guna2RadioButton14";
-            this.guna2RadioButton14.Size = new System.Drawing.Size(57, 23);
+            this.guna2RadioButton14.Size = new System.Drawing.Size(52, 23);
             this.guna2RadioButton14.TabIndex = 4;
-            this.guna2RadioButton14.Text = "APRIL";
+            this.guna2RadioButton14.Text = "April";
             this.guna2RadioButton14.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton14.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton14.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1200,9 +1198,9 @@
             this.guna2RadioButton13.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton13.Location = new System.Drawing.Point(27, 105);
             this.guna2RadioButton13.Name = "guna2RadioButton13";
-            this.guna2RadioButton13.Size = new System.Drawing.Size(64, 23);
+            this.guna2RadioButton13.Size = new System.Drawing.Size(61, 23);
             this.guna2RadioButton13.TabIndex = 3;
-            this.guna2RadioButton13.Text = "MARCH";
+            this.guna2RadioButton13.Text = "March";
             this.guna2RadioButton13.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton13.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton13.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1222,9 +1220,9 @@
             this.guna2RadioButton12.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton12.Location = new System.Drawing.Point(27, 79);
             this.guna2RadioButton12.Name = "guna2RadioButton12";
-            this.guna2RadioButton12.Size = new System.Drawing.Size(80, 23);
+            this.guna2RadioButton12.Size = new System.Drawing.Size(75, 23);
             this.guna2RadioButton12.TabIndex = 2;
-            this.guna2RadioButton12.Text = "FEBRUARY";
+            this.guna2RadioButton12.Text = "February";
             this.guna2RadioButton12.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton12.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton12.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1244,9 +1242,9 @@
             this.guna2RadioButton11.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2RadioButton11.Location = new System.Drawing.Point(27, 53);
             this.guna2RadioButton11.Name = "guna2RadioButton11";
-            this.guna2RadioButton11.Size = new System.Drawing.Size(74, 23);
+            this.guna2RadioButton11.Size = new System.Drawing.Size(72, 23);
             this.guna2RadioButton11.TabIndex = 1;
-            this.guna2RadioButton11.Text = "JANUARY";
+            this.guna2RadioButton11.Text = "January";
             this.guna2RadioButton11.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2RadioButton11.UncheckedState.BorderThickness = 1;
             this.guna2RadioButton11.UncheckedState.FillColor = System.Drawing.Color.MintCream;
@@ -1260,9 +1258,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.OliveDrab;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(42, 305);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(47, 27);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(41, 27);
             this.guna2HtmlLabel5.TabIndex = 30;
-            this.guna2HtmlLabel5.Text = "FILTER";
+            this.guna2HtmlLabel5.Text = "Filter";
             // 
             // guna2PictureBox1
             // 
