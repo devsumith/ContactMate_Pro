@@ -155,7 +155,7 @@
             this.bodyPanel.Name = "bodyPanel";
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
             this.bodyPanel.TabIndex = 18;
-            this.bodyPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bodyPanel_Paint);
+            //this.bodyPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bodyPanel_Paint);
             // 
             // guna2Button1
             // 
@@ -187,7 +187,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(35, 35);
             this.guna2Button1.TabIndex = 34;
             this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            //this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pageControl
             // 
@@ -322,7 +322,7 @@
             this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.addNContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.addNContactBtn.FillColor = System.Drawing.Color.Honeydew;
-            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addNContactBtn.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addNContactBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
             this.addNContactBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
             this.addNContactBtn.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
@@ -331,15 +331,16 @@
             this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(808, 7);
+            this.addNContactBtn.ImageSize = new System.Drawing.Size(17, 17);
+            this.addNContactBtn.Location = new System.Drawing.Point(811, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
             this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.addNContactBtn.ShadowDecoration.Depth = 10;
-            this.addNContactBtn.Size = new System.Drawing.Size(140, 35);
+            this.addNContactBtn.Size = new System.Drawing.Size(137, 35);
             this.addNContactBtn.TabIndex = 0;
-            this.addNContactBtn.Text = "ADD CONTACT";
+            this.addNContactBtn.Text = "New Contact";
             this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
             this.addNContactBtn.Click += new System.EventHandler(this.addNContactBtn_Click);
             // 
