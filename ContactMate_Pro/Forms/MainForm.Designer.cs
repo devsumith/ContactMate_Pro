@@ -161,7 +161,7 @@
             // guna2Button1
             // 
             this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BackColor = System.Drawing.Color.MintCream;
             this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Button1.BorderRadius = 15;
@@ -311,7 +311,7 @@
             // addNContactBtn
             // 
             this.addNContactBtn.Animated = true;
-            this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
+            this.addNContactBtn.BackColor = System.Drawing.Color.MintCream;
             this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.addNContactBtn.BorderRadius = 15;
@@ -1288,6 +1288,7 @@
             // 
             // guna2CustomGradientPanel2
             // 
+            this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CustomGradientPanel2.BorderRadius = 65;
             this.guna2CustomGradientPanel2.Controls.Add(this.userImage);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.LimeGreen;
@@ -1441,6 +1442,7 @@
             // 
             this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox2.Animated = true;
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.MintCream;
             this.guna2ControlBox2.BorderRadius = 10;
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.guna2ControlBox2.FillColor = System.Drawing.Color.MintCream;
@@ -1454,6 +1456,7 @@
             // 
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.Animated = true;
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.MintCream;
             this.guna2ControlBox1.BorderRadius = 10;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.MintCream;
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -1538,7 +1541,6 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2CustomGradientPanel formPanel;
-        private Guna.UI2.WinForms.Guna2Panel mainPanel;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
@@ -1603,7 +1605,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         public Guna.UI2.WinForms.Guna2Panel darkPanel;
-        public Guna.UI2.WinForms.Guna2Button addNContactBtn;
+        private Guna.UI2.WinForms.Guna2Panel mainPanel;
+        private Guna.UI2.WinForms.Guna2Button addNContactBtn;
     }
 }
 
