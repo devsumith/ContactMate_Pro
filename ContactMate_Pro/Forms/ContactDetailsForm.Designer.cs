@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -43,18 +43,20 @@
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
             // 
-            // guna2ControlBox1
+            // closeBtn
             // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.Animated = true;
-            this.guna2ControlBox1.BorderRadius = 10;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(433, 6);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(38, 25);
-            this.guna2ControlBox1.TabIndex = 15;
+            this.closeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.closeBtn.Animated = true;
+            this.closeBtn.BorderRadius = 10;
+            this.closeBtn.CustomClick = true;
+            this.closeBtn.FillColor = System.Drawing.Color.Transparent;
+            this.closeBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.closeBtn.IconColor = System.Drawing.Color.Black;
+            this.closeBtn.Location = new System.Drawing.Point(433, 6);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(38, 25);
+            this.closeBtn.TabIndex = 15;
+            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
             // ContactDetailsForm
             // 
@@ -62,7 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(479, 548);
-            this.Controls.Add(this.guna2ControlBox1);
+            this.Controls.Add(this.closeBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ContactDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -74,6 +76,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox closeBtn;
     }
 }
