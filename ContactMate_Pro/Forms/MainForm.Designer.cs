@@ -96,6 +96,7 @@
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.darkPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -113,6 +114,7 @@
             // formPanel
             // 
             this.formPanel.Controls.Add(this.mainPanel);
+            this.formPanel.Controls.Add(this.darkPanel);
             this.formPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.formPanel.FillColor = System.Drawing.Color.LimeGreen;
             this.formPanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
@@ -1489,6 +1491,18 @@
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
             // 
+            // darkPanel
+            // 
+            this.darkPanel.BackColor = System.Drawing.Color.Transparent;
+            this.darkPanel.BorderRadius = 10;
+            this.darkPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
+            this.darkPanel.Location = new System.Drawing.Point(8, 8);
+            this.darkPanel.Name = "darkPanel";
+            this.darkPanel.Size = new System.Drawing.Size(1264, 705);
+            this.darkPanel.TabIndex = 19;
+            this.darkPanel.UseTransparentBackground = true;
+            this.darkPanel.Visible = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1588,6 +1602,7 @@
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
         private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Panel darkPanel;
     }
 }
 
