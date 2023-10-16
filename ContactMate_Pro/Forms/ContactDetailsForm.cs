@@ -30,7 +30,7 @@ namespace ContactMate_Pro
                 mainForm.darkPanel.Visible = false;
                 mainForm.darkPanel.SendToBack();
                 mainForm.PerformLayout();
-                //mainForm.addNContactBtn.Animated = true;
+
                 Close();
             }
         }
