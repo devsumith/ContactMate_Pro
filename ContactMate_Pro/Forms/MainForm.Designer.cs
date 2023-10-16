@@ -155,14 +155,16 @@
             this.bodyPanel.Name = "bodyPanel";
             this.bodyPanel.Size = new System.Drawing.Size(1013, 665);
             this.bodyPanel.TabIndex = 18;
+            this.bodyPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bodyPanel_Paint);
             // 
             // guna2Button1
             // 
             this.guna2Button1.Animated = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -182,10 +184,10 @@
             this.guna2Button1.ShadowDecoration.BorderRadius = 20;
             this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2Button1.ShadowDecoration.Depth = 10;
-            this.guna2Button1.ShadowDecoration.Enabled = true;
             this.guna2Button1.Size = new System.Drawing.Size(35, 35);
             this.guna2Button1.TabIndex = 34;
             this.guna2Button1.TextOffset = new System.Drawing.Point(15, 0);
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pageControl
             // 
@@ -311,8 +313,9 @@
             this.addNContactBtn.Animated = true;
             this.addNContactBtn.BackColor = System.Drawing.Color.Transparent;
             this.addNContactBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
+            this.addNContactBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.addNContactBtn.BorderRadius = 15;
+            this.addNContactBtn.BorderThickness = 1;
             this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -328,13 +331,12 @@
             this.addNContactBtn.Image = ((System.Drawing.Image)(resources.GetObject("addNContactBtn.Image")));
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.addNContactBtn.Location = new System.Drawing.Point(802, 7);
+            this.addNContactBtn.Location = new System.Drawing.Point(808, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
             this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.addNContactBtn.ShadowDecoration.Depth = 10;
-            this.addNContactBtn.ShadowDecoration.Enabled = true;
             this.addNContactBtn.Size = new System.Drawing.Size(140, 35);
             this.addNContactBtn.TabIndex = 0;
             this.addNContactBtn.Text = "ADD CONTACT";
@@ -384,8 +386,9 @@
             this.guna2Button2.Animated = true;
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(173)))), ((int)(((byte)(36)))));
-            this.guna2Button2.BorderRadius = 2;
+            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2Button2.BorderRadius = 6;
+            this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -404,7 +407,6 @@
             this.guna2Button2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Button2.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.guna2Button2.ShadowDecoration.Depth = 10;
-            this.guna2Button2.ShadowDecoration.Enabled = true;
             this.guna2Button2.Size = new System.Drawing.Size(35, 35);
             this.guna2Button2.TabIndex = 35;
             this.guna2Button2.TextOffset = new System.Drawing.Point(15, 0);
