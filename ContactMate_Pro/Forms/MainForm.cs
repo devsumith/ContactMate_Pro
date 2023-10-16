@@ -39,9 +39,9 @@ namespace ContactMate_Pro
             InitializeComponent();
         }
 
-        #region FUNCTION TO ADD NEW CONTACT
+        #region FUNCTIONS TO ADD NEW CONTACT DETAILS
 
-        private async void addNContactBtn_Click(object sender, EventArgs e)
+        private void addNContactBtn_Click(object sender, EventArgs e)
         {
             //// Check if the maximum number of panels (16) has been reached.
             //if (panelCount < 16)
@@ -61,16 +61,21 @@ namespace ContactMate_Pro
             //    contactControl.Name = $"cPanel{panelCount++}";
             //}
 
+            ShowingContactDetailsFormAsync();
+        }
+
+        private async void ShowingContactDetailsFormAsync()
+        {
+            // Wait for a short delay to allow the animation to finish.
             await Task.Delay(450);
 
-            // Show the "darkPanel" with its built-in animation.
+            // Show the "darkPanel" and bringing it to front.
             darkPanel.Show();
             darkPanel.BringToFront();
 
-            // Wait for a short delay to allow the animation to finish.
-            await Task.Delay(400); // Adjust the duration as needed.
+            await Task.Delay(400); 
 
-            // Show the ContactDetailsForm.
+            // Show the ContactDetailsForm in dialog.
             ContactDetailsForm contactDetailsForm = new ContactDetailsForm();
             contactDetailsForm.ShowDialog();
         }
