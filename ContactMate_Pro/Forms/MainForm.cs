@@ -41,25 +41,37 @@ namespace ContactMate_Pro
 
         #region FUNCTION TO ADD NEW CONTACT
 
-        private void addNContactBtn_Click(object sender, EventArgs e)
+        private async void addNContactBtn_Click(object sender, EventArgs e)
         {
-            // Check if the maximum number of panels (16) has been reached.
-            if (panelCount < 16)
-            {
-                // Create a new instance of ContactControl (assuming this is a custom user control).
-                ContactControl contactControl = new ContactControl();
+            //// Check if the maximum number of panels (16) has been reached.
+            //if (panelCount < 16)
+            //{
+            //    // Create a new instance of ContactControl (assuming this is a custom user control).
+            //    ContactControl contactControl = new ContactControl();
 
-                // Calculate the location (position) of the new panel based on its index.
-                // The xStart and yStart values define the starting position.
-                // xSpacing and ySpacing define the horizontal and vertical spacing between panels.
-                contactControl.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
+            //    // Calculate the location (position) of the new panel based on its index.
+            //    // The xStart and yStart values define the starting position.
+            //    // xSpacing and ySpacing define the horizontal and vertical spacing between panels.
+            //    contactControl.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
 
-                // Add the newly created ContactControl to the bodyPanel, assuming bodyPanel is the container.
-                bodyPanel.Controls.Add(contactControl);
+            //    // Add the newly created ContactControl to the bodyPanel, assuming bodyPanel is the container.
+            //    bodyPanel.Controls.Add(contactControl);
 
-                // Set the Name property of the ContactControl to "cPanelX" where X is the panelCount.
-                contactControl.Name = $"cPanel{panelCount++}";
-            }
+            //    // Set the Name property of the ContactControl to "cPanelX" where X is the panelCount.
+            //    contactControl.Name = $"cPanel{panelCount++}";
+            //}
+
+            // Show the "darkPanel" with its built-in animation.
+            darkPanel.Show();
+            addNContactBtn.Animated = false;
+            darkPanel.BringToFront();
+
+            // Wait for a short delay to allow the animation to finish.
+            await Task.Delay(400); // Adjust the duration as needed.
+
+            // Show the ContactDetailsForm.
+            ContactDetailsForm contactDetailsForm = new ContactDetailsForm();
+            contactDetailsForm.ShowDialog();
         }
 
         #endregion
