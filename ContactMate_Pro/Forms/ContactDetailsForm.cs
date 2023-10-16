@@ -17,6 +17,8 @@ namespace ContactMate_Pro
             InitializeComponent();
         }
 
+        #region FUNCTION FOR CLOSE BUTTON OF THE FORM
+
         private void closeBtn_Click(object sender, EventArgs e)
         {
             // Get a reference to the MainForm if it exists.
@@ -30,5 +32,7 @@ namespace ContactMate_Pro
                 Close();
             }
         }
+
+        #endregion
     }
 }
