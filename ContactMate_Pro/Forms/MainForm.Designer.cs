@@ -1495,10 +1495,11 @@
             // 
             this.darkPanel.BackColor = System.Drawing.Color.Transparent;
             this.darkPanel.BorderRadius = 10;
+            this.darkPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.darkPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
-            this.darkPanel.Location = new System.Drawing.Point(8, 8);
+            this.darkPanel.Location = new System.Drawing.Point(0, 0);
             this.darkPanel.Name = "darkPanel";
-            this.darkPanel.Size = new System.Drawing.Size(1264, 705);
+            this.darkPanel.Size = new System.Drawing.Size(1280, 720);
             this.darkPanel.TabIndex = 19;
             this.darkPanel.UseTransparentBackground = true;
             this.darkPanel.Visible = false;
@@ -1598,11 +1599,11 @@
         private System.Windows.Forms.TabPage thirdButton;
         private Guna.UI2.WinForms.Guna2CircleButton nextPageBtn;
         private Guna.UI2.WinForms.Guna2CircleButton prevPageBtn;
-        private Guna.UI2.WinForms.Guna2Button addNContactBtn;
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
         private Guna.UI2.WinForms.Guna2HtmlLabel contactsCount;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel darkPanel;
+        public Guna.UI2.WinForms.Guna2Panel darkPanel;
+        public Guna.UI2.WinForms.Guna2Button addNContactBtn;
     }
 }
 

@@ -61,9 +61,10 @@ namespace ContactMate_Pro
             //    contactControl.Name = $"cPanel{panelCount++}";
             //}
 
+            await Task.Delay(450);
+
             // Show the "darkPanel" with its built-in animation.
             darkPanel.Show();
-            addNContactBtn.Animated = false;
             darkPanel.BringToFront();
 
             // Wait for a short delay to allow the animation to finish.
