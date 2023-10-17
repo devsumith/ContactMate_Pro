@@ -43,24 +43,6 @@ namespace ContactMate_Pro
 
         private void addNContactBtn_Click(object sender, EventArgs e)
         {
-            //// Check if the maximum number of panels (16) has been reached.
-            //if (panelCount < 16)
-            //{
-            //    // Create a new instance of ContactControl (assuming this is a custom user control).
-            //    ContactControl contactControl = new ContactControl();
-
-            //    // Calculate the location (position) of the new panel based on its index.
-            //    // The xStart and yStart values define the starting position.
-            //    // xSpacing and ySpacing define the horizontal and vertical spacing between panels.
-            //    contactControl.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
-
-            //    // Add the newly created ContactControl to the bodyPanel, assuming bodyPanel is the container.
-            //    bodyPanel.Controls.Add(contactControl);
-
-            //    // Set the Name property of the ContactControl to "cPanelX" where X is the panelCount.
-            //    contactControl.Name = $"cPanel{panelCount++}";
-            //}
-
             ShowingContactDetailsFormAsync();
         }
 
@@ -82,7 +64,23 @@ namespace ContactMate_Pro
 
         private void AddNewContactControl()
         {
+            // Check if the maximum number of panels (16) has been reached.
+            if (panelCount < 16)
+            {
+                // Create a new instance of ContactControl (assuming this is a custom user control).
+                ContactControl contactControl = new ContactControl();
 
+                // Calculate the location (position) of the new panel based on its index.
+                // The xStart and yStart values define the starting position.
+                // xSpacing and ySpacing define the horizontal and vertical spacing between panels.
+                contactControl.Location = new Point(xStart + (panelCount % 4 * xSpacing), yStart + (panelCount / 4 * ySpacing));
+
+                // Add the newly created ContactControl to the bodyPanel, assuming bodyPanel is the container.
+                bodyPanel.Controls.Add(contactControl);
+
+                // Set the Name property of the ContactControl to "cPanelX" where X is the panelCount.
+                contactControl.Name = $"cPanel{panelCount++}";
+            }
         }
 
         #endregion
