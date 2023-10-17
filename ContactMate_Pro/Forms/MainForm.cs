@@ -80,6 +80,11 @@ namespace ContactMate_Pro
             contactDetailsForm.ShowDialog();
         }
 
+        private void AddNewContactControl()
+        {
+
+        }
+
         #endregion
 
         #region FUNCTION TO UPDATE THE TIME AND DATE LABEL EVERY 100 MILLISECONDS 
