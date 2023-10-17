@@ -41,16 +41,16 @@ namespace ContactMate_Pro
 
         #region FUNCTIONS TO ADD NEW CONTACT DETAILS
 
-        private void addNContactBtn_Click(object sender, EventArgs e)
+        private async void addNContactBtn_Click(object sender, EventArgs e)
         {
-            ShowingContactDetailsFormAsync();
+            await ShowingContactDetailsFormAsync();
 
             AddNewContactControl();
         }
 
         #region PROCESS TO ADD NEW CONTACT DETAILS
 
-        private async void ShowingContactDetailsFormAsync()
+        private async Task ShowingContactDetailsFormAsync()
         {
             // Wait for a short delay to allow the animation to finish.
             await Task.Delay(450);
