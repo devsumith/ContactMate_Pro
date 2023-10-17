@@ -44,7 +44,11 @@ namespace ContactMate_Pro
         private void addNContactBtn_Click(object sender, EventArgs e)
         {
             ShowingContactDetailsFormAsync();
+
+            AddNewContactControl();
         }
+
+        #region PROCESS TO ADD NEW CONTACT DETAILS
 
         private async void ShowingContactDetailsFormAsync()
         {
@@ -82,6 +86,8 @@ namespace ContactMate_Pro
                 contactControl.Name = $"cPanel{panelCount++}";
             }
         }
+
+        #endregion
 
         #endregion
 
