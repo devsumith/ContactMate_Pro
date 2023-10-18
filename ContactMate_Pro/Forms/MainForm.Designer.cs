@@ -92,11 +92,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.darkPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.dragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timerTick = new System.Windows.Forms.Timer(this.components);
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.darkPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.formPanel.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.bodyPanel.SuspendLayout();
@@ -332,7 +332,7 @@
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
             this.addNContactBtn.ImageSize = new System.Drawing.Size(17, 17);
-            this.addNContactBtn.Location = new System.Drawing.Point(811, 7);
+            this.addNContactBtn.Location = new System.Drawing.Point(810, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
@@ -1466,6 +1466,19 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(38, 25);
             this.guna2ControlBox1.TabIndex = 14;
             // 
+            // darkPanel
+            // 
+            this.darkPanel.BackColor = System.Drawing.Color.Transparent;
+            this.darkPanel.BorderRadius = 10;
+            this.darkPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.darkPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
+            this.darkPanel.Location = new System.Drawing.Point(0, 0);
+            this.darkPanel.Name = "darkPanel";
+            this.darkPanel.Size = new System.Drawing.Size(1280, 720);
+            this.darkPanel.TabIndex = 19;
+            this.darkPanel.UseTransparentBackground = true;
+            this.darkPanel.Visible = false;
+            // 
             // dragControl
             // 
             this.dragControl.DockIndicatorTransparencyValue = 0.6D;
@@ -1493,19 +1506,6 @@
             this.borderlessForm.HasFormShadow = false;
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
-            // 
-            // darkPanel
-            // 
-            this.darkPanel.BackColor = System.Drawing.Color.Transparent;
-            this.darkPanel.BorderRadius = 10;
-            this.darkPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.darkPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
-            this.darkPanel.Location = new System.Drawing.Point(0, 0);
-            this.darkPanel.Name = "darkPanel";
-            this.darkPanel.Size = new System.Drawing.Size(1280, 720);
-            this.darkPanel.TabIndex = 19;
-            this.darkPanel.UseTransparentBackground = true;
-            this.darkPanel.Visible = false;
             // 
             // MainForm
             // 
