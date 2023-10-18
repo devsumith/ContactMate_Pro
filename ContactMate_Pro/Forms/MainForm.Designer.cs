@@ -1321,7 +1321,7 @@
             this.dateLabel.BackColor = System.Drawing.Color.Transparent;
             this.dateLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
             this.dateLabel.ForeColor = System.Drawing.Color.DimGray;
-            this.dateLabel.Location = new System.Drawing.Point(14, 632);
+            this.dateLabel.Location = new System.Drawing.Point(7, 633);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(77, 25);
             this.dateLabel.TabIndex = 19;
@@ -1332,7 +1332,7 @@
             this.timeLabel.BackColor = System.Drawing.Color.Transparent;
             this.timeLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F);
             this.timeLabel.ForeColor = System.Drawing.Color.DimGray;
-            this.timeLabel.Location = new System.Drawing.Point(14, 610);
+            this.timeLabel.Location = new System.Drawing.Point(7, 611);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(62, 25);
             this.timeLabel.TabIndex = 18;
