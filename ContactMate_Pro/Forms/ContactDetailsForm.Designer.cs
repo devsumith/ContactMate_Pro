@@ -33,6 +33,7 @@
             this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.selectImageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.SuspendLayout();
@@ -66,6 +67,7 @@
             // 
             this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CustomGradientPanel2.BorderRadius = 10;
+            this.guna2CustomGradientPanel2.Controls.Add(this.selectImageBtn);
             this.guna2CustomGradientPanel2.Controls.Add(this.contactImageBox);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
@@ -89,6 +91,25 @@
             this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.contactImageBox.TabIndex = 0;
             this.contactImageBox.TabStop = false;
+            // 
+            // selectImageBtn
+            // 
+            this.selectImageBtn.Animated = true;
+            this.selectImageBtn.BackColor = System.Drawing.Color.Transparent;
+            this.selectImageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.selectImageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.selectImageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.selectImageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.selectImageBtn.FillColor = System.Drawing.Color.Transparent;
+            this.selectImageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.selectImageBtn.ForeColor = System.Drawing.Color.White;
+            this.selectImageBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
+            this.selectImageBtn.Location = new System.Drawing.Point(10, 11);
+            this.selectImageBtn.Name = "selectImageBtn";
+            this.selectImageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.selectImageBtn.Size = new System.Drawing.Size(140, 140);
+            this.selectImageBtn.TabIndex = 1;
+            this.selectImageBtn.UseTransparentBackground = true;
             // 
             // ContactDetailsForm
             // 
@@ -114,5 +135,6 @@
         private Guna.UI2.WinForms.Guna2ControlBox closeBtn;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox contactImageBox;
+        private Guna.UI2.WinForms.Guna2CircleButton selectImageBtn;
     }
 }
