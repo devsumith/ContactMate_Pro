@@ -32,9 +32,9 @@
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -66,7 +66,7 @@
             // 
             this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.Honeydew;
             this.guna2CustomGradientPanel2.BorderRadius = 10;
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2CirclePictureBox1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.contactImageBox);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -76,17 +76,19 @@
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(455, 162);
             this.guna2CustomGradientPanel2.TabIndex = 30;
             // 
-            // guna2CirclePictureBox1
+            // contactImageBox
             // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Honeydew;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(10, 11);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(140, 140);
-            this.guna2CirclePictureBox1.TabIndex = 0;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.contactImageBox.BackColor = System.Drawing.Color.Transparent;
+            this.contactImageBox.FillColor = System.Drawing.Color.Honeydew;
+            this.contactImageBox.Image = global::ContactMate_Pro.Properties.Resources.user__2_;
+            this.contactImageBox.ImageRotate = 0F;
+            this.contactImageBox.Location = new System.Drawing.Point(10, 11);
+            this.contactImageBox.Name = "contactImageBox";
+            this.contactImageBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.contactImageBox.Size = new System.Drawing.Size(140, 140);
+            this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.contactImageBox.TabIndex = 0;
+            this.contactImageBox.TabStop = false;
             // 
             // ContactDetailsForm
             // 
@@ -101,7 +103,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "hind";
             this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -111,6 +113,6 @@
         private Guna.UI2.WinForms.Guna2BorderlessForm borderlessForm;
         private Guna.UI2.WinForms.Guna2ControlBox closeBtn;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox contactImageBox;
     }
 }
