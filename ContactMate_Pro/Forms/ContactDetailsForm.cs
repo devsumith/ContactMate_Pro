@@ -36,5 +36,12 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        #region FUNCTIONS FOR HOVER STATE ANIMATION OF SELECT IMAGE BUTTON
+
+        private void selectImageBtn_MouseEnter(object sender, EventArgs e) => selectImageBtn.Image = Properties.Resources.photo_camera;
+        private void selectImageBtn_MouseLeave(object sender, EventArgs e) => selectImageBtn.Image = null;
+
+        #endregion
     }
 }
