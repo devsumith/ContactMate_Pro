@@ -332,7 +332,7 @@
             this.addNContactBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.addNContactBtn.ImageOffset = new System.Drawing.Point(5, 0);
             this.addNContactBtn.ImageSize = new System.Drawing.Size(17, 17);
-            this.addNContactBtn.Location = new System.Drawing.Point(810, 7);
+            this.addNContactBtn.Location = new System.Drawing.Point(809, 7);
             this.addNContactBtn.Name = "addNContactBtn";
             this.addNContactBtn.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
