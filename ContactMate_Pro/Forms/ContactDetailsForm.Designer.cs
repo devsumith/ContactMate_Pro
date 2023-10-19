@@ -97,6 +97,7 @@
             this.selectImageBtn.Size = new System.Drawing.Size(140, 140);
             this.selectImageBtn.TabIndex = 1;
             this.selectImageBtn.UseTransparentBackground = true;
+            this.selectImageBtn.Click += new System.EventHandler(this.selectImageBtn_Click);
             this.selectImageBtn.MouseEnter += new System.EventHandler(this.selectImageBtn_MouseEnter);
             this.selectImageBtn.MouseLeave += new System.EventHandler(this.selectImageBtn_MouseLeave);
             // 
