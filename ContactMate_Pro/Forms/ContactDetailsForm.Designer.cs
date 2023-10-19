@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactDetailsForm));
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -104,6 +105,8 @@
             this.selectImageBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.selectImageBtn.ForeColor = System.Drawing.Color.White;
             this.selectImageBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
+            this.selectImageBtn.Image = ((System.Drawing.Image)(resources.GetObject("selectImageBtn.Image")));
+            this.selectImageBtn.ImageSize = new System.Drawing.Size(0, 0);
             this.selectImageBtn.Location = new System.Drawing.Point(10, 11);
             this.selectImageBtn.Name = "selectImageBtn";
             this.selectImageBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
