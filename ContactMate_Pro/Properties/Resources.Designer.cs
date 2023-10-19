@@ -123,6 +123,16 @@ namespace ContactMate_Pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photo_camera {
+            get {
+                object obj = ResourceManager.GetObject("photo_camera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search_interface_symbol {
             get {
                 object obj = ResourceManager.GetObject("search_interface_symbol", resourceCulture);
