@@ -51,7 +51,7 @@ namespace ContactMate_Pro
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
             // Set the filter to allow only JPEG and PNG image files.
-            openFileDialog.Filter = "Image Files|*.jpeg;*.jpg;*.png|All Files|*.*";
+            openFileDialog.Filter = "Image Files|*.jpeg;*.jpg;*.png";
 
             // To handle any exceptions that might occur during the process.
             try
