@@ -40,6 +40,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -161,11 +162,12 @@
             this.filterTab.Controls.Add(this.tabPage1);
             this.filterTab.Controls.Add(this.tabPage2);
             this.filterTab.Controls.Add(this.tabPage3);
-            this.filterTab.ItemSize = new System.Drawing.Size(80, 35);
-            this.filterTab.Location = new System.Drawing.Point(0, 202);
+            this.filterTab.Controls.Add(this.tabPage4);
+            this.filterTab.ItemSize = new System.Drawing.Size(94, 35);
+            this.filterTab.Location = new System.Drawing.Point(1, 202);
             this.filterTab.Name = "filterTab";
             this.filterTab.SelectedIndex = 0;
-            this.filterTab.Size = new System.Drawing.Size(383, 301);
+            this.filterTab.Size = new System.Drawing.Size(381, 301);
             this.filterTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.DarkSeaGreen;
             this.filterTab.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -181,7 +183,7 @@
             this.filterTab.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.filterTab.TabButtonSelectedState.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.filterTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.OliveDrab;
-            this.filterTab.TabButtonSize = new System.Drawing.Size(80, 35);
+            this.filterTab.TabButtonSize = new System.Drawing.Size(94, 35);
             this.filterTab.TabIndex = 33;
             this.filterTab.TabMenuBackColor = System.Drawing.Color.Honeydew;
             this.filterTab.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
@@ -192,9 +194,9 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(375, 258);
+            this.tabPage1.Size = new System.Drawing.Size(373, 258);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Relation";
+            this.tabPage1.Text = "Overview";
             // 
             // tabPage2
             // 
@@ -203,18 +205,27 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(375, 258);
+            this.tabPage2.Size = new System.Drawing.Size(373, 258);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Group";
+            this.tabPage2.Text = "Personal ";
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(375, 258);
+            this.tabPage3.Size = new System.Drawing.Size(373, 258);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Birthday";
+            this.tabPage3.Text = "Social Media";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage4.Location = new System.Drawing.Point(4, 39);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(373, 258);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Employment ";
             // 
             // ContactDetailsForm
             // 
@@ -249,5 +260,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }
