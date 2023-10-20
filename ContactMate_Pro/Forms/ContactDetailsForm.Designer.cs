@@ -54,13 +54,15 @@
             // 
             this.closeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.closeBtn.Animated = true;
+            this.closeBtn.BorderColor = System.Drawing.Color.DimGray;
             this.closeBtn.BorderRadius = 10;
             this.closeBtn.CustomClick = true;
             this.closeBtn.FillColor = System.Drawing.Color.Transparent;
             this.closeBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.closeBtn.IconColor = System.Drawing.Color.Black;
+            this.closeBtn.IconColor = System.Drawing.Color.DimGray;
             this.closeBtn.Location = new System.Drawing.Point(337, 6);
             this.closeBtn.Name = "closeBtn";
+            this.closeBtn.PressedColor = System.Drawing.Color.DimGray;
             this.closeBtn.Size = new System.Drawing.Size(38, 25);
             this.closeBtn.TabIndex = 15;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
@@ -75,7 +77,7 @@
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(187)))), ((int)(((byte)(106)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.SteelBlue;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(12, 47);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(115, 36);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(150, 150);
             this.guna2CustomGradientPanel2.TabIndex = 30;
@@ -120,13 +122,13 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.LightGreen;
-            this.guna2Panel1.Controls.Add(this.closeBtn);
             this.guna2Panel1.Controls.Add(this.guna2CustomGradientPanel2);
+            this.guna2Panel1.Controls.Add(this.closeBtn);
             this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(383, 210);
+            this.guna2Panel1.Size = new System.Drawing.Size(383, 196);
             this.guna2Panel1.TabIndex = 31;
             // 
             // ContactDetailsForm
