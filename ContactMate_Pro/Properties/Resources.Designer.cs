@@ -93,6 +93,16 @@ namespace ContactMate_Pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gallery {
+            get {
+                object obj = ResourceManager.GetObject("gallery", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap left_chevron {
             get {
                 object obj = ResourceManager.GetObject("left_chevron", resourceCulture);
@@ -116,16 +126,6 @@ namespace ContactMate_Pro.Properties {
         internal static System.Drawing.Bitmap menu__2_ {
             get {
                 object obj = ResourceManager.GetObject("menu__2_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap photo_camera {
-            get {
-                object obj = ResourceManager.GetObject("photo_camera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
