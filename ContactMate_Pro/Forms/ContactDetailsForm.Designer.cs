@@ -36,9 +36,14 @@
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            this.filterTab.SuspendLayout();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -151,12 +156,73 @@
             this.guna2GradientButton1.TabIndex = 32;
             this.guna2GradientButton1.Text = "ADD CONTACT";
             // 
+            // filterTab
+            // 
+            this.filterTab.Controls.Add(this.tabPage1);
+            this.filterTab.Controls.Add(this.tabPage2);
+            this.filterTab.Controls.Add(this.tabPage3);
+            this.filterTab.ItemSize = new System.Drawing.Size(80, 35);
+            this.filterTab.Location = new System.Drawing.Point(0, 202);
+            this.filterTab.Name = "filterTab";
+            this.filterTab.SelectedIndex = 0;
+            this.filterTab.Size = new System.Drawing.Size(383, 301);
+            this.filterTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.DarkSeaGreen;
+            this.filterTab.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonHoverState.ForeColor = System.Drawing.Color.DimGray;
+            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.DarkSeaGreen;
+            this.filterTab.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonIdleState.ForeColor = System.Drawing.Color.DarkGray;
+            this.filterTab.TabButtonIdleState.InnerColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.filterTab.TabButtonSelectedState.FillColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterTab.TabButtonSelectedState.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.filterTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.OliveDrab;
+            this.filterTab.TabButtonSize = new System.Drawing.Size(80, 35);
+            this.filterTab.TabIndex = 33;
+            this.filterTab.TabMenuBackColor = System.Drawing.Color.Honeydew;
+            this.filterTab.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Location = new System.Drawing.Point(4, 39);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(375, 258);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Relation";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.ForeColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Location = new System.Drawing.Point(4, 39);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(375, 258);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Group";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Location = new System.Drawing.Point(4, 39);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(375, 258);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Birthday";
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(383, 548);
+            this.Controls.Add(this.filterTab);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -165,6 +231,7 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
+            this.filterTab.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -178,5 +245,9 @@
         public Guna.UI2.WinForms.Guna2CircleButton selectImageBtn;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2TabControl filterTab;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
