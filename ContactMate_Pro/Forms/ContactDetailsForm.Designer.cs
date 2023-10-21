@@ -34,16 +34,17 @@
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.selectImageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.headPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
+            this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             this.borderlessForm.BorderRadius = 10;
             this.borderlessForm.ContainerControl = this;
             this.borderlessForm.DockIndicatorTransparencyValue = 0.6D;
+            this.borderlessForm.DragForm = false;
             this.borderlessForm.HasFormShadow = false;
             this.borderlessForm.ResizeForm = false;
             this.borderlessForm.TransparentWhileDrag = true;
@@ -126,17 +128,17 @@
             this.contactImageBox.TabIndex = 0;
             this.contactImageBox.TabStop = false;
             // 
-            // guna2Panel1
+            // headPanel
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.guna2Panel1.Controls.Add(this.guna2CustomGradientPanel2);
-            this.guna2Panel1.Controls.Add(this.closeBtn);
-            this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(383, 196);
-            this.guna2Panel1.TabIndex = 31;
+            this.headPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.headPanel.Controls.Add(this.guna2CustomGradientPanel2);
+            this.headPanel.Controls.Add(this.closeBtn);
+            this.headPanel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.headPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.headPanel.Location = new System.Drawing.Point(0, 0);
+            this.headPanel.Name = "headPanel";
+            this.headPanel.Size = new System.Drawing.Size(383, 196);
+            this.headPanel.TabIndex = 31;
             // 
             // guna2GradientButton1
             // 
@@ -151,9 +153,9 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.SteelBlue;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(10, 509);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(6, 508);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(363, 32);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(370, 32);
             this.guna2GradientButton1.TabIndex = 32;
             this.guna2GradientButton1.Text = "ADD CONTACT";
             // 
@@ -227,6 +229,12 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Employment ";
             // 
+            // dragControl
+            // 
+            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.dragControl.TargetControl = this.headPanel;
+            this.dragControl.UseTransparentDrag = true;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,13 +243,13 @@
             this.ClientSize = new System.Drawing.Size(383, 548);
             this.Controls.Add(this.filterTab);
             this.Controls.Add(this.guna2GradientButton1);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.headPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ContactDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
+            this.headPanel.ResumeLayout(false);
             this.filterTab.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -254,12 +262,13 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox contactImageBox;
         public Guna.UI2.WinForms.Guna2CircleButton selectImageBtn;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel headPanel;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2TabControl filterTab;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
+        private Guna.UI2.WinForms.Guna2DragControl dragControl;
     }
 }
