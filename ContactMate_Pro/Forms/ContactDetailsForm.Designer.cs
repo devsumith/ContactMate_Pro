@@ -42,10 +42,13 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lastNameBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -193,6 +196,8 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Controls.Add(this.guna2HtmlLabel2);
+            this.tabPage1.Controls.Add(this.lastNameBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -235,6 +240,45 @@
             this.dragControl.TargetControl = this.headPanel;
             this.dragControl.UseTransparentDrag = true;
             // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(12, 9);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(74, 16);
+            this.guna2HtmlLabel2.TabIndex = 18;
+            this.guna2HtmlLabel2.Text = "NICKNAME:";
+            // 
+            // lastNameBox
+            // 
+            this.lastNameBox.Animated = true;
+            this.lastNameBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.lastNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lastNameBox.DefaultText = "";
+            this.lastNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.lastNameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.lastNameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lastNameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.lastNameBox.FillColor = System.Drawing.Color.Honeydew;
+            this.lastNameBox.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.lastNameBox.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F);
+            this.lastNameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.lastNameBox.IconRightSize = new System.Drawing.Size(25, 25);
+            this.lastNameBox.Location = new System.Drawing.Point(11, 26);
+            this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.lastNameBox.Name = "lastNameBox";
+            this.lastNameBox.PasswordChar = '\0';
+            this.lastNameBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.lastNameBox.PlaceholderText = "last name";
+            this.lastNameBox.SelectedText = "";
+            this.lastNameBox.Size = new System.Drawing.Size(352, 38);
+            this.lastNameBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.lastNameBox.TabIndex = 17;
+            this.lastNameBox.TabStop = false;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,6 +295,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.headPanel.ResumeLayout(false);
             this.filterTab.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -270,5 +316,7 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private Guna.UI2.WinForms.Guna2DragControl dragControl;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2TextBox lastNameBox;
     }
 }
