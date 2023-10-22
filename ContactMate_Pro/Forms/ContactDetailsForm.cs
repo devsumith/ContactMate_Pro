@@ -77,5 +77,10 @@ namespace ContactMate_Pro
         private bool IsSquareImage(Bitmap image) => image.Width == image.Height;
 
         #endregion
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
