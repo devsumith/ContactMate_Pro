@@ -38,27 +38,27 @@
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.relationCBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lastNameBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -207,8 +207,8 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
-            this.tabPage1.Controls.Add(this.guna2CirclePictureBox1);
-            this.tabPage1.Controls.Add(this.guna2ComboBox2);
+            this.tabPage1.Controls.Add(this.relationColor);
+            this.tabPage1.Controls.Add(this.relationCBox);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel2);
             this.tabPage1.Controls.Add(this.lastNameBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
@@ -217,7 +217,54 @@
             this.tabPage1.Size = new System.Drawing.Size(373, 258);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Overview";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // relationColor
+            // 
+            this.relationColor.FillColor = System.Drawing.Color.LightGray;
+            this.relationColor.ImageRotate = 0F;
+            this.relationColor.Location = new System.Drawing.Point(136, 41);
+            this.relationColor.Name = "relationColor";
+            this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.relationColor.Size = new System.Drawing.Size(15, 15);
+            this.relationColor.TabIndex = 28;
+            this.relationColor.TabStop = false;
+            // 
+            // relationCBox
+            // 
+            this.relationCBox.BackColor = System.Drawing.Color.Transparent;
+            this.relationCBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.relationCBox.BorderRadius = 15;
+            this.relationCBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.relationCBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.relationCBox.FillColor = System.Drawing.Color.MintCream;
+            this.relationCBox.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.relationCBox.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.relationCBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
+            this.relationCBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.relationCBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.relationCBox.IntegralHeight = false;
+            this.relationCBox.ItemHeight = 30;
+            this.relationCBox.Items.AddRange(new object[] {
+            "- SELECT THE RELATION -",
+            "FAMILY",
+            "PARTNER",
+            "FRIEND",
+            "NEIGHBORS",
+            "COLLEAGUES",
+            "SCHOOL / UNIVERSITY",
+            "PERSONAL SERVICE",
+            "MEDICAL CONTACT",
+            "PROFESSIONAL CONTACT",
+            "OTHER"});
+            this.relationCBox.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.relationCBox.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.relationCBox.Location = new System.Drawing.Point(156, 29);
+            this.relationCBox.Name = "relationCBox";
+            this.relationCBox.Size = new System.Drawing.Size(202, 36);
+            this.relationCBox.StartIndex = 0;
+            this.relationCBox.TabIndex = 27;
+            this.relationCBox.TextOffset = new System.Drawing.Point(20, 2);
+            this.relationCBox.SelectedIndexChanged += new System.EventHandler(this.relationCBox_SelectedIndexChanged);
             // 
             // guna2HtmlLabel2
             // 
@@ -274,30 +321,6 @@
             this.tabPage2.Size = new System.Drawing.Size(373, 258);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Personal ";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
-            this.tabPage3.Location = new System.Drawing.Point(4, 39);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(373, 258);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Social Media";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.Honeydew;
-            this.tabPage4.Location = new System.Drawing.Point(4, 39);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(373, 258);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Employment ";
-            // 
-            // dragControl
-            // 
-            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.dragControl.TargetControl = this.headPanel;
-            this.dragControl.UseTransparentDrag = true;
             // 
             // guna2HtmlLabel6
             // 
@@ -416,52 +439,29 @@
             this.guna2TextBox7.TabIndex = 25;
             this.guna2TextBox7.TabStop = false;
             // 
-            // guna2ComboBox2
+            // tabPage3
             // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.BorderRadius = 15;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FillColor = System.Drawing.Color.MintCream;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.DarkGreen;
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2ComboBox2.IntegralHeight = false;
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
-            "SELECT THE RELATION",
-            "FAMILY",
-            "PARTNER",
-            "FRIEND",
-            "NEIGHBORS",
-            "COLLEAGUES",
-            "SCHOOL / UNIVERSITY",
-            "PERSONAL SERVICE",
-            "MEDICAL CONTACT",
-            "PROFESSIONAL CONTACT",
-            "OTHER"});
-            this.guna2ComboBox2.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
-            this.guna2ComboBox2.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(156, 29);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(202, 36);
-            this.guna2ComboBox2.StartIndex = 0;
-            this.guna2ComboBox2.TabIndex = 27;
-            this.guna2ComboBox2.TextOffset = new System.Drawing.Point(10, 0);
+            this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Location = new System.Drawing.Point(4, 39);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(373, 258);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Social Media";
             // 
-            // guna2CirclePictureBox1
+            // tabPage4
             // 
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.LightGray;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(136, 41);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(15, 15);
-            this.guna2CirclePictureBox1.TabIndex = 28;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.tabPage4.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage4.Location = new System.Drawing.Point(4, 39);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(373, 258);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Employment ";
+            // 
+            // dragControl
+            // 
+            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.dragControl.TargetControl = this.headPanel;
+            this.dragControl.UseTransparentDrag = true;
             // 
             // ContactDetailsForm
             // 
@@ -481,9 +481,9 @@
             this.filterTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -511,7 +511,7 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox relationCBox;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox relationColor;
     }
 }
