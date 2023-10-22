@@ -78,9 +78,29 @@ namespace ContactMate_Pro
 
         #endregion
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
+        #region FUNCTION TO CHANGE THE RELATION COLOR DEPENDS ON SELECTED RELATION
 
+        private void relationCBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Color[] relationColors =
+            {
+                Color.LightGray,            // DEFAULT
+                Color.LightBlue,            // FAMILY
+                Color.LightCoral,           // PARTNER
+                Color.LightGreen,           // FRIEND
+                Color.Lavender,             // NEIGHBORS
+                Color.Aqua,                 // COLLEAGUES
+                Color.PaleTurquoise,        // SCHOOL / UNIVERSITY
+                Color.LightGoldenrodYellow, // PERSONAL SERVICE
+                Color.PeachPuff,            // MEDICAL CONTACT
+                Color.LightSalmon,          // PROFESSIONAL CONTACT
+                Color.SaddleBrown           // OTHER
+            };
+
+            // Change the fill color of relationColor based on selected relation.
+            relationColor.FillColor = relationColors[relationCBox.SelectedIndex];
         }
+
+        #endregion
     }
 }
