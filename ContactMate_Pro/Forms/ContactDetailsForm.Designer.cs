@@ -240,7 +240,7 @@
             this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox3.FillColor = System.Drawing.Color.Honeydew;
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.guna2TextBox3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F);
+            this.guna2TextBox3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox3.IconRightSize = new System.Drawing.Size(25, 25);
@@ -279,7 +279,7 @@
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FillColor = System.Drawing.Color.Honeydew;
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F);
+            this.guna2TextBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
@@ -318,7 +318,7 @@
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FillColor = System.Drawing.Color.Honeydew;
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
