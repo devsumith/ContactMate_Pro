@@ -222,7 +222,7 @@
             // 
             this.relationColor.FillColor = System.Drawing.Color.LightGray;
             this.relationColor.ImageRotate = 0F;
-            this.relationColor.Location = new System.Drawing.Point(136, 41);
+            this.relationColor.Location = new System.Drawing.Point(137, 41);
             this.relationColor.Name = "relationColor";
             this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.relationColor.Size = new System.Drawing.Size(15, 15);
