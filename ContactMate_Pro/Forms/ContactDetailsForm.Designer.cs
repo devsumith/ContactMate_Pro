@@ -166,7 +166,7 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.SteelBlue;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(6, 508);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(6, 509);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(370, 32);
             this.guna2GradientButton1.TabIndex = 32;
