@@ -207,9 +207,9 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Controls.Add(this.guna2HtmlLabel2);
             this.tabPage1.Controls.Add(this.relationColor);
             this.tabPage1.Controls.Add(this.relationCBox);
-            this.tabPage1.Controls.Add(this.guna2HtmlLabel2);
             this.tabPage1.Controls.Add(this.lastNameBox);
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Name = "tabPage1";
@@ -222,7 +222,7 @@
             // 
             this.relationColor.FillColor = System.Drawing.Color.LightGray;
             this.relationColor.ImageRotate = 0F;
-            this.relationColor.Location = new System.Drawing.Point(137, 41);
+            this.relationColor.Location = new System.Drawing.Point(137, 28);
             this.relationColor.Name = "relationColor";
             this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.relationColor.Size = new System.Drawing.Size(15, 15);
@@ -258,7 +258,7 @@
             "OTHER"});
             this.relationCBox.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
             this.relationCBox.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.relationCBox.Location = new System.Drawing.Point(156, 29);
+            this.relationCBox.Location = new System.Drawing.Point(156, 16);
             this.relationCBox.Name = "relationCBox";
             this.relationCBox.Size = new System.Drawing.Size(202, 36);
             this.relationCBox.StartIndex = 0;
@@ -270,17 +270,18 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(12, 14);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(19, 6);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(59, 18);
             this.guna2HtmlLabel2.TabIndex = 18;
-            this.guna2HtmlLabel2.Text = "NICKNAME:";
+            this.guna2HtmlLabel2.Text = " NICKNAME: ";
             // 
             // lastNameBox
             // 
             this.lastNameBox.Animated = true;
-            this.lastNameBox.BorderColor = System.Drawing.Color.LightGray;
+            this.lastNameBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.lastNameBox.BorderRadius = 15;
             this.lastNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lastNameBox.DefaultText = "";
             this.lastNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
@@ -290,20 +291,20 @@
             this.lastNameBox.FillColor = System.Drawing.Color.Honeydew;
             this.lastNameBox.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.lastNameBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastNameBox.ForeColor = System.Drawing.Color.Gray;
+            this.lastNameBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.lastNameBox.IconRightSize = new System.Drawing.Size(25, 25);
-            this.lastNameBox.Location = new System.Drawing.Point(11, 27);
+            this.lastNameBox.Location = new System.Drawing.Point(7, 16);
             this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.PasswordChar = '\0';
             this.lastNameBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.lastNameBox.PlaceholderText = "last name";
             this.lastNameBox.SelectedText = "";
-            this.lastNameBox.Size = new System.Drawing.Size(110, 38);
-            this.lastNameBox.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.lastNameBox.Size = new System.Drawing.Size(123, 36);
             this.lastNameBox.TabIndex = 17;
             this.lastNameBox.TabStop = false;
+            this.lastNameBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabPage2
             // 
