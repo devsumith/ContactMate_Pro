@@ -160,5 +160,8 @@
   <ItemGroup>
     <None Include="Resources\call.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
