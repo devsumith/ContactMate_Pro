@@ -29,22 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactDetailsForm));
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.selectImageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.headPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.relationCBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lastNameBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -57,13 +53,16 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -131,20 +130,6 @@
             this.selectImageBtn.Click += new System.EventHandler(this.selectImageBtn_Click);
             this.selectImageBtn.MouseEnter += new System.EventHandler(this.selectImageBtn_MouseEnter);
             this.selectImageBtn.MouseLeave += new System.EventHandler(this.selectImageBtn_MouseLeave);
-            // 
-            // contactImageBox
-            // 
-            this.contactImageBox.BackColor = System.Drawing.Color.Transparent;
-            this.contactImageBox.FillColor = System.Drawing.Color.Honeydew;
-            this.contactImageBox.Image = global::ContactMate_Pro.Properties.Resources.user__2_;
-            this.contactImageBox.ImageRotate = 0F;
-            this.contactImageBox.Location = new System.Drawing.Point(5, 5);
-            this.contactImageBox.Name = "contactImageBox";
-            this.contactImageBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.contactImageBox.Size = new System.Drawing.Size(140, 140);
-            this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.contactImageBox.TabIndex = 0;
-            this.contactImageBox.TabStop = false;
             // 
             // headPanel
             // 
@@ -246,28 +231,6 @@
             this.guna2HtmlLabel1.TabIndex = 31;
             this.guna2HtmlLabel1.Text = "ENTER THE CONTACT NUMBERS: ";
             // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.BorderThickness = 1;
-            this.guna2Button1.CustomizableEdges.BottomLeft = false;
-            this.guna2Button1.CustomizableEdges.TopLeft = false;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button1.Location = new System.Drawing.Point(141, 89);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(37, 36);
-            this.guna2Button1.TabIndex = 30;
-            // 
             // guna2TextBox1
             // 
             this.guna2TextBox1.Animated = true;
@@ -309,17 +272,6 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(59, 18);
             this.guna2HtmlLabel2.TabIndex = 18;
             this.guna2HtmlLabel2.Text = " NICKNAME: ";
-            // 
-            // relationColor
-            // 
-            this.relationColor.FillColor = System.Drawing.Color.LightGray;
-            this.relationColor.ImageRotate = 0F;
-            this.relationColor.Location = new System.Drawing.Point(142, 36);
-            this.relationColor.Name = "relationColor";
-            this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.relationColor.Size = new System.Drawing.Size(15, 15);
-            this.relationColor.TabIndex = 28;
-            this.relationColor.TabStop = false;
             // 
             // relationCBox
             // 
@@ -545,6 +497,53 @@
             this.dragControl.TargetControl = this.headPanel;
             this.dragControl.UseTransparentDrag = true;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.BorderThickness = 1;
+            this.guna2Button1.CustomizableEdges.BottomLeft = false;
+            this.guna2Button1.CustomizableEdges.TopLeft = false;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = global::ContactMate_Pro.Properties.Resources.call;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button1.Location = new System.Drawing.Point(141, 89);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(37, 36);
+            this.guna2Button1.TabIndex = 30;
+            // 
+            // relationColor
+            // 
+            this.relationColor.FillColor = System.Drawing.Color.LightGray;
+            this.relationColor.ImageRotate = 0F;
+            this.relationColor.Location = new System.Drawing.Point(142, 36);
+            this.relationColor.Name = "relationColor";
+            this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.relationColor.Size = new System.Drawing.Size(15, 15);
+            this.relationColor.TabIndex = 28;
+            this.relationColor.TabStop = false;
+            // 
+            // contactImageBox
+            // 
+            this.contactImageBox.BackColor = System.Drawing.Color.Transparent;
+            this.contactImageBox.FillColor = System.Drawing.Color.Honeydew;
+            this.contactImageBox.Image = global::ContactMate_Pro.Properties.Resources.user__2_;
+            this.contactImageBox.ImageRotate = 0F;
+            this.contactImageBox.Location = new System.Drawing.Point(5, 5);
+            this.contactImageBox.Name = "contactImageBox";
+            this.contactImageBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.contactImageBox.Size = new System.Drawing.Size(140, 140);
+            this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.contactImageBox.TabIndex = 0;
+            this.contactImageBox.TabStop = false;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -558,14 +557,14 @@
             this.Name = "ContactDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.headPanel.ResumeLayout(false);
             this.filterTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
