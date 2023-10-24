@@ -60,6 +60,7 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
@@ -201,6 +202,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Controls.Add(this.guna2HtmlLabel4);
             this.tabPage1.Controls.Add(this.flowLayoutPanel2);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel3);
             this.tabPage1.Controls.Add(this.guna2Button2);
@@ -256,7 +258,7 @@
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.guna2TextBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox1.Location = new System.Drawing.Point(5, 89);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -333,7 +335,7 @@
             this.lastNameBox.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.lastNameBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastNameBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.lastNameBox.IconRightSize = new System.Drawing.Size(25, 25);
             this.lastNameBox.Location = new System.Drawing.Point(5, 24);
             this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -541,7 +543,7 @@
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.guna2TextBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox2.Location = new System.Drawing.Point(190, 89);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -624,6 +626,17 @@
             this.contactImageBox.TabIndex = 0;
             this.contactImageBox.TabStop = false;
             // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(171, 6);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(139, 18);
+            this.guna2HtmlLabel4.TabIndex = 37;
+            this.guna2HtmlLabel4.Text = "SELECT THE RELATIONSHIP: ";
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -682,5 +695,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }
