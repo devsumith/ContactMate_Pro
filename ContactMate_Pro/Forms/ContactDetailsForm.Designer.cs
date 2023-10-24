@@ -37,7 +37,6 @@
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -53,7 +52,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -61,6 +59,10 @@
             this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
@@ -68,6 +70,8 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -202,12 +206,12 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage1.Controls.Add(this.guna2Panel2);
+            this.tabPage1.Controls.Add(this.guna2Panel1);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel4);
-            this.tabPage1.Controls.Add(this.flowLayoutPanel2);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel3);
             this.tabPage1.Controls.Add(this.guna2Button2);
             this.tabPage1.Controls.Add(this.guna2TextBox2);
-            this.tabPage1.Controls.Add(this.flowLayoutPanel1);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel1);
             this.tabPage1.Controls.Add(this.guna2Button1);
             this.tabPage1.Controls.Add(this.guna2TextBox1);
@@ -221,14 +225,6 @@
             this.tabPage1.Size = new System.Drawing.Size(373, 258);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Overview";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 126);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 129);
-            this.flowLayoutPanel1.TabIndex = 32;
             // 
             // guna2HtmlLabel1
             // 
@@ -247,6 +243,7 @@
             this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox1.BorderRadius = 15;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.CustomizableEdges.BottomLeft = false;
             this.guna2TextBox1.CustomizableEdges.BottomRight = false;
             this.guna2TextBox1.CustomizableEdges.TopRight = false;
             this.guna2TextBox1.DefaultText = "";
@@ -507,14 +504,6 @@
             this.dragControl.TargetControl = this.headPanel;
             this.dragControl.UseTransparentDrag = true;
             // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(190, 126);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(173, 129);
-            this.flowLayoutPanel2.TabIndex = 36;
-            // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -532,6 +521,7 @@
             this.guna2TextBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox2.BorderRadius = 15;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.CustomizableEdges.BottomLeft = false;
             this.guna2TextBox2.CustomizableEdges.BottomRight = false;
             this.guna2TextBox2.CustomizableEdges.TopRight = false;
             this.guna2TextBox2.DefaultText = "";
@@ -541,7 +531,7 @@
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FillColor = System.Drawing.Color.MintCream;
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
@@ -564,6 +554,7 @@
             this.guna2Button2.BorderRadius = 15;
             this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.CustomizableEdges.BottomLeft = false;
+            this.guna2Button2.CustomizableEdges.BottomRight = false;
             this.guna2Button2.CustomizableEdges.TopLeft = false;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -586,6 +577,7 @@
             this.guna2Button1.BorderRadius = 15;
             this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.CustomizableEdges.BottomLeft = false;
+            this.guna2Button1.CustomizableEdges.BottomRight = false;
             this.guna2Button1.CustomizableEdges.TopLeft = false;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -637,6 +629,52 @@
             this.guna2HtmlLabel4.TabIndex = 37;
             this.guna2HtmlLabel4.Text = "SELECT THE RELATIONSHIP: ";
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Panel1.BorderRadius = 15;
+            this.guna2Panel1.BorderThickness = 1;
+            this.guna2Panel1.Controls.Add(this.flowLayoutPanel1);
+            this.guna2Panel1.CustomizableEdges.TopLeft = false;
+            this.guna2Panel1.CustomizableEdges.TopRight = false;
+            this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel1.Location = new System.Drawing.Point(5, 121);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(173, 137);
+            this.guna2Panel1.TabIndex = 38;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel2.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2Panel2.BorderRadius = 15;
+            this.guna2Panel2.BorderThickness = 1;
+            this.guna2Panel2.Controls.Add(this.flowLayoutPanel2);
+            this.guna2Panel2.CustomizableEdges.TopLeft = false;
+            this.guna2Panel2.CustomizableEdges.TopRight = false;
+            this.guna2Panel2.FillColor = System.Drawing.Color.MintCream;
+            this.guna2Panel2.Location = new System.Drawing.Point(190, 121);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(173, 137);
+            this.guna2Panel2.TabIndex = 39;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 137);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(173, 137);
+            this.flowLayoutPanel2.TabIndex = 1;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -658,6 +696,8 @@
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -690,11 +730,13 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }
