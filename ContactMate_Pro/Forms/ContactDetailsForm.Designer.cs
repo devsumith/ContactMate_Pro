@@ -225,9 +225,9 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 131);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 126);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 121);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 129);
             this.flowLayoutPanel1.TabIndex = 32;
             // 
             // guna2HtmlLabel1
@@ -235,7 +235,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 71);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 66);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(152, 16);
             this.guna2HtmlLabel1.TabIndex = 31;
@@ -260,7 +260,7 @@
             this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox1.Location = new System.Drawing.Point(5, 89);
+            this.guna2TextBox1.Location = new System.Drawing.Point(5, 84);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -510,9 +510,9 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(190, 131);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(190, 126);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(173, 121);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(173, 129);
             this.flowLayoutPanel2.TabIndex = 36;
             // 
             // guna2HtmlLabel3
@@ -520,7 +520,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(200, 71);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(200, 66);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(152, 16);
             this.guna2HtmlLabel3.TabIndex = 35;
@@ -545,7 +545,7 @@
             this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox2.Location = new System.Drawing.Point(190, 89);
+            this.guna2TextBox2.Location = new System.Drawing.Point(190, 84);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
@@ -574,7 +574,7 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Image = global::ContactMate_Pro.Properties.Resources.gmail;
             this.guna2Button2.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2Button2.Location = new System.Drawing.Point(326, 89);
+            this.guna2Button2.Location = new System.Drawing.Point(326, 84);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(37, 36);
             this.guna2Button2.TabIndex = 34;
@@ -596,7 +596,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::ContactMate_Pro.Properties.Resources.call;
             this.guna2Button1.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button1.Location = new System.Drawing.Point(141, 89);
+            this.guna2Button1.Location = new System.Drawing.Point(141, 84);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(37, 36);
             this.guna2Button1.TabIndex = 30;
