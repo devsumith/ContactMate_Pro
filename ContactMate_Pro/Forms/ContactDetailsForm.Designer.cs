@@ -303,7 +303,7 @@
             this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
             this.guna2Panel1.Location = new System.Drawing.Point(5, 121);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(162, 137);
+            this.guna2Panel1.Size = new System.Drawing.Size(150, 137);
             this.guna2Panel1.TabIndex = 38;
             // 
             // flowLayoutPanel1
@@ -311,7 +311,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(162, 137);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(150, 137);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // guna2HtmlLabel4
@@ -420,7 +420,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::ContactMate_Pro.Properties.Resources.call;
             this.guna2Button1.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button1.Location = new System.Drawing.Point(129, 84);
+            this.guna2Button1.Location = new System.Drawing.Point(118, 84);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(37, 36);
             this.guna2Button1.TabIndex = 30;
@@ -453,7 +453,7 @@
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.guna2TextBox1.PlaceholderText = "last name";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(123, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(112, 36);
             this.guna2TextBox1.TabIndex = 29;
             this.guna2TextBox1.TabStop = false;
             this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
