@@ -278,9 +278,9 @@
             this.guna2Panel2.CustomizableEdges.TopLeft = false;
             this.guna2Panel2.CustomizableEdges.TopRight = false;
             this.guna2Panel2.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Panel2.Location = new System.Drawing.Point(173, 121);
+            this.guna2Panel2.Location = new System.Drawing.Point(162, 121);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(190, 137);
+            this.guna2Panel2.Size = new System.Drawing.Size(201, 137);
             this.guna2Panel2.TabIndex = 39;
             // 
             // flowLayoutPanel2
@@ -288,7 +288,7 @@
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(190, 137);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(201, 137);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // guna2Panel1
@@ -379,14 +379,14 @@
             this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox2.Location = new System.Drawing.Point(173, 84);
+            this.guna2TextBox2.Location = new System.Drawing.Point(162, 84);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.guna2TextBox2.PlaceholderText = "last name";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(152, 36);
+            this.guna2TextBox2.Size = new System.Drawing.Size(163, 36);
             this.guna2TextBox2.TabIndex = 33;
             this.guna2TextBox2.TabStop = false;
             this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
