@@ -398,9 +398,9 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(10, 66);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(152, 16);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(142, 16);
             this.guna2HtmlLabel1.TabIndex = 31;
-            this.guna2HtmlLabel1.Text = "ENTER THE CONTACT NUMBERS: ";
+            this.guna2HtmlLabel1.Text = "ENTER THE PHONE NUMBERS: ";
             // 
             // guna2Button1
             // 
@@ -447,6 +447,7 @@
             this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox1.Location = new System.Drawing.Point(5, 84);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.guna2TextBox1.MaxLength = 11;
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
