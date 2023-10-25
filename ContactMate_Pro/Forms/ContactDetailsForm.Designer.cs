@@ -450,8 +450,8 @@
             this.guna2TextBox1.MaxLength = 11;
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.PlaceholderText = "last name";
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.guna2TextBox1.PlaceholderText = "09123456789";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(112, 36);
             this.guna2TextBox1.TabIndex = 29;
@@ -532,7 +532,7 @@
             this.lastNameBox.PlaceholderForeColor = System.Drawing.Color.Transparent;
             this.lastNameBox.PlaceholderText = "last name";
             this.lastNameBox.SelectedText = "";
-            this.lastNameBox.Size = new System.Drawing.Size(147, 36);
+            this.lastNameBox.Size = new System.Drawing.Size(150, 36);
             this.lastNameBox.TabIndex = 17;
             this.lastNameBox.TabStop = false;
             this.lastNameBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
