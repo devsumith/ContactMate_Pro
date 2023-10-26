@@ -330,11 +330,11 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(194, 66);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(177, 66);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(152, 16);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(97, 16);
             this.guna2HtmlLabel3.TabIndex = 35;
-            this.guna2HtmlLabel3.Text = "ENTER THE GMAIL ADDRESSES: ";
+            this.guna2HtmlLabel3.Text = "GMAIL ADDRESSES: ";
             // 
             // guna2Button2
             // 
@@ -396,11 +396,11 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(10, 66);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(20, 66);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(142, 16);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(97, 16);
             this.guna2HtmlLabel1.TabIndex = 31;
-            this.guna2HtmlLabel1.Text = "ENTER THE PHONE NUMBERS: ";
+            this.guna2HtmlLabel1.Text = "CONTACT NUMBERS: ";
             // 
             // guna2Button1
             // 
@@ -463,7 +463,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(10, 6);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(20, 6);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(59, 18);
             this.guna2HtmlLabel2.TabIndex = 18;
