@@ -64,6 +64,7 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.addCNumBtn = new Guna.UI2.WinForms.Guna2Button();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.cNumberControl1 = new ContactMate_Pro.CNumberControl();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
@@ -71,6 +72,7 @@
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            this.cNumLayoutPanel.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
@@ -284,6 +286,7 @@
             // cNumLayoutPanel
             // 
             this.cNumLayoutPanel.AutoScroll = true;
+            this.cNumLayoutPanel.Controls.Add(this.cNumberControl1);
             this.cNumLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cNumLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.cNumLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -698,6 +701,16 @@
             this.contactImageBox.TabIndex = 0;
             this.contactImageBox.TabStop = false;
             // 
+            // cNumberControl1
+            // 
+            this.cNumberControl1.BackColor = System.Drawing.Color.Transparent;
+            this.cNumberControl1.ContactNumber = "09392723942";
+            this.cNumberControl1.Location = new System.Drawing.Point(2, 2);
+            this.cNumberControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.cNumberControl1.Name = "cNumberControl1";
+            this.cNumberControl1.Size = new System.Drawing.Size(129, 30);
+            this.cNumberControl1.TabIndex = 0;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -718,6 +731,7 @@
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
+            this.cNumLayoutPanel.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
@@ -763,5 +777,6 @@
         private System.Windows.Forms.FlowLayoutPanel cNumLayoutPanel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private CNumberControl cNumberControl1;
     }
 }
