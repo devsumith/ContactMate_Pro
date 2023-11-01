@@ -16,5 +16,15 @@ namespace ContactMate_Pro
         {
             InitializeComponent();
         }
+
+        #region PROPERTY OF CONTACT NUMBER CONTROL
+
+        public String ContactNumber
+        {
+            get { return contactNumber.Text; }
+            set { contactNumber.Text = value; }
+        }
+
+        #endregion
     }
 }
