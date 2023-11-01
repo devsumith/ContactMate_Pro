@@ -38,7 +38,7 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Panel1.BorderRadius = 10;
+            this.guna2Panel1.BorderRadius = 3;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel1.Controls.Add(this.contactNumber);
