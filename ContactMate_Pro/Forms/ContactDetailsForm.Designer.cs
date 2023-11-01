@@ -41,12 +41,12 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.cNumLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cNumBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.relationCBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lastNameBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -62,7 +62,7 @@
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.addCNumBtn = new Guna.UI2.WinForms.Guna2Button();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.headPanel.SuspendLayout();
@@ -216,8 +216,8 @@
             this.tabPage1.Controls.Add(this.guna2Button2);
             this.tabPage1.Controls.Add(this.guna2TextBox2);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel1);
-            this.tabPage1.Controls.Add(this.guna2Button1);
-            this.tabPage1.Controls.Add(this.guna2TextBox1);
+            this.tabPage1.Controls.Add(this.addCNumBtn);
+            this.tabPage1.Controls.Add(this.cNumBox);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel2);
             this.tabPage1.Controls.Add(this.relationCBox);
             this.tabPage1.Controls.Add(this.lastNameBox);
@@ -272,7 +272,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.BorderThickness = 1;
-            this.guna2Panel1.Controls.Add(this.flowLayoutPanel1);
+            this.guna2Panel1.Controls.Add(this.cNumLayoutPanel);
             this.guna2Panel1.CustomizableEdges.TopLeft = false;
             this.guna2Panel1.CustomizableEdges.TopRight = false;
             this.guna2Panel1.FillColor = System.Drawing.Color.MintCream;
@@ -281,15 +281,15 @@
             this.guna2Panel1.Size = new System.Drawing.Size(150, 137);
             this.guna2Panel1.TabIndex = 38;
             // 
-            // flowLayoutPanel1
+            // cNumLayoutPanel
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(150, 137);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.cNumLayoutPanel.AutoScroll = true;
+            this.cNumLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cNumLayoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.cNumLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.cNumLayoutPanel.Name = "cNumLayoutPanel";
+            this.cNumLayoutPanel.Size = new System.Drawing.Size(150, 137);
+            this.cNumLayoutPanel.TabIndex = 0;
             // 
             // guna2HtmlLabel4
             // 
@@ -356,38 +356,38 @@
             this.guna2HtmlLabel1.TabIndex = 31;
             this.guna2HtmlLabel1.Text = "CONTACT NUMBERS: ";
             // 
-            // guna2TextBox1
+            // cNumBox
             // 
-            this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox1.BorderRadius = 15;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox1.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox1.CustomizableEdges.TopRight = false;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox1.Location = new System.Drawing.Point(5, 84);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.guna2TextBox1.MaxLength = 11;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.guna2TextBox1.PlaceholderText = "09123456789";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(112, 36);
-            this.guna2TextBox1.TabIndex = 29;
-            this.guna2TextBox1.TabStop = false;
-            this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cNumBox.Animated = true;
+            this.cNumBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.cNumBox.BorderRadius = 15;
+            this.cNumBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cNumBox.CustomizableEdges.BottomLeft = false;
+            this.cNumBox.CustomizableEdges.BottomRight = false;
+            this.cNumBox.CustomizableEdges.TopRight = false;
+            this.cNumBox.DefaultText = "";
+            this.cNumBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.cNumBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cNumBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cNumBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cNumBox.FillColor = System.Drawing.Color.MintCream;
+            this.cNumBox.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.cNumBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cNumBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.cNumBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.cNumBox.IconRightSize = new System.Drawing.Size(25, 25);
+            this.cNumBox.Location = new System.Drawing.Point(5, 84);
+            this.cNumBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cNumBox.MaxLength = 11;
+            this.cNumBox.Name = "cNumBox";
+            this.cNumBox.PasswordChar = '\0';
+            this.cNumBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.cNumBox.PlaceholderText = "09123456789";
+            this.cNumBox.SelectedText = "";
+            this.cNumBox.Size = new System.Drawing.Size(112, 36);
+            this.cNumBox.TabIndex = 29;
+            this.cNumBox.TabStop = false;
+            this.cNumBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2HtmlLabel2
             // 
@@ -660,28 +660,29 @@
             this.guna2Button2.Size = new System.Drawing.Size(37, 36);
             this.guna2Button2.TabIndex = 34;
             // 
-            // guna2Button1
+            // addCNumBtn
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.BorderThickness = 1;
-            this.guna2Button1.CustomizableEdges.BottomLeft = false;
-            this.guna2Button1.CustomizableEdges.BottomRight = false;
-            this.guna2Button1.CustomizableEdges.TopLeft = false;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::ContactMate_Pro.Properties.Resources.call;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button1.Location = new System.Drawing.Point(118, 84);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(37, 36);
-            this.guna2Button1.TabIndex = 30;
+            this.addCNumBtn.Animated = true;
+            this.addCNumBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.addCNumBtn.BorderRadius = 15;
+            this.addCNumBtn.BorderThickness = 1;
+            this.addCNumBtn.CustomizableEdges.BottomLeft = false;
+            this.addCNumBtn.CustomizableEdges.BottomRight = false;
+            this.addCNumBtn.CustomizableEdges.TopLeft = false;
+            this.addCNumBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addCNumBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addCNumBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addCNumBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addCNumBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addCNumBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addCNumBtn.ForeColor = System.Drawing.Color.White;
+            this.addCNumBtn.Image = global::ContactMate_Pro.Properties.Resources.call;
+            this.addCNumBtn.ImageSize = new System.Drawing.Size(17, 17);
+            this.addCNumBtn.Location = new System.Drawing.Point(118, 84);
+            this.addCNumBtn.Name = "addCNumBtn";
+            this.addCNumBtn.Size = new System.Drawing.Size(37, 36);
+            this.addCNumBtn.TabIndex = 30;
+            this.addCNumBtn.Click += new System.EventHandler(this.addCNumBtn_Click);
             // 
             // contactImageBox
             // 
@@ -750,8 +751,8 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
         private Guna.UI2.WinForms.Guna2ComboBox relationCBox;
         private Guna.UI2.WinForms.Guna2CirclePictureBox relationColor;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2TextBox cNumBox;
+        private Guna.UI2.WinForms.Guna2Button addCNumBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
@@ -759,7 +760,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel cNumLayoutPanel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
     }
