@@ -247,7 +247,7 @@
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel2.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Panel2.BorderRadius = 15;
+            this.guna2Panel2.BorderRadius = 5;
             this.guna2Panel2.BorderThickness = 1;
             this.guna2Panel2.Controls.Add(this.flowLayoutPanel2);
             this.guna2Panel2.CustomizableEdges.TopLeft = false;
@@ -270,7 +270,7 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Panel1.BorderRadius = 15;
+            this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Controls.Add(this.flowLayoutPanel1);
             this.guna2Panel1.CustomizableEdges.TopLeft = false;
@@ -286,6 +286,7 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(150, 137);
             this.flowLayoutPanel1.TabIndex = 0;
