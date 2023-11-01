@@ -102,5 +102,24 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        #region FUNCTION TO ADD CONTACT NUMBERS IN A LIST
+
+        private void addCNumBtn_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(cNumBox.Text))
+            {
+                CNumberControl cNumberControl = new CNumberControl();
+
+                cNumberControl.ContactNumber = cNumBox.Text;
+
+                cNumLayoutPanel.Controls.Add(cNumberControl);
+                cNumberControl.Size = new Size(129, 30);
+
+                cNumBox.Clear();
+            }
+        }
+
+        #endregion
     }
 }
