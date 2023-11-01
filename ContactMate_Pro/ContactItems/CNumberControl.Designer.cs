@@ -53,11 +53,11 @@
             // contactNumber
             // 
             this.contactNumber.AutoSize = true;
-            this.contactNumber.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactNumber.Font = new System.Drawing.Font("Bahnschrift Condensed", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contactNumber.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.contactNumber.Location = new System.Drawing.Point(7, 6);
+            this.contactNumber.Location = new System.Drawing.Point(7, 4);
             this.contactNumber.Name = "contactNumber";
-            this.contactNumber.Size = new System.Drawing.Size(76, 19);
+            this.contactNumber.Size = new System.Drawing.Size(87, 22);
             this.contactNumber.TabIndex = 0;
             this.contactNumber.Text = "09392723942";
             // 
@@ -68,7 +68,7 @@
             this.guna2ControlBox1.BorderRadius = 10;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(91, 3);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(99, 3);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(25, 25);
             this.guna2ControlBox1.TabIndex = 1;
@@ -79,6 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.guna2Panel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CNumberControl";
             this.Size = new System.Drawing.Size(129, 30);
             this.guna2Panel1.ResumeLayout(false);
