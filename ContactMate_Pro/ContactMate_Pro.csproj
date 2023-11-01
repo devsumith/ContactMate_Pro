@@ -59,6 +59,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactItems\CNumberControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContactItems\CNumberControl.Designer.cs">
+      <DependentUpon>CNumberControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ContactDetailsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContactItems\CNumberControl.resx">
+      <DependentUpon>CNumberControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContactItems\ContactControl.resx">
       <DependentUpon>ContactControl.cs</DependentUpon>
     </EmbeddedResource>
