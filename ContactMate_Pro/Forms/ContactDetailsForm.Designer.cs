@@ -44,7 +44,7 @@
             this.cNumLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cGmailBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cNumBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -61,7 +61,7 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.addCGmailBtn = new Guna.UI2.WinForms.Guna2Button();
             this.addCNumBtn = new Guna.UI2.WinForms.Guna2Button();
             this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
@@ -213,8 +213,8 @@
             this.tabPage1.Controls.Add(this.guna2Panel1);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel4);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel3);
-            this.tabPage1.Controls.Add(this.guna2Button2);
-            this.tabPage1.Controls.Add(this.guna2TextBox2);
+            this.tabPage1.Controls.Add(this.addCGmailBtn);
+            this.tabPage1.Controls.Add(this.cGmailBox);
             this.tabPage1.Controls.Add(this.guna2HtmlLabel1);
             this.tabPage1.Controls.Add(this.addCNumBtn);
             this.tabPage1.Controls.Add(this.cNumBox);
@@ -314,37 +314,37 @@
             this.guna2HtmlLabel3.TabIndex = 35;
             this.guna2HtmlLabel3.Text = "GMAIL ADDRESSES: ";
             // 
-            // guna2TextBox2
+            // cGmailBox
             // 
-            this.guna2TextBox2.Animated = true;
-            this.guna2TextBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox2.BorderRadius = 15;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox2.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox2.CustomizableEdges.TopRight = false;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox2.Location = new System.Drawing.Point(159, 84);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.guna2TextBox2.PlaceholderText = "example01@gmail.com";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(190, 36);
-            this.guna2TextBox2.TabIndex = 33;
-            this.guna2TextBox2.TabStop = false;
-            this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cGmailBox.Animated = true;
+            this.cGmailBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.cGmailBox.BorderRadius = 15;
+            this.cGmailBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cGmailBox.CustomizableEdges.BottomLeft = false;
+            this.cGmailBox.CustomizableEdges.BottomRight = false;
+            this.cGmailBox.CustomizableEdges.TopRight = false;
+            this.cGmailBox.DefaultText = "";
+            this.cGmailBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.cGmailBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cGmailBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cGmailBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cGmailBox.FillColor = System.Drawing.Color.MintCream;
+            this.cGmailBox.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.cGmailBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cGmailBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.cGmailBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.cGmailBox.IconRightSize = new System.Drawing.Size(25, 25);
+            this.cGmailBox.Location = new System.Drawing.Point(159, 84);
+            this.cGmailBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cGmailBox.Name = "cGmailBox";
+            this.cGmailBox.PasswordChar = '\0';
+            this.cGmailBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.cGmailBox.PlaceholderText = "example01@gmail.com";
+            this.cGmailBox.SelectedText = "";
+            this.cGmailBox.Size = new System.Drawing.Size(190, 36);
+            this.cGmailBox.TabIndex = 33;
+            this.cGmailBox.TabStop = false;
+            this.cGmailBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // guna2HtmlLabel1
             // 
@@ -638,28 +638,29 @@
             this.relationColor.TabIndex = 28;
             this.relationColor.TabStop = false;
             // 
-            // guna2Button2
+            // addCGmailBtn
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button2.BorderRadius = 15;
-            this.guna2Button2.BorderThickness = 1;
-            this.guna2Button2.CustomizableEdges.BottomLeft = false;
-            this.guna2Button2.CustomizableEdges.BottomRight = false;
-            this.guna2Button2.CustomizableEdges.TopLeft = false;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.MintCream;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::ContactMate_Pro.Properties.Resources.gmail;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2Button2.Location = new System.Drawing.Point(350, 84);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(37, 36);
-            this.guna2Button2.TabIndex = 34;
+            this.addCGmailBtn.Animated = true;
+            this.addCGmailBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.addCGmailBtn.BorderRadius = 15;
+            this.addCGmailBtn.BorderThickness = 1;
+            this.addCGmailBtn.CustomizableEdges.BottomLeft = false;
+            this.addCGmailBtn.CustomizableEdges.BottomRight = false;
+            this.addCGmailBtn.CustomizableEdges.TopLeft = false;
+            this.addCGmailBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addCGmailBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addCGmailBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addCGmailBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addCGmailBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addCGmailBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addCGmailBtn.ForeColor = System.Drawing.Color.White;
+            this.addCGmailBtn.Image = global::ContactMate_Pro.Properties.Resources.gmail;
+            this.addCGmailBtn.ImageSize = new System.Drawing.Size(22, 22);
+            this.addCGmailBtn.Location = new System.Drawing.Point(350, 84);
+            this.addCGmailBtn.Name = "addCGmailBtn";
+            this.addCGmailBtn.Size = new System.Drawing.Size(37, 36);
+            this.addCGmailBtn.TabIndex = 34;
+            this.addCGmailBtn.Click += new System.EventHandler(this.addCGmailBtn_Click);
             // 
             // addCNumBtn
             // 
@@ -756,8 +757,8 @@
         private Guna.UI2.WinForms.Guna2Button addCNumBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2Button addCGmailBtn;
+        private Guna.UI2.WinForms.Guna2TextBox cGmailBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
