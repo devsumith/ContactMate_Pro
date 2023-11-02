@@ -97,6 +97,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContactItems\CGmailControl.resx">
+      <DependentUpon>CGmailControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContactItems\CNumberControl.resx">
       <DependentUpon>CNumberControl.cs</DependentUpon>
     </EmbeddedResource>
