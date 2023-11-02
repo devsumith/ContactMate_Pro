@@ -121,5 +121,13 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        #region FUNCTION TO ADD CONTACT GMAIL IN A LIST
+
+        private void addCGmailBtn_Click(object sender, EventArgs e)
+        {
+        }
+
+        #endregion
     }
 }
