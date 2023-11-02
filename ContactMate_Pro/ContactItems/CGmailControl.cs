@@ -16,5 +16,15 @@ namespace ContactMate_Pro
         {
             InitializeComponent();
         }
+
+        #region PROPERTY OF CONTACT GMAIL CONTROL
+
+        public String GmailAddress
+        {
+            get { return gmailAddress.Text; }
+            set { gmailAddress.Text = value; }
+        }
+
+        #endregion
     }
 }
