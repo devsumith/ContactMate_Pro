@@ -117,6 +117,8 @@ namespace ContactMate_Pro
                 cNumberControl.Size = new Size(129, 30);
 
                 cNumBox.Clear();
+
+                cNumLayoutPanel.Refresh();
             }
         }
 
@@ -126,6 +128,19 @@ namespace ContactMate_Pro
 
         private void addCGmailBtn_Click(object sender, EventArgs e)
         {
+            if (!String.IsNullOrEmpty(cGmailBox.Text))
+            {
+                CGmailControl cGmailControl = new CGmailControl();
+
+                cGmailControl.GmailAddress = cGmailBox.Text;
+
+                cGmailLayoutPanel.Controls.Add(cGmailControl);
+                cGmailControl.Size = new Size(207, 30);
+
+                cGmailBox.Clear();
+
+                cGmailLayoutPanel.Refresh();
+            }
         }
 
         #endregion
