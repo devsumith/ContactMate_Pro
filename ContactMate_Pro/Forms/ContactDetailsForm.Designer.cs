@@ -39,7 +39,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.cGmailLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.cNumLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -249,7 +249,7 @@
             this.guna2Panel2.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2Panel2.BorderRadius = 5;
             this.guna2Panel2.BorderThickness = 1;
-            this.guna2Panel2.Controls.Add(this.flowLayoutPanel2);
+            this.guna2Panel2.Controls.Add(this.cGmailLayoutPanel);
             this.guna2Panel2.CustomizableEdges.TopLeft = false;
             this.guna2Panel2.CustomizableEdges.TopRight = false;
             this.guna2Panel2.FillColor = System.Drawing.Color.MintCream;
@@ -258,14 +258,14 @@
             this.guna2Panel2.Size = new System.Drawing.Size(228, 137);
             this.guna2Panel2.TabIndex = 39;
             // 
-            // flowLayoutPanel2
+            // cGmailLayoutPanel
             // 
-            this.flowLayoutPanel2.AutoScroll = true;
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(228, 137);
-            this.flowLayoutPanel2.TabIndex = 1;
+            this.cGmailLayoutPanel.AutoScroll = true;
+            this.cGmailLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cGmailLayoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.cGmailLayoutPanel.Name = "cGmailLayoutPanel";
+            this.cGmailLayoutPanel.Size = new System.Drawing.Size(228, 137);
+            this.cGmailLayoutPanel.TabIndex = 1;
             // 
             // guna2Panel1
             // 
@@ -763,7 +763,7 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.FlowLayoutPanel cNumLayoutPanel;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel cGmailLayoutPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
     }
 }
