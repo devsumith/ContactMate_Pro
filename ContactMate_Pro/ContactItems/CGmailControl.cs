@@ -33,8 +33,8 @@ namespace ContactMate_Pro
         private void removeBtn_Click(object sender, EventArgs e)
         {
             // Check if the Parent of the current control (the user control) is a FlowLayoutPanel.
-            // If it is a FlowLayoutPanel, remove the current user control from the FlowLayoutPanel's Controls collection.
-            // "this" refers to the current instance of the user control, so it is removed from the FlowLayoutPanel.
+            // If it is a FlowLayoutPanel, remove the current CGmailControl from the FlowLayoutPanel's Controls collection.
+            // "this" refers to the current instance of the CGmailControl, so it is removed from the FlowLayoutPanel.
             if (Parent is FlowLayoutPanel flowLayoutPanel)
                 flowLayoutPanel.Controls.Remove(this);
         }
