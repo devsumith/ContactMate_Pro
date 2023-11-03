@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.removeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.gmailAddress = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -40,7 +40,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2Panel1.BorderRadius = 3;
             this.guna2Panel1.BorderThickness = 1;
-            this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
+            this.guna2Panel1.Controls.Add(this.removeBtn);
             this.guna2Panel1.Controls.Add(this.gmailAddress);
             this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -50,18 +50,20 @@
             this.guna2Panel1.Size = new System.Drawing.Size(207, 30);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2ControlBox1
+            // removeBtn
             // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.Animated = true;
-            this.guna2ControlBox1.BorderRadius = 5;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(181, 3);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(20, 20);
-            this.guna2ControlBox1.TabIndex = 1;
+            this.removeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeBtn.Animated = true;
+            this.removeBtn.BorderRadius = 5;
+            this.removeBtn.CustomClick = true;
+            this.removeBtn.FillColor = System.Drawing.Color.Transparent;
+            this.removeBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.removeBtn.IconColor = System.Drawing.Color.DarkOliveGreen;
+            this.removeBtn.Location = new System.Drawing.Point(181, 3);
+            this.removeBtn.Name = "removeBtn";
+            this.removeBtn.Size = new System.Drawing.Size(20, 20);
+            this.removeBtn.TabIndex = 1;
+            this.removeBtn.Click += new System.EventHandler(this.removeBtn_Click);
             // 
             // gmailAddress
             // 
@@ -93,6 +95,6 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label gmailAddress;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox removeBtn;
     }
 }

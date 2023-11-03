@@ -26,5 +26,10 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        private void removeBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
