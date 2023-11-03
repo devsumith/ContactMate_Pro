@@ -27,9 +27,18 @@ namespace ContactMate_Pro
 
         #endregion
 
+        #region FUNCTION TO REMOVE THE CONTACT GMAIL CONTROL IN A LIST
+
+        // This method is an event handler for the click event of the "removeBtn" button in your user control.
         private void removeBtn_Click(object sender, EventArgs e)
         {
-
+            // Check if the Parent of the current control (the user control) is a FlowLayoutPanel.
+            // If it is a FlowLayoutPanel, remove the current user control from the FlowLayoutPanel's Controls collection.
+            // "this" refers to the current instance of the user control, so it is removed from the FlowLayoutPanel.
+            if (Parent is FlowLayoutPanel flowLayoutPanel)
+                flowLayoutPanel.Controls.Remove(this);
         }
+
+        #endregion
     }
 }
