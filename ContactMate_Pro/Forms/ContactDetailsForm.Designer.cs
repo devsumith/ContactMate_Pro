@@ -394,6 +394,7 @@
             this.cGmailBox.TabIndex = 33;
             this.cGmailBox.TabStop = false;
             this.cGmailBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cGmailBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cGmailBox_KeyDown);
             // 
             // guna2HtmlLabel1
             // 

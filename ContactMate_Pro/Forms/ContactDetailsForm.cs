@@ -151,6 +151,14 @@ namespace ContactMate_Pro
             }
         }
 
+        private void cGmailBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            // When the Enter key is pressed in the cGmailBox control, 
+            // simulate a click event on the addCGmailBt button.
+            if (e.KeyCode == Keys.Enter)
+                addCGmailBtn_Click(sender, e);
+        }
+
         #endregion
     }
 }
