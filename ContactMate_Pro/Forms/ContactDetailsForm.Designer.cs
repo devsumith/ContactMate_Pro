@@ -462,6 +462,7 @@
             this.cNumBox.TabIndex = 29;
             this.cNumBox.TabStop = false;
             this.cNumBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cNumBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cNumBox_KeyDown);
             // 
             // guna2HtmlLabel2
             // 

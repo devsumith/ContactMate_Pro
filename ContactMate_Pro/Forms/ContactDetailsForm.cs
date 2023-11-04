@@ -122,6 +122,11 @@ namespace ContactMate_Pro
             }
         }
 
+        private void cNumBox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
         #endregion
 
         #region FUNCTION TO ADD CONTACT GMAIL IN A LIST
