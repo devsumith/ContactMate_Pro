@@ -151,6 +151,11 @@ namespace ContactMate_Pro
             }
         }
 
+        private void cGmailBox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
         #endregion
     }
 }
