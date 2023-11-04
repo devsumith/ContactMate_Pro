@@ -124,6 +124,8 @@ namespace ContactMate_Pro
 
         private void cNumBox_KeyDown(object sender, KeyEventArgs e)
         {
+            // When the Enter key is pressed in the cNumBox control, 
+            // simulate a click event on the addCNumBtn button.
             if (e.KeyCode == Keys.Enter)
                 addCNumBtn_Click(sender, e);
         }
