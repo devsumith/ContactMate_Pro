@@ -337,9 +337,9 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(177, 66);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(97, 16);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(85, 16);
             this.guna2HtmlLabel3.TabIndex = 35;
-            this.guna2HtmlLabel3.Text = "GMAIL ADDRESSES: ";
+            this.guna2HtmlLabel3.Text = "GMAIL ADDRESS: ";
             // 
             // addCGmailBtn
             // 
@@ -405,9 +405,9 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(20, 66);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(97, 16);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(91, 16);
             this.guna2HtmlLabel1.TabIndex = 31;
-            this.guna2HtmlLabel1.Text = "CONTACT NUMBERS: ";
+            this.guna2HtmlLabel1.Text = "CONTACT NUMBER: ";
             // 
             // addCNumBtn
             // 
