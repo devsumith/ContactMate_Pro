@@ -124,7 +124,8 @@ namespace ContactMate_Pro
 
         private void cNumBox_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+                addCNumBtn_Click(sender, e);
         }
 
         #endregion
