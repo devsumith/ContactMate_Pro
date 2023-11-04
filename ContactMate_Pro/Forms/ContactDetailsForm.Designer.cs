@@ -58,6 +58,14 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
@@ -67,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -540,6 +549,14 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel8);
+            this.tabPage2.Controls.Add(this.guna2ComboBox1);
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel7);
+            this.tabPage2.Controls.Add(this.guna2TextBox3);
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel6);
+            this.tabPage2.Controls.Add(this.guna2TextBox2);
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel5);
+            this.tabPage2.Controls.Add(this.guna2TextBox1);
             this.tabPage2.ForeColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
@@ -572,6 +589,174 @@
             this.dragControl.TargetControl = this.headPanel;
             this.dragControl.UseTransparentDrag = true;
             // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(6, 6);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(56, 18);
+            this.guna2HtmlLabel5.TabIndex = 20;
+            this.guna2HtmlLabel5.Text = "SURNAME: ";
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Animated = true;
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox1.BorderRadius = 15;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox1.CustomizableEdges.TopRight = false;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox1.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox1.Location = new System.Drawing.Point(6, 24);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox1.PlaceholderText = "last name";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(100, 36);
+            this.guna2TextBox1.TabIndex = 19;
+            this.guna2TextBox1.TabStop = false;
+            this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(107, 6);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(67, 18);
+            this.guna2HtmlLabel6.TabIndex = 22;
+            this.guna2HtmlLabel6.Text = "GIVEN NAME: ";
+            // 
+            // guna2TextBox2
+            // 
+            this.guna2TextBox2.Animated = true;
+            this.guna2TextBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox2.BorderRadius = 15;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox2.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox2.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox2.CustomizableEdges.TopRight = false;
+            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox2.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox2.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox2.Location = new System.Drawing.Point(107, 24);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PasswordChar = '\0';
+            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox2.PlaceholderText = "last name";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(100, 36);
+            this.guna2TextBox2.TabIndex = 21;
+            this.guna2TextBox2.TabStop = false;
+            this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(208, 6);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(76, 18);
+            this.guna2HtmlLabel7.TabIndex = 24;
+            this.guna2HtmlLabel7.Text = "MIDDLE NAME: ";
+            // 
+            // guna2TextBox3
+            // 
+            this.guna2TextBox3.Animated = true;
+            this.guna2TextBox3.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox3.BorderRadius = 15;
+            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox3.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox3.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox3.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox3.CustomizableEdges.TopRight = false;
+            this.guna2TextBox3.DefaultText = "";
+            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox3.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox3.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox3.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox3.Location = new System.Drawing.Point(208, 24);
+            this.guna2TextBox3.Name = "guna2TextBox3";
+            this.guna2TextBox3.PasswordChar = '\0';
+            this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox3.PlaceholderText = "last name";
+            this.guna2TextBox3.SelectedText = "";
+            this.guna2TextBox3.Size = new System.Drawing.Size(100, 36);
+            this.guna2TextBox3.TabIndex = 23;
+            this.guna2TextBox3.TabStop = false;
+            this.guna2TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox1.BorderRadius = 15;
+            this.guna2ComboBox1.CustomizableEdges.BottomLeft = false;
+            this.guna2ComboBox1.CustomizableEdges.TopLeft = false;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FillColor = System.Drawing.Color.MintCream;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox1.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2ComboBox1.IntegralHeight = false;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "N/A",
+            "JR.",
+            "SR."});
+            this.guna2ComboBox1.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox1.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox1.Location = new System.Drawing.Point(309, 24);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(75, 36);
+            this.guna2ComboBox1.StartIndex = 0;
+            this.guna2ComboBox1.TabIndex = 28;
+            this.guna2ComboBox1.TextOffset = new System.Drawing.Point(7, 2);
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(309, 6);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(55, 18);
+            this.guna2HtmlLabel8.TabIndex = 29;
+            this.guna2HtmlLabel8.Text = "EXT NAME: ";
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -594,6 +779,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -629,5 +816,13 @@
         private System.Windows.Forms.FlowLayoutPanel cNumLayoutPanel;
         private System.Windows.Forms.FlowLayoutPanel cGmailLayoutPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
     }
 }
