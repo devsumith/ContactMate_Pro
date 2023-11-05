@@ -797,7 +797,7 @@
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(228, 130);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(228, 137);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(61, 18);
             this.guna2HtmlLabel9.TabIndex = 35;
@@ -823,7 +823,7 @@
             this.guna2TextBox4.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox4.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox4.Location = new System.Drawing.Point(228, 148);
+            this.guna2TextBox4.Location = new System.Drawing.Point(228, 155);
             this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
@@ -840,7 +840,7 @@
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel10.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(72, 130);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(72, 137);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(53, 18);
             this.guna2HtmlLabel10.TabIndex = 33;
@@ -867,7 +867,7 @@
             this.guna2TextBox5.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox5.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox5.Location = new System.Drawing.Point(72, 148);
+            this.guna2TextBox5.Location = new System.Drawing.Point(72, 155);
             this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
@@ -884,7 +884,7 @@
             this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel11.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(6, 130);
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(6, 137);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
             this.guna2HtmlLabel11.Size = new System.Drawing.Size(47, 18);
             this.guna2HtmlLabel11.TabIndex = 31;
@@ -910,7 +910,7 @@
             this.guna2TextBox6.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox6.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox6.Location = new System.Drawing.Point(6, 148);
+            this.guna2TextBox6.Location = new System.Drawing.Point(6, 155);
             this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PasswordChar = '\0';
@@ -927,7 +927,7 @@
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(195, 188);
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(195, 204);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
             this.guna2HtmlLabel12.Size = new System.Drawing.Size(56, 18);
             this.guna2HtmlLabel12.TabIndex = 41;
@@ -953,7 +953,7 @@
             this.guna2TextBox7.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox7.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox7.Location = new System.Drawing.Point(195, 206);
+            this.guna2TextBox7.Location = new System.Drawing.Point(195, 222);
             this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox7.Name = "guna2TextBox7";
             this.guna2TextBox7.PasswordChar = '\0';
@@ -970,7 +970,7 @@
             this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel13.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(6, 188);
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(6, 204);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
             this.guna2HtmlLabel13.Size = new System.Drawing.Size(107, 18);
             this.guna2HtmlLabel13.TabIndex = 39;
@@ -996,7 +996,7 @@
             this.guna2TextBox8.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox8.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox8.Location = new System.Drawing.Point(6, 206);
+            this.guna2TextBox8.Location = new System.Drawing.Point(6, 222);
             this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox8.Name = "guna2TextBox8";
             this.guna2TextBox8.PasswordChar = '\0';
@@ -1013,7 +1013,7 @@
             this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel14.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(106, 70);
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(106, 71);
             this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(26, 18);
             this.guna2HtmlLabel14.TabIndex = 43;
@@ -1137,7 +1137,7 @@
             "100"});
             this.guna2ComboBox2.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
             this.guna2ComboBox2.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(106, 88);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(106, 89);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(75, 36);
             this.guna2ComboBox2.StartIndex = 0;
@@ -1158,7 +1158,7 @@
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(182, 88);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(182, 89);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
@@ -1171,7 +1171,7 @@
             this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel15.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(182, 70);
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(182, 71);
             this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
             this.guna2HtmlLabel15.Size = new System.Drawing.Size(60, 18);
             this.guna2HtmlLabel15.TabIndex = 45;
@@ -1182,7 +1182,7 @@
             this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel16.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel16.Location = new System.Drawing.Point(6, 70);
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(6, 71);
             this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
             this.guna2HtmlLabel16.Size = new System.Drawing.Size(46, 18);
             this.guna2HtmlLabel16.TabIndex = 47;
@@ -1211,7 +1211,7 @@
             "FEMALE"});
             this.guna2ComboBox3.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
             this.guna2ComboBox3.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(6, 88);
+            this.guna2ComboBox3.Location = new System.Drawing.Point(6, 89);
             this.guna2ComboBox3.Name = "guna2ComboBox3";
             this.guna2ComboBox3.Size = new System.Drawing.Size(99, 36);
             this.guna2ComboBox3.StartIndex = 0;
