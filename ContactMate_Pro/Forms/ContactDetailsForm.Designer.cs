@@ -1176,18 +1176,19 @@
             this.guna2TextBox14.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox14.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox14.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox14.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox14.Location = new System.Drawing.Point(7, 209);
             this.guna2TextBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox14.Name = "guna2TextBox14";
             this.guna2TextBox14.PasswordChar = '\0';
-            this.guna2TextBox14.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox14.PlaceholderText = "last name";
+            this.guna2TextBox14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox14.PlaceholderText = "";
             this.guna2TextBox14.SelectedText = "";
             this.guna2TextBox14.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox14.TabIndex = 54;
             this.guna2TextBox14.TabStop = false;
-            this.guna2TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox14.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // relationColor
             // 
@@ -1269,18 +1270,19 @@
             this.guna2TextBox13.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox13.IconLeft = global::ContactMate_Pro.Properties.Resources.github;
+            this.guna2TextBox13.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox13.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox13.Location = new System.Drawing.Point(7, 172);
             this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox13.Name = "guna2TextBox13";
             this.guna2TextBox13.PasswordChar = '\0';
-            this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox13.PlaceholderText = "last name";
+            this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox13.PlaceholderText = "GitHub Link";
             this.guna2TextBox13.SelectedText = "";
             this.guna2TextBox13.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox13.TabIndex = 53;
             this.guna2TextBox13.TabStop = false;
-            this.guna2TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox13.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // guna2TextBox12
             // 
@@ -1303,18 +1305,19 @@
             this.guna2TextBox12.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox12.IconLeft = global::ContactMate_Pro.Properties.Resources.linkedin;
+            this.guna2TextBox12.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox12.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox12.Location = new System.Drawing.Point(7, 135);
             this.guna2TextBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox12.Name = "guna2TextBox12";
             this.guna2TextBox12.PasswordChar = '\0';
-            this.guna2TextBox12.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox12.PlaceholderText = "last name";
+            this.guna2TextBox12.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox12.PlaceholderText = "LinkedIn Link";
             this.guna2TextBox12.SelectedText = "";
             this.guna2TextBox12.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox12.TabIndex = 52;
             this.guna2TextBox12.TabStop = false;
-            this.guna2TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox12.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // guna2TextBox11
             // 
@@ -1337,18 +1340,19 @@
             this.guna2TextBox11.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox11.IconLeft = global::ContactMate_Pro.Properties.Resources.twitter;
+            this.guna2TextBox11.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox11.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox11.Location = new System.Drawing.Point(7, 98);
             this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox11.Name = "guna2TextBox11";
             this.guna2TextBox11.PasswordChar = '\0';
-            this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox11.PlaceholderText = "last name";
+            this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox11.PlaceholderText = "Twitter Link";
             this.guna2TextBox11.SelectedText = "";
             this.guna2TextBox11.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox11.TabIndex = 51;
             this.guna2TextBox11.TabStop = false;
-            this.guna2TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox11.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // guna2TextBox10
             // 
@@ -1371,18 +1375,19 @@
             this.guna2TextBox10.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox10.IconLeft = global::ContactMate_Pro.Properties.Resources.instagram;
+            this.guna2TextBox10.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox10.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox10.Location = new System.Drawing.Point(7, 61);
             this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox10.Name = "guna2TextBox10";
             this.guna2TextBox10.PasswordChar = '\0';
-            this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox10.PlaceholderText = "last name";
+            this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox10.PlaceholderText = "Instagram Link";
             this.guna2TextBox10.SelectedText = "";
             this.guna2TextBox10.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox10.TabIndex = 50;
             this.guna2TextBox10.TabStop = false;
-            this.guna2TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox10.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // guna2TextBox9
             // 
@@ -1403,18 +1408,19 @@
             this.guna2TextBox9.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox9.IconLeft = global::ContactMate_Pro.Properties.Resources.facebook__1_;
+            this.guna2TextBox9.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox9.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox9.Location = new System.Drawing.Point(7, 24);
             this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox9.Name = "guna2TextBox9";
             this.guna2TextBox9.PasswordChar = '\0';
-            this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox9.PlaceholderText = "last name";
+            this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox9.PlaceholderText = "Facebook Link";
             this.guna2TextBox9.SelectedText = "";
             this.guna2TextBox9.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox9.TabIndex = 49;
             this.guna2TextBox9.TabStop = false;
-            this.guna2TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox9.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // contactImageBox
             // 
