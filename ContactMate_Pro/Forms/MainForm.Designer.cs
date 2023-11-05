@@ -167,6 +167,8 @@
             this.guna2Button1.BorderRadius = 15;
             this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.CustomizableEdges.BottomLeft = false;
+            this.guna2Button1.CustomizableEdges.TopLeft = false;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -317,6 +319,8 @@
             this.addNContactBtn.BorderRadius = 15;
             this.addNContactBtn.BorderThickness = 1;
             this.addNContactBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addNContactBtn.CustomizableEdges.BottomRight = false;
+            this.addNContactBtn.CustomizableEdges.TopRight = false;
             this.addNContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addNContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addNContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -338,7 +342,7 @@
             this.addNContactBtn.ShadowDecoration.BorderRadius = 20;
             this.addNContactBtn.ShadowDecoration.Color = System.Drawing.Color.DarkOliveGreen;
             this.addNContactBtn.ShadowDecoration.Depth = 10;
-            this.addNContactBtn.Size = new System.Drawing.Size(137, 35);
+            this.addNContactBtn.Size = new System.Drawing.Size(142, 35);
             this.addNContactBtn.TabIndex = 0;
             this.addNContactBtn.Text = "New Contact";
             this.addNContactBtn.TextOffset = new System.Drawing.Point(15, 0);
