@@ -29,28 +29,23 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactDetailsForm));
             this.borderlessForm = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.closeBtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.selectImageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.headPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.cGmailLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.cNumLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.addCGmailBtn = new Guna.UI2.WinForms.Guna2Button();
             this.cGmailBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.addCNumBtn = new Guna.UI2.WinForms.Guna2Button();
             this.cNumBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.relationCBox = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -83,23 +78,27 @@
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox12 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox14 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.relationColor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.addCGmailBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.addCNumBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox12 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.contactImageBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
             this.filterTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // borderlessForm
@@ -167,20 +166,6 @@
             this.selectImageBtn.Click += new System.EventHandler(this.selectImageBtn_Click);
             this.selectImageBtn.MouseEnter += new System.EventHandler(this.selectImageBtn_MouseEnter);
             this.selectImageBtn.MouseLeave += new System.EventHandler(this.selectImageBtn_MouseLeave);
-            // 
-            // contactImageBox
-            // 
-            this.contactImageBox.BackColor = System.Drawing.Color.Transparent;
-            this.contactImageBox.FillColor = System.Drawing.Color.Honeydew;
-            this.contactImageBox.Image = global::ContactMate_Pro.Properties.Resources.user__2_;
-            this.contactImageBox.ImageRotate = 0F;
-            this.contactImageBox.Location = new System.Drawing.Point(5, 5);
-            this.contactImageBox.Name = "contactImageBox";
-            this.contactImageBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.contactImageBox.Size = new System.Drawing.Size(140, 140);
-            this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.contactImageBox.TabIndex = 0;
-            this.contactImageBox.TabStop = false;
             // 
             // headPanel
             // 
@@ -283,17 +268,6 @@
             this.guna2Panel3.Size = new System.Drawing.Size(26, 36);
             this.guna2Panel3.TabIndex = 40;
             // 
-            // relationColor
-            // 
-            this.relationColor.FillColor = System.Drawing.Color.LightGray;
-            this.relationColor.ImageRotate = 0F;
-            this.relationColor.Location = new System.Drawing.Point(7, 11);
-            this.relationColor.Name = "relationColor";
-            this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.relationColor.Size = new System.Drawing.Size(15, 15);
-            this.relationColor.TabIndex = 28;
-            this.relationColor.TabStop = false;
-            // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
@@ -365,30 +339,6 @@
             this.guna2HtmlLabel3.TabIndex = 35;
             this.guna2HtmlLabel3.Text = "GMAIL ADDRESS: ";
             // 
-            // addCGmailBtn
-            // 
-            this.addCGmailBtn.Animated = true;
-            this.addCGmailBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.addCGmailBtn.BorderRadius = 15;
-            this.addCGmailBtn.BorderThickness = 1;
-            this.addCGmailBtn.CustomizableEdges.BottomLeft = false;
-            this.addCGmailBtn.CustomizableEdges.BottomRight = false;
-            this.addCGmailBtn.CustomizableEdges.TopLeft = false;
-            this.addCGmailBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.addCGmailBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.addCGmailBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.addCGmailBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addCGmailBtn.FillColor = System.Drawing.Color.MintCream;
-            this.addCGmailBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.addCGmailBtn.ForeColor = System.Drawing.Color.White;
-            this.addCGmailBtn.Image = global::ContactMate_Pro.Properties.Resources.gmail;
-            this.addCGmailBtn.ImageSize = new System.Drawing.Size(22, 22);
-            this.addCGmailBtn.Location = new System.Drawing.Point(350, 84);
-            this.addCGmailBtn.Name = "addCGmailBtn";
-            this.addCGmailBtn.Size = new System.Drawing.Size(37, 36);
-            this.addCGmailBtn.TabIndex = 34;
-            this.addCGmailBtn.Click += new System.EventHandler(this.addCGmailBtn_Click);
-            // 
             // cGmailBox
             // 
             this.cGmailBox.Animated = true;
@@ -432,30 +382,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(91, 16);
             this.guna2HtmlLabel1.TabIndex = 31;
             this.guna2HtmlLabel1.Text = "CONTACT NUMBER: ";
-            // 
-            // addCNumBtn
-            // 
-            this.addCNumBtn.Animated = true;
-            this.addCNumBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.addCNumBtn.BorderRadius = 15;
-            this.addCNumBtn.BorderThickness = 1;
-            this.addCNumBtn.CustomizableEdges.BottomLeft = false;
-            this.addCNumBtn.CustomizableEdges.BottomRight = false;
-            this.addCNumBtn.CustomizableEdges.TopLeft = false;
-            this.addCNumBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.addCNumBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.addCNumBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.addCNumBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addCNumBtn.FillColor = System.Drawing.Color.MintCream;
-            this.addCNumBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.addCNumBtn.ForeColor = System.Drawing.Color.White;
-            this.addCNumBtn.Image = global::ContactMate_Pro.Properties.Resources.call;
-            this.addCNumBtn.ImageSize = new System.Drawing.Size(17, 17);
-            this.addCNumBtn.Location = new System.Drawing.Point(118, 84);
-            this.addCNumBtn.Name = "addCNumBtn";
-            this.addCNumBtn.Size = new System.Drawing.Size(37, 36);
-            this.addCNumBtn.TabIndex = 30;
-            this.addCNumBtn.Click += new System.EventHandler(this.addCNumBtn_Click);
             // 
             // cNumBox
             // 
@@ -1232,174 +1158,6 @@
             this.guna2ComboBox3.TabIndex = 46;
             this.guna2ComboBox3.TextOffset = new System.Drawing.Point(7, 2);
             // 
-            // guna2TextBox9
-            // 
-            this.guna2TextBox9.Animated = true;
-            this.guna2TextBox9.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox9.BorderRadius = 15;
-            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox9.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox9.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox9.DefaultText = "";
-            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
-            this.guna2TextBox9.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox9.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox9.IconLeft")));
-            this.guna2TextBox9.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox9.Location = new System.Drawing.Point(7, 24);
-            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox9.Name = "guna2TextBox9";
-            this.guna2TextBox9.PasswordChar = '\0';
-            this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox9.PlaceholderText = "last name";
-            this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox9.TabIndex = 49;
-            this.guna2TextBox9.TabStop = false;
-            this.guna2TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2TextBox10
-            // 
-            this.guna2TextBox10.Animated = true;
-            this.guna2TextBox10.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox10.BorderRadius = 15;
-            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox10.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox10.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox10.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox10.CustomizableEdges.TopRight = false;
-            this.guna2TextBox10.DefaultText = "";
-            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox10.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox10.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox10.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox10.IconLeft")));
-            this.guna2TextBox10.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox10.Location = new System.Drawing.Point(7, 61);
-            this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox10.Name = "guna2TextBox10";
-            this.guna2TextBox10.PasswordChar = '\0';
-            this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox10.PlaceholderText = "last name";
-            this.guna2TextBox10.SelectedText = "";
-            this.guna2TextBox10.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox10.TabIndex = 50;
-            this.guna2TextBox10.TabStop = false;
-            this.guna2TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2TextBox11
-            // 
-            this.guna2TextBox11.Animated = true;
-            this.guna2TextBox11.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox11.BorderRadius = 15;
-            this.guna2TextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox11.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox11.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox11.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox11.CustomizableEdges.TopRight = false;
-            this.guna2TextBox11.DefaultText = "";
-            this.guna2TextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox11.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox11.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox11.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox11.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox11.IconLeft")));
-            this.guna2TextBox11.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox11.Location = new System.Drawing.Point(7, 98);
-            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox11.Name = "guna2TextBox11";
-            this.guna2TextBox11.PasswordChar = '\0';
-            this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox11.PlaceholderText = "last name";
-            this.guna2TextBox11.SelectedText = "";
-            this.guna2TextBox11.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox11.TabIndex = 51;
-            this.guna2TextBox11.TabStop = false;
-            this.guna2TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2TextBox12
-            // 
-            this.guna2TextBox12.Animated = true;
-            this.guna2TextBox12.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox12.BorderRadius = 15;
-            this.guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox12.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox12.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox12.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox12.CustomizableEdges.TopRight = false;
-            this.guna2TextBox12.DefaultText = "";
-            this.guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox12.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox12.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox12.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox12.IconLeft")));
-            this.guna2TextBox12.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox12.Location = new System.Drawing.Point(7, 135);
-            this.guna2TextBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox12.Name = "guna2TextBox12";
-            this.guna2TextBox12.PasswordChar = '\0';
-            this.guna2TextBox12.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox12.PlaceholderText = "last name";
-            this.guna2TextBox12.SelectedText = "";
-            this.guna2TextBox12.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox12.TabIndex = 52;
-            this.guna2TextBox12.TabStop = false;
-            this.guna2TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // guna2TextBox13
-            // 
-            this.guna2TextBox13.Animated = true;
-            this.guna2TextBox13.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox13.BorderRadius = 15;
-            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox13.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox13.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox13.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox13.CustomizableEdges.TopRight = false;
-            this.guna2TextBox13.DefaultText = "";
-            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox13.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox13.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox13.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox13.IconLeft")));
-            this.guna2TextBox13.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox13.Location = new System.Drawing.Point(7, 172);
-            this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox13.Name = "guna2TextBox13";
-            this.guna2TextBox13.PasswordChar = '\0';
-            this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox13.PlaceholderText = "last name";
-            this.guna2TextBox13.SelectedText = "";
-            this.guna2TextBox13.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox13.TabIndex = 53;
-            this.guna2TextBox13.TabStop = false;
-            this.guna2TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // guna2TextBox14
             // 
             this.guna2TextBox14.Animated = true;
@@ -1431,6 +1189,247 @@
             this.guna2TextBox14.TabStop = false;
             this.guna2TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // relationColor
+            // 
+            this.relationColor.FillColor = System.Drawing.Color.LightGray;
+            this.relationColor.ImageRotate = 0F;
+            this.relationColor.Location = new System.Drawing.Point(7, 11);
+            this.relationColor.Name = "relationColor";
+            this.relationColor.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.relationColor.Size = new System.Drawing.Size(15, 15);
+            this.relationColor.TabIndex = 28;
+            this.relationColor.TabStop = false;
+            // 
+            // addCGmailBtn
+            // 
+            this.addCGmailBtn.Animated = true;
+            this.addCGmailBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.addCGmailBtn.BorderRadius = 15;
+            this.addCGmailBtn.BorderThickness = 1;
+            this.addCGmailBtn.CustomizableEdges.BottomLeft = false;
+            this.addCGmailBtn.CustomizableEdges.BottomRight = false;
+            this.addCGmailBtn.CustomizableEdges.TopLeft = false;
+            this.addCGmailBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addCGmailBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addCGmailBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addCGmailBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addCGmailBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addCGmailBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addCGmailBtn.ForeColor = System.Drawing.Color.White;
+            this.addCGmailBtn.Image = global::ContactMate_Pro.Properties.Resources.gmail;
+            this.addCGmailBtn.ImageSize = new System.Drawing.Size(22, 22);
+            this.addCGmailBtn.Location = new System.Drawing.Point(350, 84);
+            this.addCGmailBtn.Name = "addCGmailBtn";
+            this.addCGmailBtn.Size = new System.Drawing.Size(37, 36);
+            this.addCGmailBtn.TabIndex = 34;
+            this.addCGmailBtn.Click += new System.EventHandler(this.addCGmailBtn_Click);
+            // 
+            // addCNumBtn
+            // 
+            this.addCNumBtn.Animated = true;
+            this.addCNumBtn.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.addCNumBtn.BorderRadius = 15;
+            this.addCNumBtn.BorderThickness = 1;
+            this.addCNumBtn.CustomizableEdges.BottomLeft = false;
+            this.addCNumBtn.CustomizableEdges.BottomRight = false;
+            this.addCNumBtn.CustomizableEdges.TopLeft = false;
+            this.addCNumBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addCNumBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addCNumBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addCNumBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addCNumBtn.FillColor = System.Drawing.Color.MintCream;
+            this.addCNumBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.addCNumBtn.ForeColor = System.Drawing.Color.White;
+            this.addCNumBtn.Image = global::ContactMate_Pro.Properties.Resources.call;
+            this.addCNumBtn.ImageSize = new System.Drawing.Size(17, 17);
+            this.addCNumBtn.Location = new System.Drawing.Point(118, 84);
+            this.addCNumBtn.Name = "addCNumBtn";
+            this.addCNumBtn.Size = new System.Drawing.Size(37, 36);
+            this.addCNumBtn.TabIndex = 30;
+            this.addCNumBtn.Click += new System.EventHandler(this.addCNumBtn_Click);
+            // 
+            // guna2TextBox13
+            // 
+            this.guna2TextBox13.Animated = true;
+            this.guna2TextBox13.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox13.BorderRadius = 15;
+            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox13.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox13.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox13.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox13.CustomizableEdges.TopRight = false;
+            this.guna2TextBox13.DefaultText = "";
+            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox13.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox13.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox13.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox13.IconLeft = global::ContactMate_Pro.Properties.Resources.github;
+            this.guna2TextBox13.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox13.Location = new System.Drawing.Point(7, 172);
+            this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox13.Name = "guna2TextBox13";
+            this.guna2TextBox13.PasswordChar = '\0';
+            this.guna2TextBox13.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox13.PlaceholderText = "last name";
+            this.guna2TextBox13.SelectedText = "";
+            this.guna2TextBox13.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox13.TabIndex = 53;
+            this.guna2TextBox13.TabStop = false;
+            this.guna2TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2TextBox12
+            // 
+            this.guna2TextBox12.Animated = true;
+            this.guna2TextBox12.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox12.BorderRadius = 15;
+            this.guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox12.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox12.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox12.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox12.CustomizableEdges.TopRight = false;
+            this.guna2TextBox12.DefaultText = "";
+            this.guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox12.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox12.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox12.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox12.IconLeft = global::ContactMate_Pro.Properties.Resources.linkedin;
+            this.guna2TextBox12.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox12.Location = new System.Drawing.Point(7, 135);
+            this.guna2TextBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox12.Name = "guna2TextBox12";
+            this.guna2TextBox12.PasswordChar = '\0';
+            this.guna2TextBox12.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox12.PlaceholderText = "last name";
+            this.guna2TextBox12.SelectedText = "";
+            this.guna2TextBox12.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox12.TabIndex = 52;
+            this.guna2TextBox12.TabStop = false;
+            this.guna2TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2TextBox11
+            // 
+            this.guna2TextBox11.Animated = true;
+            this.guna2TextBox11.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox11.BorderRadius = 15;
+            this.guna2TextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox11.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox11.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox11.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox11.CustomizableEdges.TopRight = false;
+            this.guna2TextBox11.DefaultText = "";
+            this.guna2TextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox11.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox11.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox11.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox11.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox11.IconLeft = global::ContactMate_Pro.Properties.Resources.twitter;
+            this.guna2TextBox11.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox11.Location = new System.Drawing.Point(7, 98);
+            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox11.Name = "guna2TextBox11";
+            this.guna2TextBox11.PasswordChar = '\0';
+            this.guna2TextBox11.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox11.PlaceholderText = "last name";
+            this.guna2TextBox11.SelectedText = "";
+            this.guna2TextBox11.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox11.TabIndex = 51;
+            this.guna2TextBox11.TabStop = false;
+            this.guna2TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2TextBox10
+            // 
+            this.guna2TextBox10.Animated = true;
+            this.guna2TextBox10.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox10.BorderRadius = 15;
+            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox10.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox10.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox10.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox10.CustomizableEdges.TopRight = false;
+            this.guna2TextBox10.DefaultText = "";
+            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox10.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox10.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox10.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox10.IconLeft = global::ContactMate_Pro.Properties.Resources.instagram;
+            this.guna2TextBox10.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox10.Location = new System.Drawing.Point(7, 61);
+            this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox10.Name = "guna2TextBox10";
+            this.guna2TextBox10.PasswordChar = '\0';
+            this.guna2TextBox10.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox10.PlaceholderText = "last name";
+            this.guna2TextBox10.SelectedText = "";
+            this.guna2TextBox10.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox10.TabIndex = 50;
+            this.guna2TextBox10.TabStop = false;
+            this.guna2TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2TextBox9
+            // 
+            this.guna2TextBox9.Animated = true;
+            this.guna2TextBox9.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox9.BorderRadius = 15;
+            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox9.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox9.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox9.DefaultText = "";
+            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox9.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
+            this.guna2TextBox9.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox9.IconLeft = global::ContactMate_Pro.Properties.Resources.facebook__1_;
+            this.guna2TextBox9.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox9.Location = new System.Drawing.Point(7, 24);
+            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox9.Name = "guna2TextBox9";
+            this.guna2TextBox9.PasswordChar = '\0';
+            this.guna2TextBox9.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox9.PlaceholderText = "last name";
+            this.guna2TextBox9.SelectedText = "";
+            this.guna2TextBox9.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox9.TabIndex = 49;
+            this.guna2TextBox9.TabStop = false;
+            this.guna2TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // contactImageBox
+            // 
+            this.contactImageBox.BackColor = System.Drawing.Color.Transparent;
+            this.contactImageBox.FillColor = System.Drawing.Color.Honeydew;
+            this.contactImageBox.Image = global::ContactMate_Pro.Properties.Resources.user__2_;
+            this.contactImageBox.ImageRotate = 0F;
+            this.contactImageBox.Location = new System.Drawing.Point(5, 5);
+            this.contactImageBox.Name = "contactImageBox";
+            this.contactImageBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.contactImageBox.Size = new System.Drawing.Size(140, 140);
+            this.contactImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.contactImageBox.TabIndex = 0;
+            this.contactImageBox.TabStop = false;
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1444,18 +1443,18 @@
             this.Name = "ContactDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.headPanel.ResumeLayout(false);
             this.filterTab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.relationColor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
