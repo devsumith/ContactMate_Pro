@@ -363,7 +363,7 @@
             this.cGmailBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cGmailBox.Name = "cGmailBox";
             this.cGmailBox.PasswordChar = '\0';
-            this.cGmailBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.cGmailBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.cGmailBox.PlaceholderText = "example01@gmail.com";
             this.cGmailBox.SelectedText = "";
             this.cGmailBox.Size = new System.Drawing.Size(190, 36);
@@ -408,7 +408,7 @@
             this.cNumBox.MaxLength = 11;
             this.cNumBox.Name = "cNumBox";
             this.cNumBox.PasswordChar = '\0';
-            this.cNumBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.cNumBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.cNumBox.PlaceholderText = "09123456789";
             this.cNumBox.SelectedText = "";
             this.cNumBox.Size = new System.Drawing.Size(112, 36);
