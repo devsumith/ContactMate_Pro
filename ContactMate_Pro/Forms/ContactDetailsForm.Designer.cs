@@ -79,6 +79,9 @@
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
@@ -562,6 +565,9 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel16);
+            this.tabPage2.Controls.Add(this.guna2ComboBox3);
+            this.tabPage2.Controls.Add(this.guna2HtmlLabel15);
             this.tabPage2.Controls.Add(this.guna2DateTimePicker1);
             this.tabPage2.Controls.Add(this.guna2HtmlLabel14);
             this.tabPage2.Controls.Add(this.guna2ComboBox2);
@@ -1007,7 +1013,7 @@
             this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel14.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(6, 68);
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(106, 70);
             this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(26, 18);
             this.guna2HtmlLabel14.TabIndex = 43;
@@ -1017,9 +1023,6 @@
             // 
             this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox2.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.BorderRadius = 15;
-            this.guna2ComboBox2.CustomizableEdges.BottomRight = false;
-            this.guna2ComboBox2.CustomizableEdges.TopRight = false;
             this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox2.FillColor = System.Drawing.Color.MintCream;
@@ -1031,6 +1034,7 @@
             this.guna2ComboBox2.IntegralHeight = false;
             this.guna2ComboBox2.ItemHeight = 30;
             this.guna2ComboBox2.Items.AddRange(new object[] {
+            "- -",
             "1",
             "2",
             "3",
@@ -1133,7 +1137,7 @@
             "100"});
             this.guna2ComboBox2.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
             this.guna2ComboBox2.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(6, 86);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(106, 88);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(75, 36);
             this.guna2ComboBox2.StartIndex = 0;
@@ -1142,6 +1146,7 @@
             // 
             // guna2DateTimePicker1
             // 
+            this.guna2DateTimePicker1.Animated = true;
             this.guna2DateTimePicker1.BorderColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2DateTimePicker1.BorderRadius = 15;
             this.guna2DateTimePicker1.BorderThickness = 1;
@@ -1153,13 +1158,65 @@
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(82, 86);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(182, 88);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             this.guna2DateTimePicker1.Size = new System.Drawing.Size(202, 36);
             this.guna2DateTimePicker1.TabIndex = 44;
             this.guna2DateTimePicker1.Value = new System.DateTime(2023, 11, 5, 19, 27, 13, 456);
+            // 
+            // guna2HtmlLabel15
+            // 
+            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(182, 70);
+            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            this.guna2HtmlLabel15.Size = new System.Drawing.Size(60, 18);
+            this.guna2HtmlLabel15.TabIndex = 45;
+            this.guna2HtmlLabel15.Text = "BIRTHDATE:";
+            // 
+            // guna2HtmlLabel16
+            // 
+            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(6, 70);
+            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            this.guna2HtmlLabel16.Size = new System.Drawing.Size(46, 18);
+            this.guna2HtmlLabel16.TabIndex = 47;
+            this.guna2HtmlLabel16.Text = "GENDER: ";
+            // 
+            // guna2ComboBox3
+            // 
+            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox3.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.BorderRadius = 15;
+            this.guna2ComboBox3.CustomizableEdges.BottomRight = false;
+            this.guna2ComboBox3.CustomizableEdges.TopRight = false;
+            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox3.FillColor = System.Drawing.Color.MintCream;
+            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.DarkGreen;
+            this.guna2ComboBox3.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F);
+            this.guna2ComboBox3.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2ComboBox3.IntegralHeight = false;
+            this.guna2ComboBox3.ItemHeight = 30;
+            this.guna2ComboBox3.Items.AddRange(new object[] {
+            "- -",
+            "MALE ",
+            "FEMALE"});
+            this.guna2ComboBox3.ItemsAppearance.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F);
+            this.guna2ComboBox3.ItemsAppearance.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2ComboBox3.Location = new System.Drawing.Point(6, 88);
+            this.guna2ComboBox3.Name = "guna2ComboBox3";
+            this.guna2ComboBox3.Size = new System.Drawing.Size(99, 36);
+            this.guna2ComboBox3.StartIndex = 0;
+            this.guna2ComboBox3.TabIndex = 46;
+            this.guna2ComboBox3.TextOffset = new System.Drawing.Point(7, 2);
             // 
             // ContactDetailsForm
             // 
@@ -1241,5 +1298,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
     }
 }
