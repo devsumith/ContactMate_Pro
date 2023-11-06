@@ -1467,7 +1467,7 @@
             this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox15.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox15.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox15.Location = new System.Drawing.Point(8, 204);
+            this.guna2TextBox15.Location = new System.Drawing.Point(8, 214);
             this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox15.Name = "guna2TextBox15";
             this.guna2TextBox15.PasswordChar = '\0';
@@ -1499,7 +1499,7 @@
             this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox16.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox16.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox16.Location = new System.Drawing.Point(7, 20);
+            this.guna2TextBox16.Location = new System.Drawing.Point(7, 31);
             this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox16.Name = "guna2TextBox16";
             this.guna2TextBox16.PasswordChar = '\0';
@@ -1533,7 +1533,7 @@
             this.guna2TextBox17.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox17.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox17.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox17.Location = new System.Drawing.Point(7, 76);
+            this.guna2TextBox17.Location = new System.Drawing.Point(7, 92);
             this.guna2TextBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox17.Name = "guna2TextBox17";
             this.guna2TextBox17.PasswordChar = '\0';
@@ -1567,7 +1567,7 @@
             this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox18.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox18.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox18.Location = new System.Drawing.Point(7, 139);
+            this.guna2TextBox18.Location = new System.Drawing.Point(7, 153);
             this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox18.Name = "guna2TextBox18";
             this.guna2TextBox18.PasswordChar = '\0';
@@ -1601,7 +1601,7 @@
             this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox19.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox19.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox19.Location = new System.Drawing.Point(197, 76);
+            this.guna2TextBox19.Location = new System.Drawing.Point(197, 92);
             this.guna2TextBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox19.Name = "guna2TextBox19";
             this.guna2TextBox19.PasswordChar = '\0';
