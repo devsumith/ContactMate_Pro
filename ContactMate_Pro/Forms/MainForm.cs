@@ -193,5 +193,10 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        private void bodyPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
