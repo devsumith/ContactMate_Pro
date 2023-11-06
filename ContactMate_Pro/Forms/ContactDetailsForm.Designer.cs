@@ -93,6 +93,11 @@
             this.guna2TextBox17 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
@@ -1430,6 +1435,11 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage4.Controls.Add(this.guna2HtmlLabel21);
+            this.tabPage4.Controls.Add(this.guna2HtmlLabel20);
+            this.tabPage4.Controls.Add(this.guna2HtmlLabel19);
+            this.tabPage4.Controls.Add(this.guna2HtmlLabel18);
+            this.tabPage4.Controls.Add(this.guna2HtmlLabel17);
             this.tabPage4.Controls.Add(this.guna2TextBox19);
             this.tabPage4.Controls.Add(this.guna2TextBox18);
             this.tabPage4.Controls.Add(this.guna2TextBox17);
@@ -1613,6 +1623,61 @@
             this.guna2TextBox19.TabStop = false;
             this.guna2TextBox19.TextOffset = new System.Drawing.Point(3, 0);
             // 
+            // guna2HtmlLabel17
+            // 
+            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(8, 12);
+            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            this.guna2HtmlLabel17.Size = new System.Drawing.Size(88, 18);
+            this.guna2HtmlLabel17.TabIndex = 64;
+            this.guna2HtmlLabel17.Text = "COMPANY NAME:";
+            // 
+            // guna2HtmlLabel18
+            // 
+            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(8, 73);
+            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel18.TabIndex = 65;
+            this.guna2HtmlLabel18.Text = "JOB TITLE:";
+            // 
+            // guna2HtmlLabel19
+            // 
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(197, 73);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(130, 18);
+            this.guna2HtmlLabel19.TabIndex = 66;
+            this.guna2HtmlLabel19.Text = "WORK CONTACT NUMBER:";
+            // 
+            // guna2HtmlLabel20
+            // 
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(8, 134);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(87, 18);
+            this.guna2HtmlLabel20.TabIndex = 67;
+            this.guna2HtmlLabel20.Text = "WORK ADDRESS:";
+            // 
+            // guna2HtmlLabel21
+            // 
+            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel21.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(8, 195);
+            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
+            this.guna2HtmlLabel21.Size = new System.Drawing.Size(121, 18);
+            this.guna2HtmlLabel21.TabIndex = 68;
+            this.guna2HtmlLabel21.Text = "WORK EMAIL ADDRESS:";
+            // 
             // ContactDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1639,6 +1704,7 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1709,5 +1775,10 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox18;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox17;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox19;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;
     }
 }
