@@ -236,10 +236,10 @@
             this.filterTab.SelectedIndex = 0;
             this.filterTab.Size = new System.Drawing.Size(401, 301);
             this.filterTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.filterTab.TabButtonHoverState.FillColor = System.Drawing.Color.Honeydew;
             this.filterTab.TabButtonHoverState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filterTab.TabButtonHoverState.ForeColor = System.Drawing.Color.Honeydew;
-            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
+            this.filterTab.TabButtonHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.filterTab.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
             this.filterTab.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
             this.filterTab.TabButtonIdleState.FillColor = System.Drawing.Color.Honeydew;
             this.filterTab.TabButtonIdleState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -249,7 +249,7 @@
             this.filterTab.TabButtonSelectedState.FillColor = System.Drawing.Color.Honeydew;
             this.filterTab.TabButtonSelectedState.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.filterTab.TabButtonSelectedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
-            this.filterTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.filterTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(199)))), ((int)(((byte)(161)))));
             this.filterTab.TabButtonSize = new System.Drawing.Size(99, 35);
             this.filterTab.TabIndex = 33;
             this.filterTab.TabMenuBackColor = System.Drawing.Color.Honeydew;
