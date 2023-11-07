@@ -1177,9 +1177,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(6, 6);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(56, 18);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(63, 18);
             this.guna2HtmlLabel5.TabIndex = 20;
-            this.guna2HtmlLabel5.Text = "SURNAME: ";
+            this.guna2HtmlLabel5.Text = "LAST NAME:";
             // 
             // guna2TextBox1
             // 

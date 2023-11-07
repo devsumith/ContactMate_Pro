@@ -10,7 +10,10 @@ namespace ContactMate_Pro
     {
         public string Nickname { get; set; }
         public string Relationship { get; set; }
-        public List<string> ContactNumber { get; set; }
+        public string ContactNumbers { get; set; }
+        public string GmailAddresses {  get; set; }
+
+        public string LastName { get; set; } 
 
     }
 }
