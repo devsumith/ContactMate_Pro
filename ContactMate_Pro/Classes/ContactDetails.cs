@@ -14,6 +14,11 @@ namespace ContactMate_Pro
         public string GmailAddresses {  get; set; }
 
         public string LastName { get; set; } 
-
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string ExtensionName { get; set; }
+        public string Gender { get; set; }
+        public string Age { get; set; }
+        public string Birthday { get; set; }
     }
 }
