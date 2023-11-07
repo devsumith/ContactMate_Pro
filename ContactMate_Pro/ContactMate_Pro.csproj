@@ -59,6 +59,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\ContactDetails.cs" />
     <Compile Include="ContactItems\CGmailControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
