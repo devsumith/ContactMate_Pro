@@ -87,17 +87,17 @@
             this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2TextBox15 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox16 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox17 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox17 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox16 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox15 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.contactImageBox)).BeginInit();
             this.headPanel.SuspendLayout();
@@ -231,7 +231,7 @@
             this.filterTab.Controls.Add(this.tabPage4);
             this.filterTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.filterTab.ItemSize = new System.Drawing.Size(99, 35);
-            this.filterTab.Location = new System.Drawing.Point(2, 202);
+            this.filterTab.Location = new System.Drawing.Point(1, 202);
             this.filterTab.Name = "filterTab";
             this.filterTab.SelectedIndex = 0;
             this.filterTab.Size = new System.Drawing.Size(401, 301);
@@ -683,7 +683,7 @@
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.guna2DateTimePicker1.Location = new System.Drawing.Point(182, 89);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             this.guna2DateTimePicker1.Size = new System.Drawing.Size(202, 36);
             this.guna2DateTimePicker1.TabIndex = 44;
@@ -1451,143 +1451,60 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Employment ";
             // 
-            // dragControl
+            // guna2HtmlLabel21
             // 
-            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.dragControl.TargetControl = this.headPanel;
-            this.dragControl.UseTransparentDrag = true;
+            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel21.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(7, 195);
+            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
+            this.guna2HtmlLabel21.Size = new System.Drawing.Size(121, 18);
+            this.guna2HtmlLabel21.TabIndex = 68;
+            this.guna2HtmlLabel21.Text = "WORK EMAIL ADDRESS:";
             // 
-            // guna2TextBox15
+            // guna2HtmlLabel20
             // 
-            this.guna2TextBox15.Animated = true;
-            this.guna2TextBox15.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox15.BorderRadius = 15;
-            this.guna2TextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox15.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox15.CustomizableEdges.TopRight = false;
-            this.guna2TextBox15.DefaultText = "";
-            this.guna2TextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox15.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox15.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox15.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox15.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox15.IconLeftOffset = new System.Drawing.Point(3, 0);
-            this.guna2TextBox15.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox15.Location = new System.Drawing.Point(8, 214);
-            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox15.Name = "guna2TextBox15";
-            this.guna2TextBox15.PasswordChar = '\0';
-            this.guna2TextBox15.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox15.PlaceholderText = "";
-            this.guna2TextBox15.SelectedText = "";
-            this.guna2TextBox15.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox15.TabIndex = 59;
-            this.guna2TextBox15.TabStop = false;
-            this.guna2TextBox15.TextOffset = new System.Drawing.Point(3, 0);
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(7, 134);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(87, 18);
+            this.guna2HtmlLabel20.TabIndex = 67;
+            this.guna2HtmlLabel20.Text = "WORK ADDRESS:";
             // 
-            // guna2TextBox16
+            // guna2HtmlLabel19
             // 
-            this.guna2TextBox16.Animated = true;
-            this.guna2TextBox16.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox16.BorderRadius = 15;
-            this.guna2TextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox16.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox16.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox16.DefaultText = "";
-            this.guna2TextBox16.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox16.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox16.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox16.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox16.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox16.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox16.IconLeftOffset = new System.Drawing.Point(3, 0);
-            this.guna2TextBox16.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox16.Location = new System.Drawing.Point(7, 31);
-            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox16.Name = "guna2TextBox16";
-            this.guna2TextBox16.PasswordChar = '\0';
-            this.guna2TextBox16.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox16.PlaceholderText = "";
-            this.guna2TextBox16.SelectedText = "";
-            this.guna2TextBox16.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox16.TabIndex = 60;
-            this.guna2TextBox16.TabStop = false;
-            this.guna2TextBox16.TextOffset = new System.Drawing.Point(3, 0);
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(196, 73);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(130, 18);
+            this.guna2HtmlLabel19.TabIndex = 66;
+            this.guna2HtmlLabel19.Text = "WORK CONTACT NUMBER:";
             // 
-            // guna2TextBox17
+            // guna2HtmlLabel18
             // 
-            this.guna2TextBox17.Animated = true;
-            this.guna2TextBox17.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox17.BorderRadius = 15;
-            this.guna2TextBox17.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox17.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox17.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox17.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox17.CustomizableEdges.TopRight = false;
-            this.guna2TextBox17.DefaultText = "";
-            this.guna2TextBox17.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox17.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox17.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox17.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox17.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox17.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox17.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox17.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox17.IconLeftOffset = new System.Drawing.Point(3, 0);
-            this.guna2TextBox17.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox17.Location = new System.Drawing.Point(7, 92);
-            this.guna2TextBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox17.Name = "guna2TextBox17";
-            this.guna2TextBox17.PasswordChar = '\0';
-            this.guna2TextBox17.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox17.PlaceholderText = "";
-            this.guna2TextBox17.SelectedText = "";
-            this.guna2TextBox17.Size = new System.Drawing.Size(188, 36);
-            this.guna2TextBox17.TabIndex = 61;
-            this.guna2TextBox17.TabStop = false;
-            this.guna2TextBox17.TextOffset = new System.Drawing.Point(3, 0);
+            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(7, 73);
+            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel18.TabIndex = 65;
+            this.guna2HtmlLabel18.Text = "JOB TITLE:";
             // 
-            // guna2TextBox18
+            // guna2HtmlLabel17
             // 
-            this.guna2TextBox18.Animated = true;
-            this.guna2TextBox18.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox18.BorderRadius = 15;
-            this.guna2TextBox18.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox18.CustomizableEdges.BottomLeft = false;
-            this.guna2TextBox18.CustomizableEdges.BottomRight = false;
-            this.guna2TextBox18.CustomizableEdges.TopLeft = false;
-            this.guna2TextBox18.CustomizableEdges.TopRight = false;
-            this.guna2TextBox18.DefaultText = "";
-            this.guna2TextBox18.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.guna2TextBox18.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox18.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox18.FillColor = System.Drawing.Color.MintCream;
-            this.guna2TextBox18.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox18.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox18.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.guna2TextBox18.IconLeftOffset = new System.Drawing.Point(3, 0);
-            this.guna2TextBox18.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox18.Location = new System.Drawing.Point(7, 153);
-            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox18.Name = "guna2TextBox18";
-            this.guna2TextBox18.PasswordChar = '\0';
-            this.guna2TextBox18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox18.PlaceholderText = "";
-            this.guna2TextBox18.SelectedText = "";
-            this.guna2TextBox18.Size = new System.Drawing.Size(378, 36);
-            this.guna2TextBox18.TabIndex = 62;
-            this.guna2TextBox18.TabStop = false;
-            this.guna2TextBox18.TextOffset = new System.Drawing.Point(3, 0);
+            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(7, 12);
+            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            this.guna2HtmlLabel17.Size = new System.Drawing.Size(88, 18);
+            this.guna2HtmlLabel17.TabIndex = 64;
+            this.guna2HtmlLabel17.Text = "COMPANY NAME:";
             // 
             // guna2TextBox19
             // 
@@ -1611,7 +1528,7 @@
             this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
             this.guna2TextBox19.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox19.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox19.Location = new System.Drawing.Point(197, 92);
+            this.guna2TextBox19.Location = new System.Drawing.Point(196, 92);
             this.guna2TextBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox19.Name = "guna2TextBox19";
             this.guna2TextBox19.PasswordChar = '\0';
@@ -1623,60 +1540,143 @@
             this.guna2TextBox19.TabStop = false;
             this.guna2TextBox19.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // guna2HtmlLabel17
+            // guna2TextBox18
             // 
-            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel17.Location = new System.Drawing.Point(8, 12);
-            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
-            this.guna2HtmlLabel17.Size = new System.Drawing.Size(88, 18);
-            this.guna2HtmlLabel17.TabIndex = 64;
-            this.guna2HtmlLabel17.Text = "COMPANY NAME:";
+            this.guna2TextBox18.Animated = true;
+            this.guna2TextBox18.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox18.BorderRadius = 15;
+            this.guna2TextBox18.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox18.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox18.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox18.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox18.CustomizableEdges.TopRight = false;
+            this.guna2TextBox18.DefaultText = "";
+            this.guna2TextBox18.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox18.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox18.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox18.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox18.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox18.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox18.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox18.IconLeftOffset = new System.Drawing.Point(3, 0);
+            this.guna2TextBox18.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox18.Location = new System.Drawing.Point(6, 153);
+            this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox18.Name = "guna2TextBox18";
+            this.guna2TextBox18.PasswordChar = '\0';
+            this.guna2TextBox18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox18.PlaceholderText = "";
+            this.guna2TextBox18.SelectedText = "";
+            this.guna2TextBox18.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox18.TabIndex = 62;
+            this.guna2TextBox18.TabStop = false;
+            this.guna2TextBox18.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // guna2HtmlLabel18
+            // guna2TextBox17
             // 
-            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel18.Location = new System.Drawing.Point(8, 73);
-            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
-            this.guna2HtmlLabel18.Size = new System.Drawing.Size(54, 18);
-            this.guna2HtmlLabel18.TabIndex = 65;
-            this.guna2HtmlLabel18.Text = "JOB TITLE:";
+            this.guna2TextBox17.Animated = true;
+            this.guna2TextBox17.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox17.BorderRadius = 15;
+            this.guna2TextBox17.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox17.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox17.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox17.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox17.CustomizableEdges.TopRight = false;
+            this.guna2TextBox17.DefaultText = "";
+            this.guna2TextBox17.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox17.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox17.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox17.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox17.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox17.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox17.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox17.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox17.IconLeftOffset = new System.Drawing.Point(3, 0);
+            this.guna2TextBox17.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox17.Location = new System.Drawing.Point(6, 92);
+            this.guna2TextBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox17.Name = "guna2TextBox17";
+            this.guna2TextBox17.PasswordChar = '\0';
+            this.guna2TextBox17.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox17.PlaceholderText = "";
+            this.guna2TextBox17.SelectedText = "";
+            this.guna2TextBox17.Size = new System.Drawing.Size(188, 36);
+            this.guna2TextBox17.TabIndex = 61;
+            this.guna2TextBox17.TabStop = false;
+            this.guna2TextBox17.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // guna2HtmlLabel19
+            // guna2TextBox16
             // 
-            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel19.Location = new System.Drawing.Point(197, 73);
-            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
-            this.guna2HtmlLabel19.Size = new System.Drawing.Size(130, 18);
-            this.guna2HtmlLabel19.TabIndex = 66;
-            this.guna2HtmlLabel19.Text = "WORK CONTACT NUMBER:";
+            this.guna2TextBox16.Animated = true;
+            this.guna2TextBox16.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox16.BorderRadius = 15;
+            this.guna2TextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox16.CustomizableEdges.BottomLeft = false;
+            this.guna2TextBox16.CustomizableEdges.BottomRight = false;
+            this.guna2TextBox16.DefaultText = "";
+            this.guna2TextBox16.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox16.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox16.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox16.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox16.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox16.IconLeftOffset = new System.Drawing.Point(3, 0);
+            this.guna2TextBox16.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox16.Location = new System.Drawing.Point(6, 31);
+            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox16.Name = "guna2TextBox16";
+            this.guna2TextBox16.PasswordChar = '\0';
+            this.guna2TextBox16.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox16.PlaceholderText = "";
+            this.guna2TextBox16.SelectedText = "";
+            this.guna2TextBox16.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox16.TabIndex = 60;
+            this.guna2TextBox16.TabStop = false;
+            this.guna2TextBox16.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // guna2HtmlLabel20
+            // guna2TextBox15
             // 
-            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel20.Location = new System.Drawing.Point(8, 134);
-            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
-            this.guna2HtmlLabel20.Size = new System.Drawing.Size(87, 18);
-            this.guna2HtmlLabel20.TabIndex = 67;
-            this.guna2HtmlLabel20.Text = "WORK ADDRESS:";
+            this.guna2TextBox15.Animated = true;
+            this.guna2TextBox15.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox15.BorderRadius = 15;
+            this.guna2TextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox15.CustomizableEdges.TopLeft = false;
+            this.guna2TextBox15.CustomizableEdges.TopRight = false;
+            this.guna2TextBox15.DefaultText = "";
+            this.guna2TextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.guna2TextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox15.FillColor = System.Drawing.Color.MintCream;
+            this.guna2TextBox15.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox15.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox15.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox15.IconLeftOffset = new System.Drawing.Point(3, 0);
+            this.guna2TextBox15.IconRightSize = new System.Drawing.Size(25, 25);
+            this.guna2TextBox15.Location = new System.Drawing.Point(7, 214);
+            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox15.Name = "guna2TextBox15";
+            this.guna2TextBox15.PasswordChar = '\0';
+            this.guna2TextBox15.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox15.PlaceholderText = "";
+            this.guna2TextBox15.SelectedText = "";
+            this.guna2TextBox15.Size = new System.Drawing.Size(378, 36);
+            this.guna2TextBox15.TabIndex = 59;
+            this.guna2TextBox15.TabStop = false;
+            this.guna2TextBox15.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // guna2HtmlLabel21
+            // dragControl
             // 
-            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel21.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2HtmlLabel21.Location = new System.Drawing.Point(8, 195);
-            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
-            this.guna2HtmlLabel21.Size = new System.Drawing.Size(121, 18);
-            this.guna2HtmlLabel21.TabIndex = 68;
-            this.guna2HtmlLabel21.Text = "WORK EMAIL ADDRESS:";
+            this.dragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.dragControl.TargetControl = this.headPanel;
+            this.dragControl.UseTransparentDrag = true;
             // 
             // ContactDetailsForm
             // 
