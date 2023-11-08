@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ContactMate_Pro
@@ -36,9 +37,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Facebook profile link.
-                string pattern = @"^(https?://)?(www\.)?facebook\.com/[\w.-]+/?$";
-
-
+                //string pattern = @"^(https?://)?(www\.)?facebook\.com/[\w.-]+/?$";
             }
         }
 
@@ -49,7 +48,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Instagram profile link.
-                string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
+                //string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
             }
         }
 
@@ -60,7 +59,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Twitter profile link.
-                string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
+                //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
             }
         }
 
@@ -71,7 +70,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid LinkedIn profile link.
-                string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
+                //string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
             }
         }
 
@@ -82,8 +81,21 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid GitHub profile link.
-                string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
+                //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
             }
+        }
+
+        public void Validate(string pattern, ref string privateHolder, string value, string name)
+        {
+            pattern = $"^(https?://)?(www\\.)?{pattern}\\.com/[\\w-]+/?$";
+
+            if (Regex.IsMatch(value, pattern))
+                privateHolder = value;
+            else
+            {
+                privateHolder = null;
+            }
+
         }
     }
 }
