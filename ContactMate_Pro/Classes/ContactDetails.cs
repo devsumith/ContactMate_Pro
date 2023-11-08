@@ -59,7 +59,8 @@ namespace ContactMate_Pro
             get { return _twitterLink; }
             set
             {
-
+                // Regular expression pattern for a valid Twitter profile link.
+                string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
             }
         }
 
@@ -69,7 +70,8 @@ namespace ContactMate_Pro
             get { return _linkedInLink; }
             set
             {
-
+                // Regular expression pattern for a valid LinkedIn profile link.
+                string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
             }
         }
 
@@ -79,7 +81,8 @@ namespace ContactMate_Pro
             get { return _gitHubLink; }
             set
             {
-
+                // Regular expression pattern for a valid GitHub profile link.
+                string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
             }
         }
     }
