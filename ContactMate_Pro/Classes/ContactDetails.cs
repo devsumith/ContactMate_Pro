@@ -48,7 +48,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Instagram profile link.
-                //string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
+                string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
             }
         }
 
@@ -59,7 +59,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Twitter profile link.
-                //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
+                string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
             }
         }
 
@@ -70,7 +70,7 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid LinkedIn profile link.
-                //string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
+                string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
             }
         }
 
@@ -81,19 +81,25 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid GitHub profile link.
-                //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
+                string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
             }
         }
 
+        // This method is defined to validate a given value against a regular expression pattern.
+        // If the value matches the pattern, it's assigned to the specified privateHolder variable.
+        // If the value doesn't match, an error message is displayed and the privateHolder variable is set to null.
         public void Validate(string pattern, ref string privateHolder, string value, string name)
         {
             pattern = $"^(https?://)?(www\\.)?{pattern}\\.com/[\\w-]+/?$";
 
+            // Check if the provided value matches the specified regular expression pattern.
             if (Regex.IsMatch(value, pattern))
-                privateHolder = value;
+                privateHolder = value; // Assign the value to the privateHolder if it's valid.
             else
             {
-                privateHolder = null;
+                // Display an error message using string interpolation to include the invalid value and the expected type.
+
+                privateHolder = null; // Set the privateHolder to null since the value is invalid.
             }
 
         }
