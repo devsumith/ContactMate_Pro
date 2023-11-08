@@ -35,6 +35,50 @@ namespace ContactMate_Pro
             get { return _facebookLink; }
             set
             {
+                // Regular expression pattern for a valid Facebook profile link.
+                string pattern = @"^(https?://)?(www\.)?facebook\.com/[\w.-]+/?$";
+
+
+            }
+        }
+
+        private string _instagramLink;
+        public string InstagramLink
+        {
+            get { return _instagramLink; }
+            set
+            {
+                // Regular expression pattern for a valid Instagram profile link.
+                string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
+            }
+        }
+
+        private string _twitterLink;
+        public string TwitterLink
+        {
+            get { return _twitterLink; }
+            set
+            {
+
+            }
+        }
+
+        private string _linkedInLink;
+        public string LinkedInLink
+        {
+            get { return _linkedInLink; }
+            set
+            {
+
+            }
+        }
+
+        private string _gitHubLink;
+        public string GitHubLink
+        {
+            get { return _gitHubLink; }
+            set
+            {
 
             }
         }
