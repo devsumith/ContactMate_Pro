@@ -28,6 +28,15 @@ namespace ContactMate_Pro
         public string City { get; set; }
         public string Province { get; set; }
 
+        // PROPERTIES FOR SOCIAL MEDIA INFORMATION
+        private string _facebookLink;
+        public string FacebookLink
+        {
+            get { return _facebookLink; }
+            set
+            {
 
+            }
+        }
     }
 }
