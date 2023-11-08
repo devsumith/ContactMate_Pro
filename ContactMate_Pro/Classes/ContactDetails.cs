@@ -8,6 +8,7 @@ namespace ContactMate_Pro
 {
     public class ContactDetails
     {
+
         public string Nickname { get; set; }
         public string Relationship { get; set; }
         public string ContactNumbers { get; set; }
@@ -20,5 +21,10 @@ namespace ContactMate_Pro
         public string Gender { get; set; }
         public string Age { get; set; }
         public string Birthday { get; set; }
+        public string StreetNumber { get; set; }
+        public string StreetName { get; set; }
+        public string Barangay { get; set; }
+        public string City { get; set; }
+        public string Province { get; set; }
     }
 }
