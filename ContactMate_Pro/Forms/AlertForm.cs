@@ -83,5 +83,17 @@ namespace ContactMate_Pro
         }
 
         #endregion
+
+        #region FUNCTION FOR REMOVE BUTTON TO CLEAR THE ALERT 
+
+        private void removeBtn_Click(object sender, EventArgs e)
+        {
+            // Event handler for the remove button's click event.
+
+            timer.Interval = 1;
+            action = Action.close;
+        }
+
+        #endregion
     }
 }
