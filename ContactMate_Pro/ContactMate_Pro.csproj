@@ -206,5 +206,17 @@
   <ItemGroup>
     <None Include="Resources\twitter.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\errorLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informationLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\successLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warningLogo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

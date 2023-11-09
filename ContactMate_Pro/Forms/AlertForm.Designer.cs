@@ -51,10 +51,6 @@
             this.labelMessage.TabIndex = 0;
             this.labelMessage.Text = "Message Text";
             // 
-            // timer
-            // 
-            //this.timer.Tick += new System.EventHandler(this.timer_Tick);
-            // 
             // containerControl
             // 
             this.containerControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(118)))), ((int)(((byte)(236)))));
@@ -97,6 +93,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::ContactMate_Pro.Properties.Resources.informationLogo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 43);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(41, 39);
