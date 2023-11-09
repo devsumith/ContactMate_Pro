@@ -22,10 +22,21 @@ namespace ContactMate_Pro
 
         private void addContactBtn_Click(object sender, EventArgs e)
         {
+            if (ValidateInformation())
+            {
 
+            }
         }
 
+        #region FUNCTION FOR CONTACT DETAILS VALIDATION
 
+        private bool ValidateInformation()
+        {
+
+            return true;
+        }
+
+        #endregion
 
         #endregion
 
