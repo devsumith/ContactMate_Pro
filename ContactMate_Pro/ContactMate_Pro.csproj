@@ -59,6 +59,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AlertForm.Designer.cs">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\ContactDetails.cs" />
     <Compile Include="ContactItems\CGmailControl.cs">
       <SubType>UserControl</SubType>
@@ -84,10 +90,10 @@
     <Compile Include="ContactItems\ContactControl.Designer.cs">
       <DependentUpon>ContactControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoadingScreenForm.cs">
+    <Compile Include="Forms\LoadingScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoadingScreenForm.Designer.cs">
+    <Compile Include="Forms\LoadingScreenForm.Designer.cs">
       <DependentUpon>LoadingScreenForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MainForm.cs">
@@ -107,10 +113,13 @@
     <EmbeddedResource Include="ContactItems\ContactControl.resx">
       <DependentUpon>ContactControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AlertForm.resx">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ContactDetailsForm.resx">
       <DependentUpon>ContactDetailsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoadingScreenForm.resx">
+    <EmbeddedResource Include="Forms\LoadingScreenForm.resx">
       <DependentUpon>LoadingScreenForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
