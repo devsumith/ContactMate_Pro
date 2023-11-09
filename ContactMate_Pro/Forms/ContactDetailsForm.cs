@@ -32,6 +32,24 @@ namespace ContactMate_Pro
 
         private bool ValidateInformation()
         {
+            #region LIST OF CONTROLS THAT CONTAIN INFORMATION TO BE VALIDATED
+
+            List<Control> controlList = new List<Control>
+            {
+                nicknameBox,
+                relationCBox,
+                cNumLayoutPanel,
+                cGmailLayoutPanel,
+                facebookLinkBox,
+                instagramLinkBox,
+                linkedInLinkBox,
+                xLinkBox,
+                gitHubLinkBox,
+                threadsLinkBox
+            };
+
+            #endregion
+
 
             return true;
         }
