@@ -1172,6 +1172,7 @@
             this.guna2TextBox14.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox14.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.guna2TextBox14.IconLeft = global::ContactMate_Pro.Properties.Resources._337f27be6bfddfcb5ecc9b95b1d3ac2b;
             this.guna2TextBox14.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox14.IconRightSize = new System.Drawing.Size(25, 25);
             this.guna2TextBox14.Location = new System.Drawing.Point(6, 209);
@@ -1179,7 +1180,7 @@
             this.guna2TextBox14.Name = "guna2TextBox14";
             this.guna2TextBox14.PasswordChar = '\0';
             this.guna2TextBox14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox14.PlaceholderText = "";
+            this.guna2TextBox14.PlaceholderText = "Threads Link";
             this.guna2TextBox14.SelectedText = "";
             this.guna2TextBox14.Size = new System.Drawing.Size(378, 36);
             this.guna2TextBox14.TabIndex = 54;
@@ -1549,7 +1550,7 @@
             this.guna2TextBox12.IconLeft = global::ContactMate_Pro.Properties.Resources.linkedin;
             this.guna2TextBox12.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox12.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox12.Location = new System.Drawing.Point(6, 133);
+            this.guna2TextBox12.Location = new System.Drawing.Point(6, 95);
             this.guna2TextBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox12.Name = "guna2TextBox12";
             this.guna2TextBox12.PasswordChar = '\0';
@@ -1584,7 +1585,7 @@
             this.guna2TextBox11.IconLeft = global::ContactMate_Pro.Properties.Resources._370315652_720282342860198_3001076609601440804_n;
             this.guna2TextBox11.IconLeftOffset = new System.Drawing.Point(3, 0);
             this.guna2TextBox11.IconRightSize = new System.Drawing.Size(25, 25);
-            this.guna2TextBox11.Location = new System.Drawing.Point(6, 95);
+            this.guna2TextBox11.Location = new System.Drawing.Point(6, 133);
             this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox11.Name = "guna2TextBox11";
             this.guna2TextBox11.PasswordChar = '\0';
