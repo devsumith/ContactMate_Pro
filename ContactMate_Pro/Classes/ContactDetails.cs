@@ -103,6 +103,7 @@ namespace ContactMate_Pro
             }
         }
 
+        // PROPERTIES FOR EMPLOYMENT INFORMATION
         public string CompanyName { get; set; }
         public string JobTitle { get; set; }
         public string WorkContactNumber { get; set; } 
