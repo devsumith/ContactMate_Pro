@@ -101,7 +101,12 @@ namespace ContactMate_Pro
 
                 privateHolder = null; // Set the privateHolder to null since the value is invalid.
             }
-
         }
+
+        public string CompanyName { get; set; }
+        public string JobTitle { get; set; }
+        public string WorkContactNumber { get; set; } 
+        public string WorkAddress {  get; set; }    
+        public string WorkEmailAddress { get; set; }
     }
 }
