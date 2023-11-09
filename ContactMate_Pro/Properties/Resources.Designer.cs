@@ -63,6 +63,16 @@ namespace ContactMate_Pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _337f27be6bfddfcb5ecc9b95b1d3ac2b {
+            get {
+                object obj = ResourceManager.GetObject("_337f27be6bfddfcb5ecc9b95b1d3ac2b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _370315652_720282342860198_3001076609601440804_n {
             get {
                 object obj = ResourceManager.GetObject("_370315652_720282342860198_3001076609601440804_n", resourceCulture);
