@@ -18,6 +18,17 @@ namespace ContactMate_Pro
             InitializeComponent();
         }
 
+        #region FUNCTIONS TO ADD THE CONTACT DETAILS IN DATABASE
+
+        private void addContactBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        #endregion
+
         #region FUNCTION FOR CLOSE BUTTON OF THE FORM
 
         private void closeBtn_Click(object sender, EventArgs e)

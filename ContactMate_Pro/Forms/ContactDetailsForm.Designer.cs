@@ -34,7 +34,7 @@
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.selectImageBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.headPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.addContactBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.filterTab = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
@@ -190,24 +190,25 @@
             this.headPanel.Size = new System.Drawing.Size(404, 196);
             this.headPanel.TabIndex = 31;
             // 
-            // guna2GradientButton1
+            // addContactBtn
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.BorderRadius = 6;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.SteelBlue;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(5, 509);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(394, 32);
-            this.guna2GradientButton1.TabIndex = 32;
-            this.guna2GradientButton1.Text = "ADD CONTACT";
+            this.addContactBtn.Animated = true;
+            this.addContactBtn.BorderRadius = 6;
+            this.addContactBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addContactBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addContactBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addContactBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addContactBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addContactBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(238)))), ((int)(((byte)(173)))));
+            this.addContactBtn.FillColor2 = System.Drawing.Color.SteelBlue;
+            this.addContactBtn.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addContactBtn.ForeColor = System.Drawing.Color.White;
+            this.addContactBtn.Location = new System.Drawing.Point(5, 509);
+            this.addContactBtn.Name = "addContactBtn";
+            this.addContactBtn.Size = new System.Drawing.Size(394, 32);
+            this.addContactBtn.TabIndex = 32;
+            this.addContactBtn.Text = "ADD CONTACT";
+            this.addContactBtn.Click += new System.EventHandler(this.addContactBtn_Click);
             // 
             // filterTab
             // 
@@ -1686,7 +1687,7 @@
             this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(404, 548);
             this.Controls.Add(this.filterTab);
-            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.addContactBtn);
             this.Controls.Add(this.headPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ContactDetailsForm";
@@ -1718,7 +1719,7 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox contactImageBox;
         public Guna.UI2.WinForms.Guna2CircleButton selectImageBtn;
         private Guna.UI2.WinForms.Guna2Panel headPanel;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton addContactBtn;
         private Guna.UI2.WinForms.Guna2TabControl filterTab;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;

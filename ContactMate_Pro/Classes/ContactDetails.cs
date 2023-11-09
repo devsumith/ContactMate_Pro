@@ -59,20 +59,6 @@ namespace ContactMate_Pro
             }
         }
 
-        private string _twitterLink;
-        public string TwitterLink
-        {
-            get { return _twitterLink; }
-            set
-            {
-                // Regular expression pattern for a valid Twitter profile link.
-                //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
-
-                // Validation for Twitter link.
-                Validate("twitter", ref _twitterLink, value, "Twitter Link");
-            }
-        }
-
         private string _linkedInLink;
         public string LinkedInLink
         {
@@ -87,6 +73,20 @@ namespace ContactMate_Pro
             }
         }
 
+        private string _twitterLink;
+        public string TwitterLink
+        {
+            get { return _twitterLink; }
+            set
+            {
+                // Regular expression pattern for a valid Twitter profile link.
+                //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
+
+                // Validation for Twitter link.
+                Validate("twitter", ref _twitterLink, value, "Twitter Link");
+            }
+        }
+
         private string _gitHubLink;
         public string GitHubLink
         {
@@ -98,6 +98,20 @@ namespace ContactMate_Pro
 
                 // Validation for GitHub link.
                 Validate("github", ref _gitHubLink, value, "GitHub Link");
+            }
+        }
+
+        private string _threadsLink;
+        public string ThreadsLink
+        {
+            get { return _threadsLink; }
+            set
+            {
+                // Regular expression pattern for a valid Threads profile link.
+                //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
+
+                // Validation for GitHub link.
+                Validate("threads", ref _threadsLink, value, "Threads Link");
             }
         }
 
