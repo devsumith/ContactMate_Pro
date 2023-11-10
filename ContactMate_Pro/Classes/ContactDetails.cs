@@ -38,10 +38,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Facebook profile link.
-                //string pattern = @"^(https?://)?(www\.)?facebook\.com/[\w.-]+/?$";
+                string pattern = @"^https:\/\/www\.facebook\.com\/[a-zA-Z0-9\.\-]+\/?$";
 
                 // Validation for Facebook link.
-                Validate("facebook", ref _facebookLink, value, "Facebook link");
+                Validate(pattern, ref _facebookLink, value, "Facebook link");
             }
         }
 
@@ -52,10 +52,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Instagram profile link.
-                //string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
+                string pattern = @"^https:\/\/www\.instagram\.com\/[a-zA-Z0-9_.]+\/?$";
 
                 // Validation for Instagram link.
-                Validate("instagram", ref _instagramLink, value, "Instagram link");
+                Validate(pattern, ref _instagramLink, value, "Instagram link");
             }
         }
 
@@ -66,10 +66,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid LinkedIn profile link.
-                //string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
+                string pattern = @"^https:\/\/www\.linkedin\.com\/in\/[a-zA-Z0-9\-]+\/?$";
 
                 // Validation for LinkedIn link.
-                Validate("linkedin", ref _linkedInLink, value, "LinkedIn link");
+                Validate(pattern, ref _linkedInLink, value, "LinkedIn link");
             }
         }
 
@@ -80,10 +80,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Twitter profile link.
-                //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
+                string pattern = @"^https:\/\/twitter\.com\/[a-zA-Z0-9_]+\/?$";
 
                 // Validation for Twitter link.
-                Validate("twitter", ref _twitterLink, value, "Twitter link");
+                Validate(pattern, ref _twitterLink, value, "Twitter link");
             }
         }
 
@@ -94,10 +94,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid GitHub profile link.
-                //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
+                string pattern = @"^https:\/\/github\.com\/[a-zA-Z0-9-]+\/?$";
 
                 // Validation for GitHub link.
-                Validate("github", ref _gitHubLink, value, "GitHub link");
+                Validate(pattern, ref _gitHubLink, value, "GitHub link");
             }
         }
 
@@ -108,10 +108,10 @@ namespace ContactMate_Pro
             set
             {
                 // Regular expression pattern for a valid Threads profile link.
-                //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
+                string pattern = @"^https:\/\/www\.threads\.net\/@([a-zA-Z0-9_]+)\/?$";
 
                 // Validation for GitHub link.
-                Validate("threads", ref _threadsLink, value, "Threads link");
+                Validate(pattern, ref _threadsLink, value, "Threads link");
             }
         }
 
@@ -121,7 +121,6 @@ namespace ContactMate_Pro
         public void Validate(string pattern, ref string privateHolder, string value, string name)
         {
             Functionality functions = new Functionality();
-            pattern = $"^(https?://)?(www\\.)?{pattern}\\.com/[\\w-]+/?$";
 
             // Check if the provided value matches the specified regular expression pattern.
             if (Regex.IsMatch(value, pattern))
