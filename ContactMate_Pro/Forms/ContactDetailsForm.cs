@@ -96,22 +96,28 @@ namespace ContactMate_Pro
                         }
                         break;
                     case Guna2TextBox textBox when textBox == facebookLinkBox:
-                        ifReturn = ValidateAndAssignLinks(textBox, contactDetails, "FacebookLink");
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "FacebookLink");
                         break;
                     case Guna2TextBox textBox when textBox == instagramLinkBox:
-
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "InstagramLink");
                         break;
                     case Guna2TextBox textBox when textBox == linkedInLinkBox:
-
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "LinkedInLink");
                         break;
                     case Guna2TextBox textBox when textBox == xLinkBox:
-
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "TwitterLink");
                         break;
                     case Guna2TextBox textBox when textBox == gitHubLinkBox:
-
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "GitHubLink");
                         break;
                     case Guna2TextBox textBox when textBox == threadsLinkBox:
-
+                        if (!String.IsNullOrEmpty(textBox.Text))
+                            ifReturn = LinksValidation(textBox, contactDetails, "ThreadsLink");
                         break;
                 }
 
