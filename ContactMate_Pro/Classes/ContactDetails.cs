@@ -41,7 +41,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?facebook\.com/[\w.-]+/?$";
 
                 // Validation for Facebook link.
-                Validate("facebook", ref _facebookLink, value, "Facebook Link");
+                Validate("facebook", ref _facebookLink, value, "Facebook link");
             }
         }
 
@@ -55,7 +55,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?instagram\.com/[\w.-]+/?$";
 
                 // Validation for Instagram link.
-                Validate("instagram", ref _instagramLink, value, "Instagram Link");
+                Validate("instagram", ref _instagramLink, value, "Instagram link");
             }
         }
 
@@ -69,7 +69,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?linkedin\.com/in/[\w-]+/?$";
 
                 // Validation for LinkedIn link.
-                Validate("linkedin", ref _linkedInLink, value, "LinkedIn Link");
+                Validate("linkedin", ref _linkedInLink, value, "LinkedIn link");
             }
         }
 
@@ -83,7 +83,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?twitter\.com/[\w.]+/?$";
 
                 // Validation for Twitter link.
-                Validate("twitter", ref _twitterLink, value, "Twitter Link");
+                Validate("twitter", ref _twitterLink, value, "Twitter link");
             }
         }
 
@@ -97,7 +97,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
 
                 // Validation for GitHub link.
-                Validate("github", ref _gitHubLink, value, "GitHub Link");
+                Validate("github", ref _gitHubLink, value, "GitHub link");
             }
         }
 
@@ -111,7 +111,7 @@ namespace ContactMate_Pro
                 //string pattern = @"^(https?://)?(www\.)?github\.com/[\w-]+/?$";
 
                 // Validation for GitHub link.
-                Validate("threads", ref _threadsLink, value, "Threads Link");
+                Validate("threads", ref _threadsLink, value, "Threads link");
             }
         }
 
@@ -129,7 +129,7 @@ namespace ContactMate_Pro
             else
             {
                 // Display an error message using string interpolation to include the invalid value and the expected type.
-                functions.Alert($"Invalid {name}", AlertForm.Type.Error);
+                functions.Alert($"Entered {name} is invalid .", AlertForm.Type.Error);
                 privateHolder = null; // Set the privateHolder to null since the value is invalid.
             }
         }
