@@ -69,6 +69,13 @@ namespace ContactMate_Pro
                             return false;
                         }
                         break;
+                    case Guna2ComboBox comboBox when comboBox == relationCBox:
+                        if (comboBox.SelectedIndex == 0)
+                        {
+                            functions.Alert("Select the contact relationship.", AlertForm.Type.Info);
+                            return false;
+                        }
+                        break;
                 }
             }
 
