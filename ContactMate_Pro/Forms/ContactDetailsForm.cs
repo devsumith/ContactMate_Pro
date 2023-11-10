@@ -128,7 +128,7 @@ namespace ContactMate_Pro
         #region FUNCTION TO VALIDATE LINKS
 
         // It will return true if there is an issue; otherwise, it will return false.
-        private bool ValidateAndAssign(Control textBox, ContactDetails contactDetails, string fieldName, string property)
+        private bool ValidateAndAssignLinks(Control textBox, ContactDetails contactDetails, string fieldName, string property)
         {
             string input = textBox.Text.Trim();
 
