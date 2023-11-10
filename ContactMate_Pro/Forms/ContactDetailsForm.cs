@@ -61,6 +61,8 @@ namespace ContactMate_Pro
 
             #endregion
 
+            bool ifReturn = true;
+
             foreach (Control control in controlList)
             {
                 switch (control)
@@ -112,6 +114,10 @@ namespace ContactMate_Pro
 
                         break;
                 }
+
+                // If above statement return a false value for ifReturn, this statement will return false to indicate validation failure.
+                if (!ifReturn)
+                    return false;
             }
 
             return true;
