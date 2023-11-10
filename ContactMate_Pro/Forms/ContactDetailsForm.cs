@@ -96,7 +96,7 @@ namespace ContactMate_Pro
                         }
                         break;
                     case Guna2TextBox textBox when textBox == facebookLinkBox:
-
+                        ifReturn = ValidateAndAssignLinks(textBox, contactDetails, "FacebookLink");
                         break;
                     case Guna2TextBox textBox when textBox == instagramLinkBox:
 
@@ -128,7 +128,7 @@ namespace ContactMate_Pro
         #region FUNCTION TO VALIDATE LINKS
 
         // It will return true if there is an issue; otherwise, it will return false.
-        private bool ValidateAndAssignLinks(Control textBox, ContactDetails contactDetails, string fieldName, string property)
+        private bool LinksValidation(Control textBox, ContactDetails contactDetails, string property)
         {
             string input = textBox.Text.Trim();
 
