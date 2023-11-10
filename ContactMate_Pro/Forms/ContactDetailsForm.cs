@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ContactMate_Pro.Classes;
+using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +15,12 @@ namespace ContactMate_Pro
 {
     public partial class ContactDetailsForm : Form
     {
+        #region CLASSES
+
+        Functionality functions = new Functionality();
+
+        #endregion
+
         public ContactDetailsForm()
         {
             InitializeComponent();
@@ -52,7 +60,16 @@ namespace ContactMate_Pro
 
             foreach (Control control in controlList)
             {
+                switch (control)
+                {
+                    case Guna2TextBox textBox when textBox == nicknameBox:
+                        if (String.IsNullOrEmpty(textBox.Text))
+                        {
 
+                            return false;
+                        }
+                        break;
+                }
             }
 
             return true;
