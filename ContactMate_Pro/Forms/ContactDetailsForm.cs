@@ -93,6 +93,24 @@ namespace ContactMate_Pro
                             return false;
                         }
                         break;
+                    case Guna2TextBox textBox when textBox == facebookLinkBox:
+
+                        break;
+                    case Guna2TextBox textBox when textBox == instagramLinkBox:
+
+                        break;
+                    case Guna2TextBox textBox when textBox == linkedInLinkBox:
+
+                        break;
+                    case Guna2TextBox textBox when textBox == xLinkBox:
+
+                        break;
+                    case Guna2TextBox textBox when textBox == gitHubLinkBox:
+
+                        break;
+                    case Guna2TextBox textBox when textBox == threadsLinkBox:
+
+                        break;
                 }
             }
 
