@@ -127,7 +127,25 @@ namespace ContactMate_Pro
 
         #region FUNCTION TO VALIDATE LINKS
 
+        // It will return true if there is an issue; otherwise, it will return false.
+        private bool ValidateAndAssignLinks(Control textBox, ContactDetails contactDetails, string fieldName, string property)
+        {
+            string input = textBox.Text.Trim();
 
+            // Using reflection, set the value of the specified property in the 'studentData' object to the 'input'
+            contactDetails.GetType().GetProperty(property).SetValue(contactDetails, input);
+
+            // Using reflection, get the value of the specified property in the 'studentData' object,
+            // convert it to a string, check if it's empty or null
+            if (string.IsNullOrEmpty(contactDetails.GetType().GetProperty(property).GetValue(contactDetails) as string))
+            {
+                textBox.Focus();
+
+                return false;
+            }
+
+            return true;
+        }
 
         #endregion
 
