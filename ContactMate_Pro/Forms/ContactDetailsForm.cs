@@ -98,6 +98,12 @@ namespace ContactMate_Pro
 
         #endregion
 
+        #region FUNCTION TO VALIDATE LINKS
+
+
+
+        #endregion
+
         #endregion
 
         #region FUNCTION FOR CLOSE BUTTON OF THE FORM
