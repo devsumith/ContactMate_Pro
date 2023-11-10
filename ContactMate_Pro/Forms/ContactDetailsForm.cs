@@ -79,7 +79,14 @@ namespace ContactMate_Pro
                     case FlowLayoutPanel layoutPanel when layoutPanel == cNumLayoutPanel:
                         if (layoutPanel.Controls.Count == 0)
                         {
-                            functions.Alert("Enter the contact number.", AlertForm.Type.Info);
+                            functions.Alert("Add atleast one contact number.", AlertForm.Type.Info);
+                            return false;
+                        }
+                        break;
+                    case FlowLayoutPanel layoutPanel when layoutPanel == cGmailLayoutPanel:
+                        if (layoutPanel.Controls.Count == 0)
+                        {
+                            functions.Alert("Add atleast one Gmail address.", AlertForm.Type.Info);
                             return false;
                         }
                         break;
