@@ -95,6 +95,9 @@ namespace ContactMate_Pro
                             return false;
                         }
                         break;
+
+                    // Cases for Guna2TextBox with various link boxes as specific controls
+                    // Check if the text is not empty, and call LinksValidation function
                     case Guna2TextBox textBox when textBox == facebookLinkBox:
                         if (!String.IsNullOrEmpty(textBox.Text))
                             ifReturn = LinksValidation(textBox, contactDetails, "FacebookLink");
