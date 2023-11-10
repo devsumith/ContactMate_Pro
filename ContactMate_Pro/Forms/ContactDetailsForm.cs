@@ -76,6 +76,13 @@ namespace ContactMate_Pro
                             return false;
                         }
                         break;
+                    case FlowLayoutPanel layoutPanel when layoutPanel == cNumLayoutPanel:
+                        if (layoutPanel.Controls.Count == 0)
+                        {
+                            functions.Alert("Enter the contact number.", AlertForm.Type.Info);
+                            return false;
+                        }
+                        break;
                 }
             }
 
