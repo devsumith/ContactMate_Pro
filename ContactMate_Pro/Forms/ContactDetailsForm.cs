@@ -65,7 +65,7 @@ namespace ContactMate_Pro
                     case Guna2TextBox textBox when textBox == nicknameBox:
                         if (String.IsNullOrEmpty(textBox.Text))
                         {
-
+                            functions.Alert("Complete the nickname field.", AlertForm.Type.Info);
                             return false;
                         }
                         break;
