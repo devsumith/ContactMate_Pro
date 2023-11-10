@@ -17,6 +17,9 @@ namespace ContactMate_Pro
     {
         #region CLASSES
 
+        // Instance of class that will store the validated contact details.
+        ContactDetails contactDetails = new ContactDetails();
+
         Functionality functions = new Functionality();
 
         #endregion
