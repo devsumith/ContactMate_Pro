@@ -1,6 +1,7 @@
 ﻿using ContactMate_Pro.Classes;
 using Guna.UI2.WinForms;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,14 @@ namespace ContactMate_Pro
         ContactDetails contactDetails = new ContactDetails();
 
         Functionality functions = new Functionality();
+
+        #endregion
+
+        #region FIELDS
+
+        // Fields for contact number and gmail address.
+        List<String> contactNumberList = new List<String>();
+        List<String> gmailAddressList = new List<String>();
 
         #endregion
 
@@ -252,7 +261,7 @@ namespace ContactMate_Pro
         {
             string pattern = @"^(09\d{9}|(\+63|0)[2-8]\d{7})$";
 
-            if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern))
+            if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern) && !contactNumberList.Contains(cNumBox.Text))
             {
                 CNumberControl cNumberControl = new CNumberControl
                 {
@@ -261,6 +270,8 @@ namespace ContactMate_Pro
 
                 cNumLayoutPanel.Controls.Add(cNumberControl);
                 cNumberControl.Size = new Size(129, 30);
+
+                contactNumberList.Add(cNumBox.Text);
 
                 cNumBox.Clear();
 
