@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -251,11 +252,12 @@ namespace ContactMate_Pro
         {
             string pattern = @"^(09\d{9}|(\+63|0)[2-8]\d{7})$";
 
-            if (!String.IsNullOrEmpty(cNumBox.Text))
+            if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern))
             {
-                CNumberControl cNumberControl = new CNumberControl();
-
-                cNumberControl.ContactNumber = cNumBox.Text;
+                CNumberControl cNumberControl = new CNumberControl
+                {
+                    ContactNumber = cNumBox.Text
+                };
 
                 cNumLayoutPanel.Controls.Add(cNumberControl);
                 cNumberControl.Size = new Size(129, 30);
