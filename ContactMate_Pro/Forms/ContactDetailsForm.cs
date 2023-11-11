@@ -35,7 +35,7 @@ namespace ContactMate_Pro
         {
             if (ValidateInformation())
             {
-
+                functions.Alert("New contact added successfully.", AlertForm.Type.Success);
             }
         }
 
