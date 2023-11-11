@@ -245,10 +245,12 @@ namespace ContactMate_Pro
 
         #endregion
 
-        #region FUNCTION TO ADD CONTACT NUMBERS IN A LIST
+        #region FUNCTION TO ADD CONTACT NUMBER IN A LIST
 
         private void addCNumBtn_Click(object sender, EventArgs e)
         {
+            string pattern = @"^(09\d{9}|(\+63|0)[2-8]\d{7})$";
+
             if (!String.IsNullOrEmpty(cNumBox.Text))
             {
                 CNumberControl cNumberControl = new CNumberControl();
