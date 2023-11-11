@@ -29,8 +29,8 @@ namespace ContactMate_Pro
         #region FIELDS
 
         // Fields for contact number and gmail address.
-        List<String> contactNumberList = new List<String>();
-        List<String> gmailAddressList = new List<String>();
+        public List<String> contactNumberList = new List<String>();
+        public List<String> gmailAddressList = new List<String>();
 
         #endregion
 
