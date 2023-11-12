@@ -277,6 +277,8 @@ namespace ContactMate_Pro
 
                 cNumLayoutPanel.Refresh();
             }
+
+            MessageBox.Show(string.Join("-", contactNumberList));
         }
 
         private void cNumBox_KeyDown(object sender, KeyEventArgs e)
