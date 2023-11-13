@@ -267,6 +267,12 @@ namespace ContactMate_Pro
                 return;
             }
 
+            if (!Regex.IsMatch(cNumBox.Text, pattern))
+            {
+                functions.Alert("Invalid contact number.", AlertForm.Type.Error);
+                return;
+            }
+
             if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern) && !contactNumberList.Contains(cNumBox.Text))
             {
                 CNumberControl cNumberControl = new CNumberControl
