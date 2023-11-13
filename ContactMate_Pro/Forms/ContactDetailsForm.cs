@@ -296,6 +296,7 @@ namespace ContactMate_Pro
             }
         }
 
+        // Removes the specified 'number' from the 'contactNumberList'
         public void RemoveContactNumber(string number) => contactNumberList.Remove(number);
 
         private void cNumBox_KeyDown(object sender, KeyEventArgs e)
