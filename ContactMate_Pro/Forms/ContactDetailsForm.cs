@@ -259,30 +259,37 @@ namespace ContactMate_Pro
 
         private void addCNumBtn_Click(object sender, EventArgs e)
         {
+            // Regular expression pattern for validating the contact number format
             string pattern = @"^(09\d{9}|(\+63|0)[2-8]\d{7})$";
 
+            // Check if the contact number field is empty
             if (String.IsNullOrEmpty(cNumBox.Text))
             {
                 functions.Alert("Fill in the contact number field.", AlertForm.Type.Info);
                 return;
             }
 
+            // Check if the entered contact number matches the specified pattern
             if (!Regex.IsMatch(cNumBox.Text, pattern))
             {
                 functions.Alert("Invalid contact number.", AlertForm.Type.Error);
                 return;
             }
 
+            // Check if the contact number is not already in the list
             if (!contactNumberList.Contains(cNumBox.Text))
             {
+                // Create a new CNumberControl with the entered contact number
                 CNumberControl cNumberControl = new CNumberControl
                 {
                     ContactNumber = cNumBox.Text
                 };
 
+                // Add the new CNumberControl to the layout panel
                 cNumLayoutPanel.Controls.Add(cNumberControl);
                 cNumberControl.Size = new Size(129, 30);
 
+                // Add the contact number to the list
                 contactNumberList.Add(cNumBox.Text);
 
                 cNumBox.Clear();
@@ -291,10 +298,12 @@ namespace ContactMate_Pro
             }
             else
             {
+                // Display an alert if the contact number already exists in the list
                 functions.Alert("Contact number already exists.", AlertForm.Type.Error);
                 cNumBox.Clear();
             }
         }
+
 
         // Removes the specified 'number' from the 'contactNumberList'
         public void RemoveContactNumber(string number) => contactNumberList.Remove(number);
