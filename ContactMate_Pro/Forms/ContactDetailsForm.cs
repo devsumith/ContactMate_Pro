@@ -290,9 +290,10 @@ namespace ContactMate_Pro
                 cNumLayoutPanel.Refresh();
             }
             else
-                functions.Alert("Enterd contact number already exists.", AlertForm.Type.Error);
-
-            MessageBox.Show(string.Join("-", contactNumberList));
+            {
+                functions.Alert("Contact number already exists.", AlertForm.Type.Error);
+                cNumBox.Clear();
+            }
         }
 
         public void RemoveContactNumber(string number) => contactNumberList.Remove(number);
