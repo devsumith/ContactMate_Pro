@@ -261,6 +261,12 @@ namespace ContactMate_Pro
         {
             string pattern = @"^(09\d{9}|(\+63|0)[2-8]\d{7})$";
 
+            if (String.IsNullOrEmpty(cNumBox.Text))
+            {
+                functions.Alert("Fill in the contact number field.", AlertForm.Type.Info);
+                return;
+            }
+
             if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern) && !contactNumberList.Contains(cNumBox.Text))
             {
                 CNumberControl cNumberControl = new CNumberControl
