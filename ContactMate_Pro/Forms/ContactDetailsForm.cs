@@ -255,7 +255,7 @@ namespace ContactMate_Pro
 
         #endregion
 
-        #region FUNCTION TO ADD CONTACT NUMBER IN A LIST
+        #region FUNCTIONS TO ADD AND REMOVE CONTACT NUMBER IN A LIST
 
         private void addCNumBtn_Click(object sender, EventArgs e)
         {
@@ -294,6 +294,8 @@ namespace ContactMate_Pro
 
             MessageBox.Show(string.Join("-", contactNumberList));
         }
+
+        public void RemoveContactNumber(string number) => contactNumberList.Remove(number);
 
         private void cNumBox_KeyDown(object sender, KeyEventArgs e)
         {

@@ -36,7 +36,12 @@ namespace ContactMate_Pro
             // If it is a FlowLayoutPanel, remove the current CNumberControl from the FlowLayoutPanel's Controls collection.
             // "this" refers to the current instance of the CNumberControl, so it is removed from the FlowLayoutPanel.
             if (Parent is FlowLayoutPanel flowLayoutPanel)
+            {
                 flowLayoutPanel.Controls.Remove(this);
+
+                ContactDetailsForm contactDetailsForm = Application.OpenForms.OfType<ContactDetailsForm>().FirstOrDefault();
+                contactDetailsForm.RemoveContactNumber(ContactNumber);
+            }
         }
 
         #endregion
