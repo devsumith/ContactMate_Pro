@@ -39,6 +39,7 @@ namespace ContactMate_Pro
             {
                 flowLayoutPanel.Controls.Remove(this);
 
+                // Retrieves the open instance of ContactDetailsForm, if any, and removes the specified 'ContactNumber' in a list.
                 ContactDetailsForm contactDetailsForm = Application.OpenForms.OfType<ContactDetailsForm>().FirstOrDefault();
                 contactDetailsForm.RemoveContactNumber(ContactNumber);
             }
