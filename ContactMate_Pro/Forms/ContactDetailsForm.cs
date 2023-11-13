@@ -273,7 +273,7 @@ namespace ContactMate_Pro
                 return;
             }
 
-            if (!String.IsNullOrEmpty(cNumBox.Text) && Regex.IsMatch(cNumBox.Text, pattern) && !contactNumberList.Contains(cNumBox.Text))
+            if (!contactNumberList.Contains(cNumBox.Text))
             {
                 CNumberControl cNumberControl = new CNumberControl
                 {
@@ -289,6 +289,8 @@ namespace ContactMate_Pro
 
                 cNumLayoutPanel.Refresh();
             }
+            else
+                functions.Alert("Enterd contact number already exists.", AlertForm.Type.Error);
 
             MessageBox.Show(string.Join("-", contactNumberList));
         }
