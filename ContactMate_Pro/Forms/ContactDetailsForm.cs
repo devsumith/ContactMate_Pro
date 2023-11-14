@@ -324,6 +324,13 @@ namespace ContactMate_Pro
             // Regular expression pattern for a valid Gmail address.
             string pattern = @"^[a-zA-Z0-9._%+-]+@gmail\.com$";
 
+            // Check if the Gmail address field is empty
+            if (String.IsNullOrEmpty(cGmailBox.Text))
+            {
+                functions.Alert("Fill in the Gmail address field.", AlertForm.Type.Info);
+                return;
+            }
+
             if (!String.IsNullOrEmpty(cGmailBox.Text))
             {
                 CGmailControl cGmailControl = new CGmailControl();
