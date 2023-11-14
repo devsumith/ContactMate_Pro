@@ -362,7 +362,7 @@ namespace ContactMate_Pro
             {
                 // Display an alert if the Gmail address already exists in the list.
                 functions.Alert("Gmail address already exists.", AlertForm.Type.Error);
-                cNumBox.Clear();
+                cGmailBox.Clear();
             }
         }
 
