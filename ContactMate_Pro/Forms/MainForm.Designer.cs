@@ -1370,6 +1370,8 @@
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Items.AddRange(new object[] {
             "Contact Number",
+            "Gmail Address",
+            "Nickname",
             "Last Name",
             "First Name",
             "Middle Name"});
