@@ -255,7 +255,7 @@ namespace ContactMate_Pro
 
         #endregion
 
-        #region FUNCTIONS TO ADD AND REMOVE CONTACT NUMBER IN A LIST
+        #region FUNCTIONS TO ADD AND REMOVE SPECIFIED CONTACT NUMBER FROM THE LIST
 
         private void addCNumBtn_Click(object sender, EventArgs e)
         {
@@ -317,7 +317,7 @@ namespace ContactMate_Pro
 
         #endregion
 
-        #region FUNCTION TO ADD CONTACT GMAIL IN A LIST
+        #region FUNCTION TO ADD AND REMOVE SPECIFIED CONTACT GMAIL ADDRESS FROM THE LIST
 
         private void addCGmailBtn_Click(object sender, EventArgs e)
         {
@@ -339,7 +339,7 @@ namespace ContactMate_Pro
             }
 
             // Check if the Gmail address is not in the list.
-            if (!gmailAddressList.Contains(cNumBox.Text))
+            if (!gmailAddressList.Contains(cGmailBox.Text))
             {
                 // Create a new CGmailControl with the entered Gmail address.
                 CGmailControl cGmailControl = new CGmailControl
@@ -352,7 +352,7 @@ namespace ContactMate_Pro
                 cGmailControl.Size = new Size(207, 30);
 
                 // Add the Gmail address to the list.
-                gmailAddressList.Add(cNumBox.Text);
+                gmailAddressList.Add(cGmailBox.Text);
 
                 cGmailBox.Clear();
 
