@@ -331,6 +331,13 @@ namespace ContactMate_Pro
                 return;
             }
 
+            // Check if the entered Gmail address matches the specified pattern
+            if (!Regex.IsMatch(cGmailBox.Text, pattern))
+            {
+                functions.Alert("Invalid Gmail address.", AlertForm.Type.Error);
+                return;
+            }
+
             if (!String.IsNullOrEmpty(cGmailBox.Text))
             {
                 CGmailControl cGmailControl = new CGmailControl();
