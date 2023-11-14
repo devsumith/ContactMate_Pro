@@ -358,6 +358,12 @@ namespace ContactMate_Pro
 
                 cGmailLayoutPanel.Refresh();
             }
+            else
+            {
+                // Display an alert if the Gmail address already exists in the list.
+                functions.Alert("Gmail address already exists.", AlertForm.Type.Error);
+                cGmailBox.Clear();
+            }
         }
 
         private void cGmailBox_KeyDown(object sender, KeyEventArgs e)
