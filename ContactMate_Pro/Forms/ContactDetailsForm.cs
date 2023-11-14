@@ -276,20 +276,20 @@ namespace ContactMate_Pro
                 return;
             }
 
-            // Check if the contact number is not already in the list
+            // Check if the contact number is not in the list.
             if (!contactNumberList.Contains(cNumBox.Text))
             {
-                // Create a new CNumberControl with the entered contact number
+                // Create a new CNumberControl with the entered contact number.
                 CNumberControl cNumberControl = new CNumberControl
                 {
                     ContactNumber = cNumBox.Text
                 };
 
-                // Add the new CNumberControl to the layout panel
+                // Add the new CNumberControl to the layout panel.
                 cNumLayoutPanel.Controls.Add(cNumberControl);
                 cNumberControl.Size = new Size(129, 30);
 
-                // Add the contact number to the list
+                // Add the contact number to the list.
                 contactNumberList.Add(cNumBox.Text);
 
                 cNumBox.Clear();
@@ -338,14 +338,21 @@ namespace ContactMate_Pro
                 return;
             }
 
-            if (!String.IsNullOrEmpty(cGmailBox.Text))
+            // Check if the Gmail address is not in the list.
+            if (!gmailAddressList.Contains(cNumBox.Text))
             {
-                CGmailControl cGmailControl = new CGmailControl();
+                // Create a new CNumberControl with the entered contact number.
+                CGmailControl cGmailControl = new CGmailControl
+                {
+                    GmailAddress = cGmailBox.Text
+                };
 
-                cGmailControl.GmailAddress = cGmailBox.Text;
-
+                // Add the new cGmailControl to the layout panel
                 cGmailLayoutPanel.Controls.Add(cGmailControl);
                 cGmailControl.Size = new Size(207, 30);
+
+                // Add the Gmail address to the list.
+                gmailAddressList.Add(cNumBox.Text);
 
                 cGmailBox.Clear();
 
