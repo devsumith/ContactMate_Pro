@@ -37,6 +37,10 @@ namespace ContactMate_Pro
             // "this" refers to the current instance of the CGmailControl, so it is removed from the FlowLayoutPanel.
             if (Parent is FlowLayoutPanel flowLayoutPanel)
                 flowLayoutPanel.Controls.Remove(this);
+
+            // Retrieves the open instance of ContactDetailsForm, if any, and removes the specified 'GmailAddress' in a list.
+            ContactDetailsForm contactDetailsForm = Application.OpenForms.OfType<ContactDetailsForm>().FirstOrDefault();
+            contactDetailsForm.RemoveGmailAddress(GmailAddress);
         }
 
         #endregion
