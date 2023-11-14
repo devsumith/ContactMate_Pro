@@ -341,7 +341,7 @@ namespace ContactMate_Pro
             // Check if the Gmail address is not in the list.
             if (!gmailAddressList.Contains(cNumBox.Text))
             {
-                // Create a new CNumberControl with the entered contact number.
+                // Create a new CGmailControl with the entered Gmail address.
                 CGmailControl cGmailControl = new CGmailControl
                 {
                     GmailAddress = cGmailBox.Text
@@ -365,6 +365,9 @@ namespace ContactMate_Pro
                 cGmailBox.Clear();
             }
         }
+
+        // Removes the specified 'Gmail address' from the 'gmailAddressList'
+        public void RemoveGmailAddress(string gmailAddress) => gmailAddressList.Remove(gmailAddress);
 
         private void cGmailBox_KeyDown(object sender, KeyEventArgs e)
         {
