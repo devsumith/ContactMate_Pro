@@ -304,7 +304,6 @@ namespace ContactMate_Pro
             }
         }
 
-
         // Removes the specified 'number' from the 'contactNumberList'
         public void RemoveContactNumber(string number) => contactNumberList.Remove(number);
 
@@ -322,6 +321,9 @@ namespace ContactMate_Pro
 
         private void addCGmailBtn_Click(object sender, EventArgs e)
         {
+            // Regular expression pattern for a valid Gmail address.
+            string pattern = @"^[a-zA-Z0-9._%+-]+@gmail\.com$";
+
             if (!String.IsNullOrEmpty(cGmailBox.Text))
             {
                 CGmailControl cGmailControl = new CGmailControl();
