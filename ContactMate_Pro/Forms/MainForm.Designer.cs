@@ -52,7 +52,6 @@
             this.guna2RadioButton8 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton7 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton6 = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.guna2RadioButton5 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton4 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton3 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
@@ -475,7 +474,6 @@
             this.tabPage1.Controls.Add(this.guna2RadioButton8);
             this.tabPage1.Controls.Add(this.guna2RadioButton7);
             this.tabPage1.Controls.Add(this.guna2RadioButton6);
-            this.tabPage1.Controls.Add(this.guna2RadioButton5);
             this.tabPage1.Controls.Add(this.guna2RadioButton4);
             this.tabPage1.Controls.Add(this.guna2RadioButton3);
             this.tabPage1.Controls.Add(this.guna2RadioButton2);
@@ -498,7 +496,7 @@
             this.guna2RadioButton10.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton10.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton10.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton10.Location = new System.Drawing.Point(116, 69);
+            this.guna2RadioButton10.Location = new System.Drawing.Point(116, 41);
             this.guna2RadioButton10.Name = "guna2RadioButton10";
             this.guna2RadioButton10.Size = new System.Drawing.Size(56, 23);
             this.guna2RadioButton10.TabIndex = 9;
@@ -597,28 +595,6 @@
             this.guna2RadioButton6.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
             this.guna2RadioButton6.UseVisualStyleBackColor = false;
             // 
-            // guna2RadioButton5
-            // 
-            this.guna2RadioButton5.Animated = true;
-            this.guna2RadioButton5.AutoSize = true;
-            this.guna2RadioButton5.BackColor = System.Drawing.Color.Honeydew;
-            this.guna2RadioButton5.CheckedState.BorderColor = System.Drawing.Color.OliveDrab;
-            this.guna2RadioButton5.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton5.CheckedState.FillColor = System.Drawing.Color.OliveDrab;
-            this.guna2RadioButton5.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
-            this.guna2RadioButton5.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2RadioButton5.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton5.Location = new System.Drawing.Point(28, 97);
-            this.guna2RadioButton5.Name = "guna2RadioButton5";
-            this.guna2RadioButton5.Size = new System.Drawing.Size(126, 23);
-            this.guna2RadioButton5.TabIndex = 4;
-            this.guna2RadioButton5.Text = "School / University";
-            this.guna2RadioButton5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2RadioButton5.UncheckedState.BorderThickness = 1;
-            this.guna2RadioButton5.UncheckedState.FillColor = System.Drawing.Color.MintCream;
-            this.guna2RadioButton5.UncheckedState.InnerColor = System.Drawing.Color.MintCream;
-            this.guna2RadioButton5.UseVisualStyleBackColor = false;
-            // 
             // guna2RadioButton4
             // 
             this.guna2RadioButton4.Animated = true;
@@ -630,7 +606,7 @@
             this.guna2RadioButton4.CheckedState.InnerColor = System.Drawing.Color.Honeydew;
             this.guna2RadioButton4.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2RadioButton4.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2RadioButton4.Location = new System.Drawing.Point(116, 41);
+            this.guna2RadioButton4.Location = new System.Drawing.Point(28, 96);
             this.guna2RadioButton4.Name = "guna2RadioButton4";
             this.guna2RadioButton4.Size = new System.Drawing.Size(86, 23);
             this.guna2RadioButton4.TabIndex = 3;
@@ -1576,7 +1552,6 @@
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton8;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton7;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton6;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton5;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton4;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton3;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
