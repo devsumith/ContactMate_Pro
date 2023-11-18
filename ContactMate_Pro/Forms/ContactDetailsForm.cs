@@ -234,6 +234,7 @@ namespace ContactMate_Pro
 
         private void relationCBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // ASSIGN COLORS FOR DIFFERENT RELATIONS.
             Color[] relationColors =
             {
                 Color.LightGray,            // DEFAULT
