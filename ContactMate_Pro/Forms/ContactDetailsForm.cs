@@ -64,7 +64,7 @@ namespace ContactMate_Pro
                 facebookLinkBox,
                 instagramLinkBox,
                 linkedInLinkBox,
-                xLinkBox,
+                twitterLinkBox,
                 gitHubLinkBox,
                 threadsLinkBox
             };
@@ -120,7 +120,7 @@ namespace ContactMate_Pro
                         if (!String.IsNullOrEmpty(textBox.Text))
                             ifReturn = LinksValidation(textBox, contactDetails, "LinkedInLink");
                         break;
-                    case Guna2TextBox textBox when textBox == xLinkBox:
+                    case Guna2TextBox textBox when textBox == twitterLinkBox:
                         if (!String.IsNullOrEmpty(textBox.Text))
                             ifReturn = LinksValidation(textBox, contactDetails, "TwitterLink");
                         break;

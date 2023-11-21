@@ -83,7 +83,7 @@
             this.threadsLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.gitHubLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.linkedInLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.xLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.twitterLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.instagramLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.facebookLinkBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -1219,7 +1219,7 @@
             this.tabPage3.Controls.Add(this.threadsLinkBox);
             this.tabPage3.Controls.Add(this.gitHubLinkBox);
             this.tabPage3.Controls.Add(this.linkedInLinkBox);
-            this.tabPage3.Controls.Add(this.xLinkBox);
+            this.tabPage3.Controls.Add(this.twitterLinkBox);
             this.tabPage3.Controls.Add(this.instagramLinkBox);
             this.tabPage3.Controls.Add(this.facebookLinkBox);
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
@@ -1331,40 +1331,40 @@
             this.linkedInLinkBox.TabStop = false;
             this.linkedInLinkBox.TextOffset = new System.Drawing.Point(3, 0);
             // 
-            // xLinkBox
+            // twitterLinkBox
             // 
-            this.xLinkBox.Animated = true;
-            this.xLinkBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.xLinkBox.BorderRadius = 15;
-            this.xLinkBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.xLinkBox.CustomizableEdges.BottomLeft = false;
-            this.xLinkBox.CustomizableEdges.BottomRight = false;
-            this.xLinkBox.CustomizableEdges.TopLeft = false;
-            this.xLinkBox.CustomizableEdges.TopRight = false;
-            this.xLinkBox.DefaultText = "";
-            this.xLinkBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
-            this.xLinkBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.xLinkBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.xLinkBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.xLinkBox.FillColor = System.Drawing.Color.MintCream;
-            this.xLinkBox.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.xLinkBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xLinkBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.xLinkBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.xLinkBox.IconLeft = global::ContactMate_Pro.Properties.Resources._370315652_720282342860198_3001076609601440804_n;
-            this.xLinkBox.IconLeftOffset = new System.Drawing.Point(3, 0);
-            this.xLinkBox.IconRightSize = new System.Drawing.Size(25, 25);
-            this.xLinkBox.Location = new System.Drawing.Point(6, 133);
-            this.xLinkBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.xLinkBox.Name = "xLinkBox";
-            this.xLinkBox.PasswordChar = '\0';
-            this.xLinkBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.xLinkBox.PlaceholderText = "Twitter Link";
-            this.xLinkBox.SelectedText = "";
-            this.xLinkBox.Size = new System.Drawing.Size(378, 36);
-            this.xLinkBox.TabIndex = 51;
-            this.xLinkBox.TabStop = false;
-            this.xLinkBox.TextOffset = new System.Drawing.Point(3, 0);
+            this.twitterLinkBox.Animated = true;
+            this.twitterLinkBox.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.twitterLinkBox.BorderRadius = 15;
+            this.twitterLinkBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.twitterLinkBox.CustomizableEdges.BottomLeft = false;
+            this.twitterLinkBox.CustomizableEdges.BottomRight = false;
+            this.twitterLinkBox.CustomizableEdges.TopLeft = false;
+            this.twitterLinkBox.CustomizableEdges.TopRight = false;
+            this.twitterLinkBox.DefaultText = "";
+            this.twitterLinkBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(101)))), ((int)(((byte)(190)))));
+            this.twitterLinkBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.twitterLinkBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.twitterLinkBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.twitterLinkBox.FillColor = System.Drawing.Color.MintCream;
+            this.twitterLinkBox.FocusedState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.twitterLinkBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twitterLinkBox.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.twitterLinkBox.HoverState.BorderColor = System.Drawing.Color.DarkSeaGreen;
+            this.twitterLinkBox.IconLeft = global::ContactMate_Pro.Properties.Resources._370315652_720282342860198_3001076609601440804_n;
+            this.twitterLinkBox.IconLeftOffset = new System.Drawing.Point(3, 0);
+            this.twitterLinkBox.IconRightSize = new System.Drawing.Size(25, 25);
+            this.twitterLinkBox.Location = new System.Drawing.Point(6, 133);
+            this.twitterLinkBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.twitterLinkBox.Name = "twitterLinkBox";
+            this.twitterLinkBox.PasswordChar = '\0';
+            this.twitterLinkBox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.twitterLinkBox.PlaceholderText = "Twitter Link";
+            this.twitterLinkBox.SelectedText = "";
+            this.twitterLinkBox.Size = new System.Drawing.Size(378, 36);
+            this.twitterLinkBox.TabIndex = 51;
+            this.twitterLinkBox.TabStop = false;
+            this.twitterLinkBox.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // instagramLinkBox
             // 
@@ -1771,7 +1771,7 @@
         private Guna.UI2.WinForms.Guna2TextBox threadsLinkBox;
         private Guna.UI2.WinForms.Guna2TextBox gitHubLinkBox;
         private Guna.UI2.WinForms.Guna2TextBox linkedInLinkBox;
-        private Guna.UI2.WinForms.Guna2TextBox xLinkBox;
+        private Guna.UI2.WinForms.Guna2TextBox twitterLinkBox;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox15;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox18;
