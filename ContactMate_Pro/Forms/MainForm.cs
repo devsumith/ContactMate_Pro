@@ -59,7 +59,7 @@ namespace ContactMate_Pro
             darkPanel.Show();
             darkPanel.BringToFront();
 
-            await Task.Delay(400); 
+            await Task.Delay(400);
 
             // Show the ContactDetailsForm in dialog.
             ContactDetailsForm contactDetailsForm = new ContactDetailsForm();
@@ -109,7 +109,7 @@ namespace ContactMate_Pro
             TabPage selectedTab = filterTab.SelectedTab;
 
             // If not null, call the 'ClearControlsInSelectedTab' method to clear controls within the selected tab.
-            if (selectedTab != null) 
+            if (selectedTab != null)
                 ClearControlsInSelectedTab(selectedTab);
         }
 
@@ -160,6 +160,8 @@ namespace ContactMate_Pro
                 prevPageBtn.Enabled = true;
         }
 
+        #region FUNCTIONS TO BACK IN PREVIOUS PAGE
+
         private void prevPageBtn_Click(object sender, EventArgs e)
         {
             // Check if the previous page is a multiple of 3.
@@ -175,6 +177,15 @@ namespace ContactMate_Pro
             else // If not, simply move to the previous tab.
                 pageControl.SelectedIndex -= 1;
         }
+
+        private void prevPageBtn_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        #endregion
+
+        #region FUNCTIONS TO NEXT THE PAGE
 
         private void nextPageBtn_Click(object sender, EventArgs e)
         {
@@ -192,11 +203,14 @@ namespace ContactMate_Pro
                 pageControl.SelectedIndex += 1;
         }
 
-        #endregion
-
-        private void bodyPanel_Paint(object sender, PaintEventArgs e)
+        private void nextPageBtn_KeyDown(object sender, KeyEventArgs e)
         {
 
         }
+
+        #endregion
+
+        #endregion
+
     }
 }
