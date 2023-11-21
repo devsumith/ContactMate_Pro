@@ -160,6 +160,14 @@ namespace ContactMate_Pro
                 prevPageBtn.Enabled = true;
         }
 
+        private void pageControl_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Right)
+                nextPageBtn_Click(sender, e);
+            else if (e.KeyCode == Keys.Left)
+                prevPageBtn_Click(sender, e);
+        }
+
         #region FUNCTIONS TO BACK IN PREVIOUS PAGE
 
         private void prevPageBtn_Click(object sender, EventArgs e)
@@ -211,6 +219,5 @@ namespace ContactMate_Pro
         #endregion
 
         #endregion
-
     }
 }
