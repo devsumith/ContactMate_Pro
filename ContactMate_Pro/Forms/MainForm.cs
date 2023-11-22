@@ -160,7 +160,7 @@ namespace ContactMate_Pro
                 prevPageBtn.Enabled = true;
         }
 
-        #region FUNCTIONS TO BACK IN PREVIOUS PAGE
+        #region FUNCTION TO BACK IN PREVIOUS PAGE
 
         private void prevPageBtn_Click(object sender, EventArgs e)
         {
@@ -178,15 +178,9 @@ namespace ContactMate_Pro
                 pageControl.SelectedIndex -= 1;
         }
 
-        private void prevPageBtn_KeyDown(object sender, KeyEventArgs e)
-        {
-            //if (e.KeyCode == Keys.Left)
-            //    prevPageBtn_Click(sender, e);
-        }
-
         #endregion
 
-        #region FUNCTIONS TO NEXT THE PAGE
+        #region FUNCTION TO NEXT THE PAGE
 
         private void nextPageBtn_Click(object sender, EventArgs e)
         {
@@ -202,12 +196,6 @@ namespace ContactMate_Pro
             }
             else // If not, simply move to the next tab.
                 pageControl.SelectedIndex += 1;
-        }
-
-        private void nextPageBtn_KeyDown(object sender, KeyEventArgs e)
-        {
-            //if (e.KeyCode == Keys.Right)
-            //    nextPageBtn_Click(sender, e);
         }
 
         #endregion
