@@ -160,7 +160,7 @@ namespace ContactMate_Pro
                 prevPageBtn.Enabled = true;
         }
 
-        #region FUNCTION TO BACK IN PREVIOUS PAGE
+        #region FUNCTIONS FOR PAGE CONTROL USING BUTTONS
 
         private void prevPageBtn_Click(object sender, EventArgs e)
         {
@@ -177,10 +177,6 @@ namespace ContactMate_Pro
             else // If not, simply move to the previous tab.
                 pageControl.SelectedIndex -= 1;
         }
-
-        #endregion
-
-        #region FUNCTION TO NEXT THE PAGE
 
         private void nextPageBtn_Click(object sender, EventArgs e)
         {
