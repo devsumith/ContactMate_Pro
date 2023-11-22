@@ -282,7 +282,7 @@
             this.nextPageBtn.Size = new System.Drawing.Size(30, 30);
             this.nextPageBtn.TabIndex = 4;
             this.nextPageBtn.Click += new System.EventHandler(this.nextPageBtn_Click);
-            this.nextPageBtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextPageBtn_KeyDown);
+            //this.nextPageBtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nextPageBtn_KeyDown);
             // 
             // prevPageBtn
             // 
@@ -310,7 +310,7 @@
             this.prevPageBtn.Size = new System.Drawing.Size(30, 30);
             this.prevPageBtn.TabIndex = 3;
             this.prevPageBtn.Click += new System.EventHandler(this.prevPageBtn_Click);
-            this.prevPageBtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.prevPageBtn_KeyDown);
+            //this.prevPageBtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.prevPageBtn_KeyDown);
             // 
             // addNContactBtn
             // 
