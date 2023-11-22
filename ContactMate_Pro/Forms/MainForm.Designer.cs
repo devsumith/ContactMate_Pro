@@ -222,7 +222,7 @@
             this.pageControl.TabMenuBackColor = System.Drawing.Color.MintCream;
             this.pageControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
             this.pageControl.SelectedIndexChanged += new System.EventHandler(this.pageControl_SelectedIndexChanged);
-            this.pageControl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pageControl_KeyDown);
+            //this.pageControl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pageControl_KeyDown);
             // 
             // firstButton
             // 
